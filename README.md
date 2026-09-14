@@ -25,20 +25,6 @@ The site includes landing, informational, news, games listing, and single-game d
 - `json/`: Source benchmark data files.
 - `img/`: Site and game artwork.
 
-## Local Development
-
-Because the site fetches JSON files in the browser, run it from a local web server instead of opening files with `file://`.
-
-Example using Python:
-
-```bash
-cd /Users/christelle/JamesWork/Vegas
-python3 -m http.server 5500
-```
-
-Then open:
-
-- `http://localhost:5500/index.html`
 
 ## Data Notes
 
