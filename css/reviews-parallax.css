@@ -1,0 +1,26 @@
+/* Reviews page tiled background pattern */
+.reviews-page {
+    position: relative;
+}
+
+.reviews-page .content-block {
+    position: relative;
+    z-index: 1;
+}
+
+.reviews-parallax-bg {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.reviews-parallax-tile {
+    position: absolute;
+    width: 63px;
+    height: 95px;
+    object-fit: contain;
+    opacity: 0.28;
+    user-select: none;
+}

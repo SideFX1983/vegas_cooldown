@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News | V.E.G.A.S. Cooldown Benchmark</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/navbar.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/game-cards.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/reviews-carousel.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/reviews-parallax.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/game-cards-small.css?v=json-all-files-20260802-1907">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html"><img src="img/vegas_logo.png" class="nav-logo" alt="Vegas Logo"></a>
+            <div class="nav-drawer" id="nav-drawer">
+                <ul class="nav-links" id="nav-menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <button id="burger-toggle" class="burger-menu" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="hero-section reviews-page">
+        <div class="content-block">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <span>/</span> 
+                <span>News</span>
+            </div>
+
+            <h1 class="glow-text">News</h1>
+
+            <!-- Carousels Stack: Generated from JSON data -->
+            <div class="carousels-stack" id="carousels-stack">
+                <!-- Template: Carousel sections are generated from JSON data via JavaScript -->
+                <!-- First section serves as the source for generated sections -->
+                <section class="carousel-section">
+                    <h2 class="carousel-title">All-Time Greatest Games</h2>
+                    <div class="about-grid horizontalScroller_list">
+                        <!-- Cards are generated from the JSON files in /json/ -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Card Template: Single reusable card structure -->
+    <!-- Edit this template to change all card styles/layouts -->
+    <template id="game-card-template">
+        <div class="game-card-collapsed collapsed">
+            <div class="thumbnail-slot">
+                <img src="" alt="" class="game-thumbnail">
+            </div>
+            <h3 class="game-name game-name-banner"></h3>
+            <div class="game-info-wrapper">
+                <div class="card-top-row">
+                    <div class="game-meta-panel">
+                        <p class="publisher-info publisher-line"></p>
+                        <p class="publisher-info genre-line"></p>
+                        <p class="publisher-info year-line"></p>
+                    </div>
+                    <div class="game-score-panel">
+                        <div class="card-score-row">
+                            <p class="game-score"></p>
+                        </div>
+                        <div class="score-meter" aria-hidden="true">
+                            <span class="score-meter-fill"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-description-panel">
+                    <p class="card-description game-description"></p>
+                </div>
+
+                <div class="game-stats-panel" aria-label="VEGAS stats">
+                    <div class="game-stats-grid">
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pillar-content">
+                    <h2><strong>Score Breakdown</strong></h2>
+                    <ul class="card-scores"></ul>
+                    <h2><strong>Reviewer Notes</strong></h2>
+                    <p class="card-notes"></p>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <footer class="site-footer">
+        <p>copyright 2026</p>
+    </footer>
+
+    <script src="js/spotlight.js?v=json-all-files-20260802-1907"></script>
+    <script src="js/burger-menu.js?v=json-all-files-20260802-1907"></script>
+    <script src="js/see-more.js?v=json-all-files-20260802-1907"></script>
+    <script src="js/reviews-color-mapping.js?v=json-all-files-20260802-1907"></script>
+    <script src="js/reviews-carousel.js?v=json-all-files-20260802-1907"></script>
+</body>
+</html>

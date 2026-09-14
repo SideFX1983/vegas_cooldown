@@ -1,0 +1,130 @@
+/* Game page layout: card left, about grid right when space allows. */
+
+.game-description-layout {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.game-card-column {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.game-grid-column {
+    width: 100%;
+}
+
+.game-grid-column .about-grid {
+    width: 100%;
+}
+
+.game-description-block .game-card-collapsed {
+    box-shadow: none;
+}
+
+.game-description-block .game-card-collapsed::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    pointer-events: none;
+    background: linear-gradient(
+        115deg,
+        transparent 0%,
+        transparent 42%,
+        rgba(255, 255, 255, 0.08) 46%,
+        rgba(255, 255, 255, 0.58) 50%,
+        rgba(255, 255, 255, 0.08) 54%,
+        transparent 58%,
+        transparent 100%
+    );
+    opacity: 0;
+    transform: translateX(-120%);
+    animation: game-card-shimmer 15s linear infinite;
+}
+
+@keyframes game-card-shimmer {
+    0% {
+        opacity: 0;
+        transform: translateX(-120%);
+    }
+
+    0.1% {
+        opacity: 1;
+    }
+
+    1.33% {
+        opacity: 1;
+        transform: translateX(120%);
+    }
+
+    1.34%,
+    100% {
+        opacity: 0;
+        transform: translateX(120%);
+    }
+}
+
+.game-about-grid-host.is-relocated {
+    display: none;
+}
+
+@media (max-width: 1239px) {
+    .game-about-grid-host .about-grid {
+        align-items: center;
+    }
+
+    .game-about-grid-host .about-pillar-collapsed,
+    .game-about-grid-host .about-pillar-expanded {
+        width: var(--card-width);
+        max-width: var(--card-width);
+    }
+
+    .game-about-grid-host .about-pillar-collapsed {
+        max-height: none;
+    }
+}
+
+@media (min-width: 1240px) {
+    .game-description-block .game-description-layout {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 28px;
+    }
+
+    .game-description-block .game-card-column {
+        flex: 0 0 var(--card-width);
+        width: var(--card-width);
+    }
+
+    .game-description-block .game-grid-column {
+        flex: 0 1 var(--about-pillar-card-width);
+        min-width: 0;
+    }
+
+    .game-description-block .game-grid-column .about-grid {
+        display: grid;
+        grid-template-columns: minmax(0, var(--about-pillar-card-width));
+        column-gap: 20px;
+        row-gap: 10px;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .game-description-block .game-grid-column .about-pillar-collapsed {
+        height: 130px;
+        min-height: 130px;
+        max-height: 130px;
+    }
+
+    .game-description-block .game-grid-column .about-pillar-collapsed,
+    .game-description-block .game-grid-column .about-pillar-expanded {
+        max-width: none;
+    }
+}

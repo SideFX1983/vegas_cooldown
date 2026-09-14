@@ -1,0 +1,57 @@
+[
+  {
+    "game": {
+      "slug": "startopia",
+      "name": "Startopia",
+      "developer": "Mucky Foot Productions",
+      "publisher": "Eidos Interactive",
+      "genre": "Space-station management simulation",
+      "platform": "PC",
+      "release_year": 2001,
+      "current_retail_price_usd": 6.99
+    },
+    "assets": {
+      "card_image_url": "img/startopia.jpg",
+      "card_image_alt": "Startopia key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Startopia.",
+      "reviewer_notes": "Accessibility and standards hold up well, but ethics is the obvious weak pillar because post-launch support receives the major penalty.",
+      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: -10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 3; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 71,
+        "max": 100,
+        "tier": 3,
+        "percent": 71
+      },
+      "pillars": {
+        "values": {
+          "score": 23,
+          "max": 25
+        },
+        "ethics": {
+          "score": 5,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  }
+]

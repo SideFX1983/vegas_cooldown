@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games | V.E.G.A.S. Cooldown Benchmark</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/navbar.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/game-cards.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/reviews-carousel.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/reviews-parallax.css?v=json-all-files-20260802-1907">
+    <link rel="stylesheet" href="css/filter-block.css?v=json-all-files-20260802-1907">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html"><img src="img/vegas_logo.png" class="nav-logo" alt="Vegas Logo"></a>
+            <div class="nav-drawer" id="nav-drawer">
+                <ul class="nav-links" id="nav-menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <button id="burger-toggle" class="burger-menu" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="hero-section reviews-page">
+        <div class="content-block">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <span>/</span> 
+                <span>Games</span>
+            </div>
+
+            <h1 class="glow-text">Games</h1>
+            <section class="filter-block fliter-block" id="filter-bloc" aria-label="Game filters">
+                <button class="filter-block__trigger" type="button" aria-expanded="false" aria-controls="filter-block-panel">
+                    Filter
+                </button>
+                <div class="filter-block__panel" id="filter-block-panel">
+                    <div class="filter-block__inner">
+                        <div class="filter-block__content">
+                            <div class="slider-filter" aria-label="Year range filter">
+                                <div class="slider-filter__years" aria-hidden="true">
+                                    <span>1990</span>
+                                    <span>2023</span>
+                                </div>
+                                <div class="slider-filter__track">
+                                    <span class="slider-filter__rail" aria-hidden="true"></span>
+                                    <span class="slider-filter__range" aria-hidden="true"></span>
+                                    <span class="slider-filter__bubble" data-filter-bubble="start" aria-hidden="true">1990</span>
+                                    <span class="slider-filter__bubble" data-filter-bubble="end" aria-hidden="true">2023</span>
+                                    <input class="slider-filter__input slider-filter__input--start" type="range" min="1990" max="2023" step="1" value="1990" aria-label="Starting year" data-filter-year="start">
+                                    <input class="slider-filter__input slider-filter__input--end" type="range" min="1990" max="2023" step="1" value="2023" aria-label="Ending year" data-filter-year="end">
+                                </div>
+                            </div>
+
+                            <div class="filter-genre" aria-label="Genre filters">
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Beat &rsquo;em up">Beat &rsquo;em up</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Card Game">Card Game</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="City Builder">City Builder</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Colony Sim">Colony Sim</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Combat Racing">Combat Racing</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Fighting">Fighting</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="First-person shooter">First-person shooter</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Flight Sim">Flight Sim</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Hack and Slash">Hack and Slash</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Horror">Horror</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Indie">Indie</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Management">Management</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Metroidvania">Metroidvania</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="MOBA">MOBA</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="MMO">MMO</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Open World">Open World</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Platformer">Platformer</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Point &amp; Click">Point &amp; Click</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Puzzle">Puzzle</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Racing">Racing</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Real-Time Strategy">Real-Time Strategy</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Rhythm">Rhythm</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Rogue-like">Rogue-like</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="RPG">RPG</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Sandbox">Sandbox</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Shoot &rsquo;Em Up">Shoot &rsquo;Em Up</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Simulation">Simulation</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Souls-like">Souls-like</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Space Sim">Space Sim</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Sports">Sports</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Survival">Survival</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Third-Person Shooter">Third-Person Shooter</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Tower Defense">Tower Defense</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Turn-Based Strategy">Turn-Based Strategy</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Visual Novel">Visual Novel</button>
+                            </div>
+
+                            <div class="filter-publisher" aria-label="Publisher filters">
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Blizzard">Blizzard</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Sierra">Sierra</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Id">Id</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Cherry">Cherry</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Valve">Valve</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="2K">2K</button>
+                                <button class="filter-pill" type="button" aria-pressed="false" data-filter-value="Activision">Activision</button>
+                            </div>
+
+                            <label class="filter-toggle">
+                                <span>Best or Worst Games</span>
+                                <span class="filter-toggle__control">
+                                    <input class="filter-toggle__input" type="checkbox" aria-label="Show worst games instead of best games">
+                                    <span class="filter-toggle__labels" aria-hidden="true">
+                                        <span class="filter-toggle__best">Best</span>
+                                        <span class="filter-toggle__worst">Worst</span>
+                                    </span>
+                                    <span class="filter-toggle__thumb" aria-hidden="true"></span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Carousels Stack: Contains 10 identical carousel sections -->
+            <div class="carousels-stack" id="carousels-stack">
+                <!-- Template: Carousel sections are generated from JSON data via JavaScript -->
+                <!-- First section serves as the all-time carousel and source for generated genre sections -->
+                <section class="carousel-section">
+                    <h2 class="carousel-title">All-Time Greatest Games</h2>
+                    <div class="about-grid horizontalScroller_list">
+                        <!-- Cards are generated from the JSON files in /json/ -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Card Template: Single reusable card structure -->
+    <!-- Edit this template to change all card styles/layouts -->
+    <template id="game-card-template">
+        <div class="game-card-collapsed collapsed">
+            <div class="thumbnail-slot">
+                <img src="" alt="" class="game-thumbnail">
+            </div>
+            <h3 class="game-name game-name-banner"></h3>
+            <div class="game-info-wrapper">
+                <div class="card-top-row">
+                    <div class="game-meta-panel">
+                        <p class="publisher-info publisher-line"></p>
+                        <p class="publisher-info genre-line"></p>
+                        <p class="publisher-info year-line"></p>
+                    </div>
+                    <div class="game-score-panel">
+                        <div class="card-score-row">
+                            <p class="game-score"></p>
+                        </div>
+                        <div class="score-meter" aria-hidden="true">
+                            <span class="score-meter-fill"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-description-panel">
+                    <p class="card-description game-description"></p>
+                </div>
+
+                <div class="game-stats-panel" aria-label="VEGAS stats">
+                    <div class="game-stats-grid">
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                        <div class="game-stat">
+                            <span class="game-stat-value">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pillar-content">
+                    <h2><strong>Score Breakdown</strong></h2>
+                    <ul class="card-scores"></ul>
+                    <h2><strong>Reviewer Notes</strong></h2>
+                    <p class="card-notes"></p>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <footer class="site-footer">
+        <p>copyright 2026</p>
+    </footer>
+
+    <script src="js/spotlight.js?v=json-all-files-20260802-1907"></script>
+    <script src="js/burger-menu.js?v=json-all-files-20260802-1907"></script>
+    <script src="js/see-more.js?v=json-all-files-20260802-1907"></script>
+    <script src="js/reviews-color-mapping.js?v=json-all-files-20260802-1907"></script>
+    <script src="js/filter-block.js?v=json-all-files-20260802-1907"></script>
+    <script src="js/reviews-carousel.js?v=json-all-files-20260802-1907"></script>
+</body>
+</html>

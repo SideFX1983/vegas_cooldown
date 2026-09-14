@@ -1,0 +1,112 @@
+[
+  {
+    "game": {
+      "slug": "mini-motorways",
+      "name": "Mini Motorways",
+      "developer": "Dinosaur Polo Club",
+      "publisher": "Dinosaur Polo Club",
+      "genre": "Traffic management puzzle / strategy",
+      "platform": "PC",
+      "release_year": 2021,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/mini-motorways.jpg",
+      "card_image_alt": "Mini Motorways key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Mini Motorways.",
+      "reviewer_notes": "Values and accessibility are spotless; gameplay is the main shortfall because the compact score-loop structure does not meet the long-duration branch.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 0; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 4,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 5,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "mini-metro",
+      "name": "Mini Metro",
+      "developer": "Dinosaur Polo Club",
+      "publisher": "Dinosaur Polo Club",
+      "genre": "Subway design puzzle / strategy",
+      "platform": "PC",
+      "release_year": 2015,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/mini-metro.jpg",
+      "card_image_alt": "Mini Metro key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Mini Metro.",
+      "reviewer_notes": "Accessibility and standards are the strongest pillars, while ethics and gameplay are the main score brakes due to long pre-release timing and compact-session duration.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 0; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: -10; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 0; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 70,
+        "max": 100,
+        "tier": 2,
+        "percent": 70
+      },
+      "pillars": {
+        "values": {
+          "score": 20,
+          "max": 25
+        },
+        "ethics": {
+          "score": 10,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 5,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "game": {
+      "slug": "hollow-knight-silksong",
+      "name": "Hollow Knight Silksong",
+      "developer": "Team Cherry",
+      "publisher": "Team Cherry",
+      "genre": "Metroidvania",
+      "platform": "PC",
+      "release_year": 2017,
+      "current_retail_price_usd": 14.99
+    },
+    "assets": {
+      "card_image_url": "img/silksong.jpeg",
+      "card_image_alt": "Hollow Knight Silksong key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Hollow Knight Silksong.",
+      "reviewer_notes": "Excellent consumer value and gameplay consistency, with ethics timing and accessibility depth limiting the final score.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: -10; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: -3; Input methods: 2; Localization and translation: 0.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 0; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 59,
+        "max": 100,
+        "tier": 1,
+        "percent": 59
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 10,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": -1,
+          "max": 10
+        },
+        "standards": {
+          "score": 15,
+          "max": 30
+        }
+      }
+    }
+  }
+]

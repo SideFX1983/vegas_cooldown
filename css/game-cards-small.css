@@ -1,0 +1,114 @@
+/* Compact cards for the second carousel on news.html only. */
+.carousels-stack .carousel-section:nth-of-type(2) {
+    --card-width: 160px;
+    --card-collapsed-height: 235px;
+    --thumbnail-height: 118px;
+    --card-padding: 0 0 10px 0;
+    --card-content-padding-x: 8px;
+    --card-gap: 6px;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .about-grid {
+    align-items: flex-start;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .game-card-collapsed {
+    width: var(--card-width);
+    min-width: var(--card-width);
+    max-width: var(--card-width);
+    height: var(--card-collapsed-height);
+    min-height: var(--card-collapsed-height);
+    max-height: var(--card-collapsed-height);
+    padding: var(--card-padding);
+    border-width: 3px;
+    border-radius: 12px;
+    gap: var(--card-gap);
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .game-card-collapsed::after {
+    display: none;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .thumbnail-slot,
+.carousels-stack .carousel-section:nth-of-type(2) .game-thumbnail {
+    height: var(--thumbnail-height);
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .thumbnail-slot {
+    flex-basis: var(--thumbnail-height);
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .game-name.game-name-banner {
+    height: 43px;
+    min-height: 43px;
+    max-height: 43px;
+    margin: 2px 6px 0;
+    padding: 0 4px;
+    font-size: 0.78rem;
+    line-height: 1.12;
+    letter-spacing: 0;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .game-info-wrapper {
+    padding: 0 var(--card-content-padding-x);
+    flex-grow: 0;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .card-top-row {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .game-meta-panel {
+    flex: 1 1 auto;
+    max-width: none;
+    min-width: 0;
+    min-height: 0;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .publisher-info {
+    font-size: 0.45rem;
+    line-height: 1.1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .meta-label {
+    display: none;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .meta-value {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .game-score-panel {
+    flex: 0 0 64px;
+    width: 64px;
+    max-width: 64px;
+    min-height: 0;
+    padding: 6px;
+    border-radius: 12px;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .card-score-row {
+    margin: 0;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .game-score {
+    font-size: 1.25rem;
+}
+
+.carousels-stack .carousel-section:nth-of-type(2) .game-description-panel,
+.carousels-stack .carousel-section:nth-of-type(2) .game-stats-panel,
+.carousels-stack .carousel-section:nth-of-type(2) .pillar-content {
+    display: none;
+}

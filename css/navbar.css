@@ -1,0 +1,133 @@
+/* --- Navbar Base --- */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px; /* Default height */
+    background: var(--nav-bg-color);
+    backdrop-filter: blur(15px);
+    z-index: 99999;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(0, 242, 255, 0.2);
+    overflow: visible; 
+    transition: height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Growth Trigger - Expands the bar to accommodate the drawer */
+body.menu-open .navbar {
+    height: 300px !important;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px !important;
+    min-height: 50px !important;
+    padding: 0 5%;
+    flex-shrink: 0;
+}
+
+/* --- Logo Styling --- */
+.nav-logo { 
+    height: 50px !important;
+    width: auto !important;
+    max-height: 50px !important;
+    display: block;
+    object-fit: contain;
+}
+
+/* --- Dedicated Nav Drawer --- */
+.nav-drawer {
+    position: absolute;
+    top: 80px; /* Positions drawer exactly below the top bar */
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+}
+
+/* Reveal drawer when menu is open */
+body.menu-open .nav-drawer {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    list-style: none;
+    margin: 0;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #00f2ff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #fff;
+    text-shadow: 0 0 15px #00f2ff;
+}
+
+/* --- Burger Icon & Animation --- */
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.burger-menu span { 
+    width: 30px; 
+    height: 2px; 
+    background: #00f2ff; 
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Transformation to 'X' */
+.burger-menu.open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.burger-menu.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* --- Hero Section Shift --- */
+.hero-section {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+}
+
+/* Pushes content down when menu opens to avoid overlap */
+body.menu-open .hero-section {
+    transform: translateY(150px); 
+    opacity: 0.3;
+    pointer-events: none;
+}

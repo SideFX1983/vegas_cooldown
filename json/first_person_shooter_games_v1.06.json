@@ -1,0 +1,607 @@
+[
+  {
+    "game": {
+      "slug": "half-life",
+      "name": "Half-Life (PC)",
+      "developer": "Valve",
+      "publisher": "Sierra Studios",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 1998,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/half-life.jpg",
+      "card_image_alt": "Half-Life key art"
+    },
+    "content": {
+      "short_description": "A masterclass in atmospheric dread and an incredible storyline, that make you feel like a genuinely desperate survivor trapped in a hostile world.",
+      "reviewer_notes": "Total 98/100; top momentum in Values 25/25, with the biggest drag in Accessibility 10/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 5; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 98,
+        "max": 100,
+        "tier": 5,
+        "percent": 98
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 30,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 9.99,
+      "developer": "id Software",
+      "genre": "Arena shooter",
+      "name": "Quake III Arena",
+      "platform": "PC",
+      "publisher": "Activision",
+      "release_year": 1999,
+      "slug": "quake-iii-arena"
+    },
+    "assets": {
+      "card_image_url": "img/quake-iii-arena.jpeg",
+      "card_image_alt": "Quake III Arena key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Quake III Arena.",
+      "reviewer_notes": "Total 96/100; top momentum in Values 25/25, with the biggest drag in Accessibility 8/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 3; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 0; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 5; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 96,
+        "max": 100,
+        "tier": 3,
+        "percent": 96
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 8,
+          "max": 10
+        },
+        "standards": {
+          "score": 30,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": null,
+      "developer": "Valve",
+      "genre": "First-person shooter",
+      "name": "Half-Life 2: Episode 1",
+      "platform": "PC",
+      "publisher": "Valve",
+      "release_year": 2006,
+      "slug": "half-life-2-episode-1"
+    },
+    "assets": {
+      "card_image_url": "img/half_life_2_episode_1.jpeg",
+      "card_image_alt": "Half-Life 2: Episode 1 key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Half-Life 2: Episode 1.",
+      "reviewer_notes": "Total 91/100; top momentum in Values 25/25, with the biggest drag in Accessibility 8/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 0; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 0; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 5; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 91,
+        "max": 100,
+        "tier": 2,
+        "percent": 91
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 3,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 8,
+          "max": 10
+        },
+        "standards": {
+          "score": 30,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 14.99,
+      "developer": "Epic Games / Digital Extremes",
+      "genre": "Arena shooter",
+      "name": "Unreal Tournament 2004",
+      "platform": "PC",
+      "publisher": "Atari",
+      "release_year": 2004,
+      "slug": "unreal-tournament-2004"
+    },
+    "assets": {
+      "card_image_url": "img/unreal-tournament-2004.jpeg",
+      "card_image_alt": "Unreal Tournament 2004 key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Unreal Tournament 2004.",
+      "reviewer_notes": "Total 90/100; top momentum in Values 25/25, with the biggest drag in Accessibility 2/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 3; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 0; Input methods: 2; Localization and translation: 0.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 5; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 3,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 2,
+          "max": 10
+        },
+        "standards": {
+          "score": 30,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 19.99,
+      "developer": "2K Boston / 2K Australia",
+      "genre": "First-person shooter",
+      "name": "BioShock",
+      "platform": "PC",
+      "publisher": "2K",
+      "release_year": 2007,
+      "slug": "bioshock"
+    },
+    "assets": {
+      "card_image_url": "img/bioshock.jpeg",
+      "card_image_alt": "BioShock key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for BioShock.",
+      "reviewer_notes": "Total 87/100; top momentum in Values 25/25, with the biggest drag in Accessibility 4/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 0; Input methods: 2; Localization and translation: 2.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 87,
+        "max": 100,
+        "tier": 4,
+        "percent": 87
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 4,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 19.99,
+      "developer": "Infinity Ward",
+      "genre": "First-person shooter",
+      "name": "Call of Duty 4: Modern Warfare",
+      "platform": "PC",
+      "publisher": "Activision",
+      "release_year": 2007,
+      "slug": "call-of-duty-4-modern-warfare"
+    },
+    "assets": {
+      "card_image_url": "img/call-of-duty-4-modern-warfare.jpeg",
+      "card_image_alt": "Call of Duty 4: Modern Warfare key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Call of Duty 4: Modern Warfare.",
+      "reviewer_notes": "Total 85/100; top momentum in Values 23/25, with the biggest drag in Accessibility 4/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 0; Input methods: 2; Localization and translation: 2.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 3,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 23,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 4,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 9.99,
+      "developer": "id Software",
+      "genre": "First-person shooter",
+      "name": "Quake",
+      "platform": "PC",
+      "publisher": "GT Interactive",
+      "release_year": 1996,
+      "slug": "quake"
+    },
+    "assets": {
+      "card_image_url": "img/quake.jpeg",
+      "card_image_alt": "Quake key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Quake.",
+      "reviewer_notes": "Total 83/100; top momentum in Values 25/25, with the biggest drag in Accessibility 7/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: -5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 3; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: -1; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 5; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 83,
+        "max": 100,
+        "tier": 2,
+        "percent": 83
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 6,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 7,
+          "max": 10
+        },
+        "standards": {
+          "score": 30,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 29.99,
+      "developer": "Irrational Games",
+      "genre": "First-person shooter",
+      "name": "BioShock Infinite",
+      "platform": "PC",
+      "publisher": "2K",
+      "release_year": 2013,
+      "slug": "bioshock-infinite"
+    },
+    "assets": {
+      "card_image_url": "img/bioshock-infinite.jpeg",
+      "card_image_alt": "BioShock Infinite key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for BioShock Infinite.",
+      "reviewer_notes": "Total 82/100; top momentum in Values 18/25, with the biggest drag in Accessibility 6/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 0; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 2.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 82,
+        "max": 100,
+        "tier": 4,
+        "percent": 82
+      },
+      "pillars": {
+        "values": {
+          "score": 18,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 6,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 59.99,
+      "developer": "Valve",
+      "genre": "VR first-person shooter",
+      "name": "Half-Life: Alyx",
+      "platform": "PC",
+      "publisher": "Valve",
+      "release_year": 2020,
+      "slug": "half-life-alyx"
+    },
+    "assets": {
+      "card_image_url": "img/half-life-alyx.jpeg",
+      "card_image_alt": "Half-Life: Alyx key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Half-Life: Alyx.",
+      "reviewer_notes": "Total 82/100; top momentum in Values 18/25, with the biggest drag in Accessibility 6/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 0; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 2.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 0; Crossplay at launch: 10; Modding support: 5; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 82,
+        "max": 100,
+        "tier": 4,
+        "percent": 82
+      },
+      "pillars": {
+        "values": {
+          "score": 18,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 6,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 9.99,
+      "developer": "Valve",
+      "genre": "First-person shooter",
+      "name": "Half-Life 2",
+      "platform": "PC",
+      "publisher": "Valve",
+      "release_year": 2004,
+      "slug": "half-life-2"
+    },
+    "assets": {
+      "card_image_url": "img/half-life-2.jpeg",
+      "card_image_alt": "Half-Life 2 key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Half-Life 2.",
+      "reviewer_notes": "Total 77/100; top momentum in Values 25/25, with the biggest drag in Accessibility 4/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: -10; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 0; Input methods: 2; Localization and translation: 2.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 5; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 77,
+        "max": 100,
+        "tier": 3,
+        "percent": 77
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 10,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 4,
+          "max": 10
+        },
+        "standards": {
+          "score": 30,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 19.99,
+      "developer": "Infinity Ward",
+      "genre": "First-person shooter",
+      "name": "Call of Duty: Modern Warfare 2",
+      "platform": "PC",
+      "publisher": "Activision",
+      "release_year": 2009,
+      "slug": "call-of-duty-modern-warfare-2"
+    },
+    "assets": {
+      "card_image_url": "img/call-of-duty-modern-warfare-2.jpeg",
+      "card_image_alt": "Call of Duty: Modern Warfare 2 key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Call of Duty: Modern Warfare 2.",
+      "reviewer_notes": "Total 70/100; top momentum in Values 23/25, with the biggest drag in Accessibility 4/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: -10; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 0; Input methods: 2; Localization and translation: 2.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 70,
+        "max": 100,
+        "tier": 1,
+        "percent": 70
+      },
+      "pillars": {
+        "values": {
+          "score": 23,
+          "max": 25
+        },
+        "ethics": {
+          "score": 10,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 4,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  }
+]

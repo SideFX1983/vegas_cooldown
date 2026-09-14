@@ -1,0 +1,125 @@
+/* Reviews page carousel layout and edge fades */
+:root {
+    --carousel-gap: 15px;
+    --carousel-section-gap: 24px;
+
+    --fade-width: 28px;
+    --fade-transition: opacity 0.28s ease, transform 0.28s ease;
+    --fade-gradient-left: transparent;
+    --fade-gradient-right: transparent;
+}
+
+.carousels-stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--carousel-section-gap);
+}
+
+.carousel-title {
+    margin: 0 0 10px;
+    padding-left: 5%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-main);
+}
+
+.about-grid {
+    display: flex;
+    flex-direction: row;
+    gap: var(--carousel-gap);
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    scrollbar-width: none;
+}
+
+.about-grid::-webkit-scrollbar {
+    display: none;
+}
+
+.about-grid::before,
+.about-grid::after {
+    content: '';
+    position: sticky;
+    top: 0;
+    width: var(--fade-width);
+    height: 100%;
+    pointer-events: none;
+    z-index: 4;
+    opacity: 0;
+    transition: var(--fade-transition);
+}
+
+.about-grid::before {
+    left: 0;
+    background: var(--fade-gradient-left);
+    transform: translateX(-8px);
+}
+
+.about-grid::after {
+    right: 0;
+    margin-left: auto;
+    background: var(--fade-gradient-right);
+    transform: translateX(8px);
+}
+
+.about-grid.horizontalScroller_list.isScrollable::before,
+.about-grid.horizontalScroller_list.isScrollable::after {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about-grid.horizontalScroller_list.isScrollable.isBeginning::before {
+    opacity: 0;
+    transform: translateX(-8px);
+}
+
+.about-grid.horizontalScroller_list.isScrollable.isEnd::after {
+    opacity: 0;
+    transform: translateX(8px);
+}
+
+.about-grid .game-card-collapsed {
+    flex: 0 0 var(--card-width);
+    scroll-snap-align: start;
+}
+
+.carousel-load-error {
+    border: var(--card-border);
+    border-radius: 12px;
+    background: rgba(35, 5, 12, 0.72);
+    box-shadow: 0 0 18px rgba(255, 49, 49, 0.25);
+    color: var(--text-main);
+    padding: 24px;
+}
+
+.carousel-load-error h2 {
+    margin: 0 0 12px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.carousel-load-error p {
+    margin: 0 0 14px;
+}
+
+.carousel-load-error code {
+    display: block;
+    overflow-x: auto;
+    color: var(--neon-red);
+    white-space: pre-wrap;
+}
+
+/* Ensure carousels always remain single-line horizontal scrollers */
+@media (min-width: 1024px) {
+    .about-grid.horizontalScroller_list {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
