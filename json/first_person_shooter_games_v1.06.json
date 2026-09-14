@@ -66,7 +66,7 @@
       "slug": "quake-iii-arena"
     },
     "assets": {
-      "card_image_url": "img/quake-iii-arena.jpeg",
+      "card_image_url": "img/quake-3.jpg",
       "card_image_alt": "Quake III Arena key art"
     },
     "content": {
@@ -121,7 +121,7 @@
       "slug": "half-life-2-episode-1"
     },
     "assets": {
-      "card_image_url": "img/half_life_2_episode_1.jpeg",
+      "card_image_url": "img/half-life-2-episode-1.jpg",
       "card_image_alt": "Half-Life 2: Episode 1 key art"
     },
     "content": {

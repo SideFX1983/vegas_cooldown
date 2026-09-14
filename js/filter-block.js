@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const sections = [...stack.querySelectorAll('.carousel-section')];
         const isDefaultAllTime = !hasActiveFilters(selectedGenres, selectedPublishers);
         const sectionMatchesSelectedGenre = section => {
-            if (isDefaultAllTime) return section.dataset.carouselDefault === 'all-time';
+            if (isDefaultAllTime) return true;
             if (section.dataset.carouselDefault === 'all-time') return false;
             if (!selectedGenres.length) return true;
 
