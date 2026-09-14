@@ -1,5 +1,7 @@
 # Vegas Cooldown Benchmark
 
+An objective and comprehensive video game benchmark tool.
+
 V.E.G.A.S. Cooldown is a static website that benchmarks games across five pillars:
 
 - Values
