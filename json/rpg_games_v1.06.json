@@ -1,0 +1,442 @@
+[
+  {
+    "game": {
+      "slug": "chaos-wars",
+      "name": "Chaos Wars",
+      "developer": "Neverland Company",
+      "publisher": "KOEI",
+      "genre": "Role-Playing Game",
+      "platform": "PlayStation 2",
+      "release_year": 2006,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/chaos-wars.jpg",
+      "card_image_alt": "Chaos Wars key art"
+    },
+    "content": {
+      "short_description": "Chaos Wars (2006) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Frequently called one of worst RPGs ever made",
+      "values_findings": "Values pulse: Assessment based on 9 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Rare Collector Item - Delisted",
+      "gameplay_findings": "Gameplay pulse: Completely broken battle system with nonsensical mechanics; Unintelligible story that makes no narrative sense",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; PS2 copies playable on PS2/PS3",
+      "standards_findings": "Standards pulse: Physical PS2 copies command premium prices due to rarity and infamy; no digital release ever occurred"
+    },
+    "scores": {
+      "total": {
+        "score": 22,
+        "max": 100,
+        "tier": 1,
+        "percent": 22
+      },
+      "pillars": {
+        "values": {
+          "score": 5,
+          "max": 25
+        },
+        "ethics": {
+          "score": 5,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 2,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 2,
+          "max": 10
+        },
+        "standards": {
+          "score": 8,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "ride-of-war",
+      "name": "Ride of War",
+      "developer": "Windy Lights Game",
+      "publisher": "Windy Lights Game",
+      "genre": "Role-Playing Game",
+      "platform": "PC",
+      "release_year": 2013,
+      "current_retail_price_usd": 14.99
+    },
+    "assets": {
+      "card_image_url": "img/ride-of-war.jpg",
+      "card_image_alt": "Ride of War key art"
+    },
+    "content": {
+      "short_description": "Ride of War (2013) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Extremely poor indie RPG",
+      "values_findings": "Values pulse: Assessment based on 8 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Abandoned - No Support",
+      "gameplay_findings": "Gameplay pulse: Completely incoherent story; Poorly designed and broken quest systems",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Still available but extremely unstable",
+      "standards_findings": "Standards pulse: Available on itch.io and abandoned ware sites; no proper distribution channel; heavily discounted or free"
+    },
+    "scores": {
+      "total": {
+        "score": 24,
+        "max": 100,
+        "tier": 1,
+        "percent": 24
+      },
+      "pillars": {
+        "values": {
+          "score": 6,
+          "max": 25
+        },
+        "ethics": {
+          "score": 6,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 2,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 2,
+          "max": 10
+        },
+        "standards": {
+          "score": 8,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "big-rigs-the-yellow-cab",
+      "name": "Big Rigs: The Yellow Cab",
+      "developer": "Stellar Stone",
+      "publisher": "GameMill Entertainment",
+      "genre": "Role-Playing Game",
+      "platform": "PC",
+      "release_year": 2005,
+      "current_retail_price_usd": 24.99
+    },
+    "assets": {
+      "card_image_url": "img/big-rigs-the-yellow-cab.jpg",
+      "card_image_alt": "Big Rigs: The Yellow Cab key art"
+    },
+    "content": {
+      "short_description": "Big Rigs: The Yellow Cab (2005) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Failed spin-off of infamous Big Rigs franchise",
+      "values_findings": "Values pulse: Assessment based on 8 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Delisted - Abandonware",
+      "gameplay_findings": "Gameplay pulse: No collision detection in any form; Broken physics engine - vehicles ignore all rules",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Available through GOG and abandonware sites",
+      "standards_findings": "Standards pulse: Available on GOG; abandonware sites; no official storefront support"
+    },
+    "scores": {
+      "total": {
+        "score": 27,
+        "max": 100,
+        "tier": 1,
+        "percent": 27
+      },
+      "pillars": {
+        "values": {
+          "score": 6,
+          "max": 25
+        },
+        "ethics": {
+          "score": 6,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 2,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 2,
+          "max": 10
+        },
+        "standards": {
+          "score": 11,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "fire-emblem-genealogy-of-the-holy-war-original-english-fan-translation-attempt",
+      "name": "Fire Emblem: Genealogy of the Holy War (Original English Fan Translation Attempt)",
+      "developer": "Nintendo/Intelligent Systems",
+      "publisher": "Nintendo",
+      "genre": "Role-Playing Game",
+      "platform": "Super Famicom",
+      "release_year": 1996,
+      "current_retail_price_usd": 90.0
+    },
+    "assets": {
+      "card_image_url": "img/fire-emblem-genealogy-of-the-holy-war-original-english-fan-translation-attempt.jpg",
+      "card_image_alt": "Fire Emblem: Genealogy of the Holy War (Original English Fan Translation Attempt) key art"
+    },
+    "content": {
+      "short_description": "Fire Emblem: Genealogy of the Holy War (Original English Fan Translation Attempt) (1996) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Poor translation and balance issues made Western port impossible",
+      "values_findings": "Values pulse: Assessment based on 8 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Emulation/Fan Translation Only",
+      "gameplay_findings": "Gameplay pulse: Never officially translated to English creating unplayable barrier; Complex mechanics poorly explained even in Japanese",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Requires SNES emulator and fan translation",
+      "standards_findings": "Standards pulse: Only playable through SNES emulation with fan translation; original cartridges extremely expensive ($200+) for Japanese import"
+    },
+    "scores": {
+      "total": {
+        "score": 30,
+        "max": 100,
+        "tier": 1,
+        "percent": 30
+      },
+      "pillars": {
+        "values": {
+          "score": 7,
+          "max": 25
+        },
+        "ethics": {
+          "score": 7,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 3,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 3,
+          "max": 10
+        },
+        "standards": {
+          "score": 10,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "fable-legends",
+      "name": "Fable Legends",
+      "developer": "Lionhead Studios",
+      "publisher": "Microsoft Game Studios",
+      "genre": "Role-Playing Game",
+      "platform": "Xbox One, PC",
+      "release_year": 2015,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/fable-legends.jpg",
+      "card_image_alt": "Fable Legends key art"
+    },
+    "content": {
+      "short_description": "Fable Legends (2015) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Failed free-to-play reboot of franchise",
+      "values_findings": "Values pulse: Assessment based on 8 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Completely Delisted - Servers Shut Down",
+      "gameplay_findings": "Gameplay pulse: Shifted from single-player RPG to multiplayer-focused; Aggressive monetization and pay-to-win mechanics",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Unplayable - multiplayer-only with no servers",
+      "standards_findings": "Standards pulse: Completely unplayable; permanently delisted from Xbox Store; no way to access; Lionhead Studios defunct"
+    },
+    "scores": {
+      "total": {
+        "score": 45,
+        "max": 100,
+        "tier": 2,
+        "percent": 45
+      },
+      "pillars": {
+        "values": {
+          "score": 11,
+          "max": 25
+        },
+        "ethics": {
+          "score": 11,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 4,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 4,
+          "max": 10
+        },
+        "standards": {
+          "score": 15,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "too-human",
+      "name": "Too Human",
+      "developer": "Silicon Knights",
+      "publisher": "Microsoft Game Studios",
+      "genre": "Role-Playing Game",
+      "platform": "Xbox 360",
+      "release_year": 2008,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/too-human.jpg",
+      "card_image_alt": "Too Human key art"
+    },
+    "content": {
+      "short_description": "Too Human (2008) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Controversial action-RPG plagued by legal issues",
+      "values_findings": "Values pulse: Assessment based on 8 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Delisted - Legal Issues",
+      "gameplay_findings": "Gameplay pulse: Repetitive and boring combat mechanics; Poor camera controls make gameplay difficult",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Game available but delisted from digital store",
+      "standards_findings": "Standards pulse: Physical copies playable; digital version removed from Xbox Marketplace; no sequel or continuation possible"
+    },
+    "scores": {
+      "total": {
+        "score": 48,
+        "max": 100,
+        "tier": 2,
+        "percent": 48
+      },
+      "pillars": {
+        "values": {
+          "score": 12,
+          "max": 25
+        },
+        "ethics": {
+          "score": 12,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 4,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 4,
+          "max": 10
+        },
+        "standards": {
+          "score": 16,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "ultima-ix-ascension",
+      "name": "Ultima IX: Ascension",
+      "developer": "Origin Systems",
+      "publisher": "Electronic Arts",
+      "genre": "Role-Playing Game",
+      "platform": "PC",
+      "release_year": 1999,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/ultima-ix-ascension.jpg",
+      "card_image_alt": "Ultima IX: Ascension key art"
+    },
+    "content": {
+      "short_description": "Ultima IX: Ascension (1999) - A mixed reception game with interesting ideas but notable flaws that limit its appeal.",
+      "reviewer_notes": "Disappointing end to legendary Ultima franchise",
+      "values_findings": "Values pulse: Assessment based on 8 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Abandonware - GOG Available",
+      "gameplay_findings": "Gameplay pulse: Completely changed combat system alienating long-time fans; Poor graphics and technical issues",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Available on GOG with patches; Origin Systems defunct",
+      "standards_findings": "Standards pulse: Available on GOG with community patches; physical copies rare and expensive; no active support"
+    },
+    "scores": {
+      "total": {
+        "score": 52,
+        "max": 100,
+        "tier": 2,
+        "percent": 52
+      },
+      "pillars": {
+        "values": {
+          "score": 13,
+          "max": 25
+        },
+        "ethics": {
+          "score": 13,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 5,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 5,
+          "max": 10
+        },
+        "standards": {
+          "score": 16,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "dragonball-online",
+      "name": "Dragonball Online",
+      "developer": "Akatsuki/NCSoft",
+      "publisher": "NCSoft",
+      "genre": "Role-Playing Game",
+      "platform": "PC",
+      "release_year": 2010,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/dragonball-online.jpg",
+      "card_image_alt": "Dragonball Online key art"
+    },
+    "content": {
+      "short_description": "Dragonball Online (2010) - A mixed reception game with interesting ideas but notable flaws that limit its appeal.",
+      "reviewer_notes": "Failed Dragon Ball MMORPG",
+      "values_findings": "Values pulse: Assessment based on 8 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Servers Shut Down - Unplayable",
+      "gameplay_findings": "Gameplay pulse: Poor translation and localization issues; Weak storyline divorced from Dragon Ball canon",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Completely unplayable - multiplayer-only with no official servers",
+      "standards_findings": "Standards pulse: Completely unplayable and unrecoverable; no official way to play; licensing prevents restoration"
+    },
+    "scores": {
+      "total": {
+        "score": 54,
+        "max": 100,
+        "tier": 2,
+        "percent": 54
+      },
+      "pillars": {
+        "values": {
+          "score": 13,
+          "max": 25
+        },
+        "ethics": {
+          "score": 13,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 5,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 5,
+          "max": 10
+        },
+        "standards": {
+          "score": 18,
+          "max": 30
+        }
+      }
+    }
+  }
+]

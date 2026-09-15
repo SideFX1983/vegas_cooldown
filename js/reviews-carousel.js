@@ -12,12 +12,18 @@ const KNOWN_JSON_DATA_FILES = [
     'first_person_shooter_games_v1.06.json',
     'management_simulation_games_v1.06.json',
     'metroidvania_games_v1.06.json',
-    'puzzle_strategy_games_v1.06.json'
+    'puzzle_strategy_games_v1.06.json',
+    'racing_games_v1.06.json',
+    'rpg_games_v1.06.json',
+    'rts_games_v1.06.json'
 ];
 const JSON_SOURCE_GENRE_LABELS = {
     'beat_em_up_games_v1.06.json': "Beat 'em up",
     'first_person_shooter_games_v1.06.json': 'First-person shooter',
-    'fps_games_v1.06.json': 'First-person shooter'
+    'fps_games_v1.06.json': 'First-person shooter',
+    'racing_games_v1.06.json': 'Racing',
+    'rpg_games_v1.06.json': 'Role-Playing Game',
+    'rts_games_v1.06.json': 'Real-Time Strategy'
 };
 const JSON_CACHE_BUST_VERSION = 'json-all-files-20260802-1907';
 const FALLBACK_GAME_IMAGE = 'img/vegas_logo.png';

@@ -1,0 +1,497 @@
+[
+  {
+    "game": {
+      "slug": "big-rigs-over-road-racing",
+      "name": "Big Rigs: Over Road Racing",
+      "developer": "Stellar Stone",
+      "publisher": "GameMill Entertainment",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 2003,
+      "current_retail_price_usd": 19.99
+    },
+    "assets": {
+      "card_image_url": "img/big-rigs-over-road-racing.jpg",
+      "card_image_alt": "Big Rigs: Over Road Racing key art"
+    },
+    "content": {
+      "short_description": "Infamous for its complete lack of collision physics and broken mechanics, a textbook example of unfinished game release.",
+      "reviewer_notes": "One of the lowest-rated games of all time",
+      "values_findings": "Values pulse: Assessment based on 7 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Delisted from Steam (2008)",
+      "gameplay_findings": "Gameplay pulse: No collision physics - trucks pass through obstacles and other vehicles; No speed limits or damage mechanics",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Still available through GOG and gray market sites",
+      "standards_findings": "Standards pulse: Available on GOG, can be found on used CD markets and emulation sites"
+    },
+    "scores": {
+      "total": {
+        "score": 18,
+        "max": 100,
+        "tier": 1,
+        "percent": 18
+      },
+      "pillars": {
+        "values": {
+          "score": 4,
+          "max": 25
+        },
+        "ethics": {
+          "score": 4,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 1,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 1,
+          "max": 10
+        },
+        "standards": {
+          "score": 8,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "gear-up",
+      "name": "Gear Up",
+      "developer": "Westlake Interactive",
+      "publisher": "Westlake Interactive",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 2003,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/gear-up.jpg",
+      "card_image_alt": "Gear Up key art"
+    },
+    "content": {
+      "short_description": "An abandoned racing simulator with severe performance issues and features that were promised but never delivered.",
+      "reviewer_notes": "Universally panned racing simulator attempt",
+      "values_findings": "Values pulse: Assessment based on 7 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Delisted/Abandoned",
+      "gameplay_findings": "Gameplay pulse: Extremely poor graphics quality; Unresponsive and broken controls",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Essentially unplayable on modern systems",
+      "standards_findings": "Standards pulse: Extremely rare; no official distribution channel remains"
+    },
+    "scores": {
+      "total": {
+        "score": 22,
+        "max": 100,
+        "tier": 1,
+        "percent": 22
+      },
+      "pillars": {
+        "values": {
+          "score": 5,
+          "max": 25
+        },
+        "ethics": {
+          "score": 5,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 2,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 2,
+          "max": 10
+        },
+        "standards": {
+          "score": 8,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "street-racer",
+      "name": "Street Racer",
+      "developer": "Terramarque",
+      "publisher": "BMG Interactive",
+      "genre": "Racing",
+      "platform": "Sega Genesis, SNES",
+      "release_year": 1994,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/street-racer.jpg",
+      "card_image_alt": "Street Racer key art"
+    },
+    "content": {
+      "short_description": "A confusing console racing title with unresponsive controls and terrible track design across platforms.",
+      "reviewer_notes": "Poorly executed console racing title",
+      "values_findings": "Values pulse: Assessment based on 7 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Delisted",
+      "gameplay_findings": "Gameplay pulse: Terrible track design with confusing layouts; Unresponsive controls and poor handling",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Available through ROM dumps and emulation",
+      "standards_findings": "Standards pulse: Available through ROM emulation sites and used game markets (very rare)"
+    },
+    "scores": {
+      "total": {
+        "score": 24,
+        "max": 100,
+        "tier": 1,
+        "percent": 24
+      },
+      "pillars": {
+        "values": {
+          "score": 6,
+          "max": 25
+        },
+        "ethics": {
+          "score": 6,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 2,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 2,
+          "max": 10
+        },
+        "standards": {
+          "score": 8,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "aqua-racer",
+      "name": "Aqua Racer",
+      "developer": "Funtech Entertainment",
+      "publisher": "Funtech Entertainment",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 2000,
+      "current_retail_price_usd": 34.99
+    },
+    "assets": {
+      "card_image_url": "img/aqua-racer.jpg",
+      "card_image_alt": "Aqua Racer key art"
+    },
+    "content": {
+      "short_description": "Aqua Racer (2000) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Poorly received water-based racing game",
+      "values_findings": "Values pulse: Assessment based on 7 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Out of Print/Abandoned",
+      "gameplay_findings": "Gameplay pulse: Clunky and unresponsive controls; Poor graphics and low frame rates",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Compatibility issues on modern systems",
+      "standards_findings": "Standards pulse: Rarely found; abandoned ware-type status"
+    },
+    "scores": {
+      "total": {
+        "score": 26,
+        "max": 100,
+        "tier": 1,
+        "percent": 26
+      },
+      "pillars": {
+        "values": {
+          "score": 6,
+          "max": 25
+        },
+        "ethics": {
+          "score": 6,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 2,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 2,
+          "max": 10
+        },
+        "standards": {
+          "score": 10,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "south-park-rally",
+      "name": "South Park Rally",
+      "developer": "Mattel Media",
+      "publisher": "Mattel Media",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 1999,
+      "current_retail_price_usd": 39.99
+    },
+    "assets": {
+      "card_image_url": "img/south-park-rally.jpg",
+      "card_image_alt": "South Park Rally key art"
+    },
+    "content": {
+      "short_description": "South Park Rally (1999) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Failed licensed South Park racing game",
+      "values_findings": "Values pulse: Assessment based on 7 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Delisted (License Expired)",
+      "gameplay_findings": "Gameplay pulse: Poor racing mechanics compared to genre standards; Weak character customization despite South Park license",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Unavailable through official channels",
+      "standards_findings": "Standards pulse: Available only through abandonware sites; license prevents official re-release"
+    },
+    "scores": {
+      "total": {
+        "score": 28,
+        "max": 100,
+        "tier": 1,
+        "percent": 28
+      },
+      "pillars": {
+        "values": {
+          "score": 7,
+          "max": 25
+        },
+        "ethics": {
+          "score": 7,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 2,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 2,
+          "max": 10
+        },
+        "standards": {
+          "score": 10,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "atari-2600-indy-500",
+      "name": "Atari 2600 Indy 500",
+      "developer": "Atari",
+      "publisher": "Atari",
+      "genre": "Racing",
+      "platform": "Atari 2600",
+      "release_year": 1977,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/atari-2600-indy-500.jpg",
+      "card_image_alt": "Atari 2600 Indy 500 key art"
+    },
+    "content": {
+      "short_description": "Atari 2600 Indy 500 (1977) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Primitive racing game with severe technical limitations",
+      "values_findings": "Values pulse: Assessment based on 7 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Abandonware/Emulation",
+      "gameplay_findings": "Gameplay pulse: Extremely limited graphics - two-line representation of cars; No track variation; only changes in speed/difficulty",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Accessible through Atari emulators",
+      "standards_findings": "Standards pulse: Available on Atari Museum ROM collections and emulation sites"
+    },
+    "scores": {
+      "total": {
+        "score": 30,
+        "max": 100,
+        "tier": 1,
+        "percent": 30
+      },
+      "pillars": {
+        "values": {
+          "score": 7,
+          "max": 25
+        },
+        "ethics": {
+          "score": 7,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 3,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 3,
+          "max": 10
+        },
+        "standards": {
+          "score": 10,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "turbo-cup",
+      "name": "Turbo Cup",
+      "developer": "CRI/ARI",
+      "publisher": "Koei",
+      "genre": "Racing",
+      "platform": "SNES",
+      "release_year": 1992,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/turbo-cup.jpg",
+      "card_image_alt": "Turbo Cup key art"
+    },
+    "content": {
+      "short_description": "Turbo Cup (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Poorly executed SNES racing title",
+      "values_findings": "Values pulse: Assessment based on 7 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Delisted",
+      "gameplay_findings": "Gameplay pulse: Jerky and unresponsive controls; Poor Mode 7 scaling implementation",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; ROM emulation only",
+      "standards_findings": "Standards pulse: ROM dumps for emulation; used cartridges command high prices when found"
+    },
+    "scores": {
+      "total": {
+        "score": 32,
+        "max": 100,
+        "tier": 1,
+        "percent": 32
+      },
+      "pillars": {
+        "values": {
+          "score": 8,
+          "max": 25
+        },
+        "ethics": {
+          "score": 8,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 3,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 3,
+          "max": 10
+        },
+        "standards": {
+          "score": 10,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "rennin-renees",
+      "name": "Rennin' Renees",
+      "developer": "Artech Digital Entertainments",
+      "publisher": "Artech Digital Entertainments",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 1995,
+      "current_retail_price_usd": 39.99
+    },
+    "assets": {
+      "card_image_url": "img/rennin-renees.jpg",
+      "card_image_alt": "Rennin' Renees key art"
+    },
+    "content": {
+      "short_description": "Rennin' Renees (1995) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Poor 3D racing experiment",
+      "values_findings": "Values pulse: Assessment based on 7 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Abandoned Ware",
+      "gameplay_findings": "Gameplay pulse: Poorly implemented 3D graphics for the era; Extremely difficult and unbalanced gameplay",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Significant compatibility issues on modern systems",
+      "standards_findings": "Standards pulse: Abandonware sites only; no legitimate distribution"
+    },
+    "scores": {
+      "total": {
+        "score": 33,
+        "max": 100,
+        "tier": 1,
+        "percent": 33
+      },
+      "pillars": {
+        "values": {
+          "score": 8,
+          "max": 25
+        },
+        "ethics": {
+          "score": 8,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 3,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 3,
+          "max": 10
+        },
+        "standards": {
+          "score": 11,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "derby-owners-club",
+      "name": "Derby Owners Club",
+      "developer": "Sega-AM2",
+      "publisher": "Sega",
+      "genre": "Racing",
+      "platform": "Xbox 360",
+      "release_year": 2005,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/derby-owners-club.jpg",
+      "card_image_alt": "Derby Owners Club key art"
+    },
+    "content": {
+      "short_description": "Derby Owners Club (2005) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Failed horse racing game with pay-to-win model",
+      "values_findings": "Values pulse: Assessment based on 7 critical factors",
+      "ethics_findings": "Ethics pulse: Availability and support status: Delisted from Xbox Live Marketplace",
+      "gameplay_findings": "Gameplay pulse: Shallow gameplay mechanics; Aggressive monetization and pay-to-win structure",
+      "accessibility_findings": "Accessibility pulse: Limited modern system support; Unplayable online; single-player severely degraded",
+      "standards_findings": "Standards pulse: Physical copies may still work for offline play; digital version completely unavailable"
+    },
+    "scores": {
+      "total": {
+        "score": 35,
+        "max": 100,
+        "tier": 1,
+        "percent": 35
+      },
+      "pillars": {
+        "values": {
+          "score": 8,
+          "max": 25
+        },
+        "ethics": {
+          "score": 8,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 3,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 3,
+          "max": 10
+        },
+        "standards": {
+          "score": 13,
+          "max": 30
+        }
+      }
+    }
+  }
+]
