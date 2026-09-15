@@ -390,7 +390,7 @@
       "name": "Quake III Arena",
       "developer": "id Software",
       "publisher": "Activision",
-      "genre": "Arena shooter",
+      "genre": "First-person shooter",
       "platform": "PC",
       "release_year": 1999,
       "current_retail_price_usd": 9.99
@@ -555,7 +555,7 @@
       "name": "Unreal Tournament 2004",
       "developer": "Epic Games / Digital Extremes",
       "publisher": "Atari",
-      "genre": "Arena shooter",
+      "genre": "First-person shooter",
       "platform": "PC",
       "release_year": 2004,
       "current_retail_price_usd": 14.99
@@ -1048,7 +1048,7 @@
       "name": "Half-Life: Alyx",
       "developer": "Valve",
       "publisher": "Valve",
-      "genre": "VR first-person shooter",
+      "genre": "First-person shooter",
       "platform": "PC",
       "release_year": 2020,
       "current_retail_price_usd": 59.99
