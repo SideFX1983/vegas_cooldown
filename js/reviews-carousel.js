@@ -63,12 +63,34 @@ function getImageFallbackCandidates(src, title) {
     return candidates;
 }
 
-function getCarouselTitle(genre, startYear = null, endYear = null) {
+function getCarouselTitle(genre, startYear = null, endYear = null, sortMode = 'best') {
+    const prefix = sortMode === 'worst' ? 'Worst 10' : 'TOP 10';
     if (Number.isFinite(startYear) && Number.isFinite(endYear)) {
-        return `Top 10 ${genre} games from ${startYear}-${endYear}`;
+        return `${prefix} ${genre} games from ${startYear}-${endYear}`;
     }
 
-    return `Top 10 ${genre} games of all-time`;
+    return `${prefix} ${genre} games of all-time`;
+}
+
+function updateCarouselTitles(sortMode = 'best') {
+    const sections = document.querySelectorAll('.carousel-section');
+    sections.forEach(section => {
+        const titleElement = section.querySelector('.carousel-title');
+        if (!titleElement) return;
+
+        const genre = section.dataset.carouselGenre || 'Game';
+        const isDefaultAllTime = section.dataset.carouselDefault === 'all-time';
+        let newTitle;
+
+        if (isDefaultAllTime) {
+            const prefix = sortMode === 'worst' ? 'Worst 10' : 'TOP 10';
+            newTitle = `${prefix} All-Time Games`;
+        } else {
+            newTitle = getCarouselTitle(genre, null, null, sortMode);
+        }
+
+        titleElement.textContent = newTitle;
+    });
 }
 
 function getStatMaxValue(statIndex) {
@@ -518,7 +540,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const firstTitleElement = firstSection.querySelector('.carousel-title');
     if (firstTitleElement) {
-        firstTitleElement.textContent = 'All-Time Greatest Games';
+        firstTitleElement.textContent = 'TOP 10 All-Time Games';
     }
 
     firstSection.dataset.carouselGenre = 'All-Time Greatest Games';
@@ -536,7 +558,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const titleElement = sectionClone.querySelector('.carousel-title');
         if (titleElement) {
-            titleElement.textContent = getCarouselTitle(carouselGenre);
+            titleElement.textContent = getCarouselTitle(carouselGenre, null, null, 'best');
         }
 
         const clonedCarousel = sectionClone.querySelector('.about-grid');
@@ -549,6 +571,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     /* Initialize card expand/collapse behavior only when available. */
     if (typeof initializeCardBehavior === 'function') {
         initializeCardBehavior();
+    }
+
+    /* Listen for filter toggle changes to update carousel titles */
+    const filterToggle = document.querySelector('.filter-toggle__input');
+    if (filterToggle) {
+        filterToggle.addEventListener('change', () => {
+            const sortMode = filterToggle.checked ? 'worst' : 'best';
+            updateCarouselTitles(sortMode);
+        });
     }
 
     document.dispatchEvent(new Event('gamesCarouselReady'));
