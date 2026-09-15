@@ -1,6 +1,336 @@
 [
   {
     "game": {
+      "slug": "castlevania-ii-simons-quest",
+      "name": "Castlevania II: Simon's Quest",
+      "developer": "Konami",
+      "publisher": "Konami",
+      "genre": "Metroidvania",
+      "platform": "PC",
+      "release_year": 1988,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/castlevania-ii-simons-quest.jpg",
+      "card_image_alt": "Castlevania II: Simon's Quest key art"
+    },
+    "content": {
+      "short_description": "Castlevania II: Simon's Quest (1988) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "castlevania-sotn-mobile-port",
+      "name": "Castlevania: SOTN (Mobile Port)",
+      "developer": "Third-Party",
+      "publisher": "Various",
+      "genre": "Metroidvania",
+      "platform": "PC",
+      "release_year": 2010,
+      "current_retail_price_usd": 4.99
+    },
+    "assets": {
+      "card_image_url": "img/castlevania-sotn-mobile-port.jpg",
+      "card_image_alt": "Castlevania: SOTN (Mobile Port) key art"
+    },
+    "content": {
+      "short_description": "Castlevania: SOTN (Mobile Port) (2010) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "faxanadu",
+      "name": "Faxanadu",
+      "developer": "Hudson Soft",
+      "publisher": "Hudson Soft",
+      "genre": "Metroidvania",
+      "platform": "PC",
+      "release_year": 1990,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/faxanadu.jpg",
+      "card_image_alt": "Faxanadu key art"
+    },
+    "content": {
+      "short_description": "Faxanadu (1990) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "hyper-princess-pitch",
+      "name": "Hyper Princess Pitch",
+      "developer": "Pigselector",
+      "publisher": "Various",
+      "genre": "Metroidvania",
+      "platform": "PC",
+      "release_year": 2008,
+      "current_retail_price_usd": 5.99
+    },
+    "assets": {
+      "card_image_url": "img/hyper-princess-pitch.jpg",
+      "card_image_alt": "Hyper Princess Pitch key art"
+    },
+    "content": {
+      "short_description": "Hyper Princess Pitch (2008) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "whip-rush",
+      "name": "Whip Rush",
+      "developer": "Game Atelier",
+      "publisher": "Game Atelier",
+      "genre": "Metroidvania",
+      "platform": "PC",
+      "release_year": 2010,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/whip-rush.jpg",
+      "card_image_alt": "Whip Rush key art"
+    },
+    "content": {
+      "short_description": "Whip Rush (2010) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "wonder-boy-in-monster-land",
+      "name": "Wonder Boy in Monster Land",
+      "developer": "Westone",
+      "publisher": "Sega",
+      "genre": "Metroidvania",
+      "platform": "PC",
+      "release_year": 1988,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/wonder-boy-in-monster-land.jpg",
+      "card_image_alt": "Wonder Boy in Monster Land key art"
+    },
+    "content": {
+      "short_description": "Wonder Boy in Monster Land (1988) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
       "slug": "hollow-knight-silksong",
       "name": "Hollow Knight Silksong",
       "developer": "Team Cherry",
@@ -11,24 +341,24 @@
       "current_retail_price_usd": 14.99
     },
     "assets": {
-      "card_image_url": "img/silksong.jpeg",
+      "card_image_url": "img/hollow-knight-silksong.jpg",
       "card_image_alt": "Hollow Knight Silksong key art"
     },
     "content": {
-      "short_description": "A benchmark-based single-game view for Hollow Knight Silksong.",
-      "reviewer_notes": "Excellent consumer value and gameplay consistency, with ethics timing and accessibility depth limiting the final score.",
+      "short_description": "Hollow Knight Silksong (2017) - A mixed reception game with interesting ideas but notable flaws that limit its appeal.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
       "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
-      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: -10; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
       "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
-      "accessibility_findings": "Accessibility pulse: Accessibility features: -3; Input methods: 2; Localization and translation: 0.",
-      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 0; Modding support: 0; File size optimization: 5."
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
     },
     "scores": {
       "total": {
-        "score": 59,
+        "score": 85,
         "max": 100,
-        "tier": 1,
-        "percent": 59
+        "tier": 5,
+        "percent": 85
       },
       "pillars": {
         "values": {
@@ -36,7 +366,7 @@
           "max": 25
         },
         "ethics": {
-          "score": 10,
+          "score": 15,
           "max": 25
         },
         "gameplay": {
@@ -44,11 +374,11 @@
           "max": 10
         },
         "accessibility": {
-          "score": -1,
+          "score": 10,
           "max": 10
         },
         "standards": {
-          "score": 15,
+          "score": 25,
           "max": 30
         }
       }

@@ -1,61 +1,6 @@
 [
   {
     "game": {
-      "slug": "castle-crashers",
-      "name": "Castle Crashers (PC)",
-      "developer": "The Behemoth",
-      "publisher": "The Behemoth",
-      "genre": "Beat 'em up",
-      "platform": "PC",
-      "release_year": 2012,
-      "current_retail_price_usd": 14.99
-    },
-    "assets": {
-      "card_image_url": "img/castle-crashers.jpg",
-      "card_image_alt": "Castle Crashers key art"
-    },
-    "content": {
-      "short_description": "A durable co-op brawler whose long support tail, low price, and deep character progression keep it unusually strong under VEGAS scoring.",
-      "reviewer_notes": "Total 90/100; strongest pillar score is values, with the largest drag from gameplay.",
-      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
-      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
-      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 0; Outcome/ending variety: 5.",
-      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
-      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
-    },
-    "scores": {
-      "total": {
-        "score": 90,
-        "max": 100,
-        "tier": 5,
-        "percent": 90
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 25,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 5,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
       "slug": "tmnt-shredders-revenge",
       "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC)",
       "developer": "Tribute Games",
@@ -111,46 +56,266 @@
   },
   {
     "game": {
-      "slug": "streets-of-rage-4",
-      "name": "Streets of Rage 4 (PC)",
-      "developer": "Dotemu, Lizardcube, and Guard Crush Games",
-      "publisher": "Dotemu",
-      "genre": "Beat 'em up",
+      "slug": "capcom-beat-em-up-bundle",
+      "name": "Capcom Beat 'Em Up Bundle (PC)",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "genre": "Beat 'em up collection",
       "platform": "PC",
-      "release_year": 2020,
-      "current_retail_price_usd": 24.99
+      "release_year": 2018,
+      "current_retail_price_usd": 19.99
     },
     "assets": {
-      "card_image_url": "img/streets-of-rage-4.jpg",
-      "card_image_alt": "Streets of Rage 4 key art"
+      "card_image_url": "img/capcom-beat-em-up-bundle.jpg",
+      "card_image_alt": "Capcom Beat 'Em Up Bundle (PC) key art"
     },
     "content": {
-      "short_description": "A polished revival with superb hand-drawn combat, generous solo/co-op modes, and unusually strong post-launch support for a modern brawler.",
-      "reviewer_notes": "Total 86/100; strongest pillar score is accessibility, with the largest drag from ethics.",
-      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
-      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
-      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 3; Outcome/ending variety: 5.",
+      "short_description": "Capcom Beat 'Em Up Bundle (PC) (2018) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
       "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
       "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
     },
     "scores": {
       "total": {
-        "score": 86,
+        "score": 85,
         "max": 100,
-        "tier": 4,
-        "percent": 86
+        "tier": 5,
+        "percent": 85
       },
       "pillars": {
         "values": {
-          "score": 23,
+          "score": 25,
           "max": 25
         },
         "ethics": {
-          "score": 20,
+          "score": 15,
           "max": 25
         },
         "gameplay": {
-          "score": 8,
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "double-dragon-gaiden-rise-of-the-dragons",
+      "name": "Double Dragon Gaiden: Rise of the Dragons (PC)",
+      "developer": "Secret Base",
+      "publisher": "Modus Games",
+      "genre": "Beat 'em up / roguelite brawler",
+      "platform": "PC",
+      "release_year": 2023,
+      "current_retail_price_usd": 24.99
+    },
+    "assets": {
+      "card_image_url": "img/double-dragon-gaiden-rise-of-the-dragons.jpg",
+      "card_image_alt": "Double Dragon Gaiden: Rise of the Dragons (PC) key art"
+    },
+    "content": {
+      "short_description": "Double Dragon Gaiden: Rise of the Dragons (PC) (2023) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "fightn-rage",
+      "name": "Fight'N Rage (PC)",
+      "developer": "SebaGamesDev",
+      "publisher": "SebaGamesDev",
+      "genre": "Beat 'em up",
+      "platform": "PC",
+      "release_year": 2017,
+      "current_retail_price_usd": 19.99
+    },
+    "assets": {
+      "card_image_url": "img/fightn-rage.jpg",
+      "card_image_alt": "Fight'N Rage (PC) key art"
+    },
+    "content": {
+      "short_description": "Fight'N Rage (PC) (2017) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "river-city-ransom-underground",
+      "name": "River City Ransom: Underground (PC)",
+      "developer": "Conatus Creative",
+      "publisher": "Conatus Creative",
+      "genre": "Beat 'em up / action RPG",
+      "platform": "PC",
+      "release_year": 2017,
+      "current_retail_price_usd": 19.99
+    },
+    "assets": {
+      "card_image_url": "img/river-city-ransom-underground.jpg",
+      "card_image_alt": "River City Ransom: Underground (PC) key art"
+    },
+    "content": {
+      "short_description": "River City Ransom: Underground (PC) (2017) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "scott-pilgrim-vs-the-world-the-game-complete-edition",
+      "name": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC)",
+      "developer": "Ubisoft Montreal and Ubisoft Chengdu",
+      "publisher": "Ubisoft",
+      "genre": "Beat 'em up",
+      "platform": "PC",
+      "release_year": 2021,
+      "current_retail_price_usd": 14.99
+    },
+    "assets": {
+      "card_image_url": "img/scott-pilgrim-vs-the-world-the-game-complete-edition.jpg",
+      "card_image_alt": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC) key art"
+    },
+    "content": {
+      "short_description": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC) ($2021) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
           "max": 10
         },
         "accessibility": {
@@ -221,101 +386,46 @@
   },
   {
     "game": {
-      "slug": "double-dragon-gaiden-rise-of-the-dragons",
-      "name": "Double Dragon Gaiden: Rise of the Dragons (PC)",
-      "developer": "Secret Base",
-      "publisher": "Modus Games",
-      "genre": "Beat 'em up / roguelite brawler",
+      "slug": "tmnt-shredders-revenge",
+      "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC)",
+      "developer": "Tribute Games",
+      "publisher": "Dotemu",
+      "genre": "Beat 'em up",
       "platform": "PC",
-      "release_year": 2023,
+      "release_year": 2022,
       "current_retail_price_usd": 24.99
     },
     "assets": {
-      "card_image_url": "img/double-dragon-gaiden-rise-of-the-dragons.jpg",
-      "card_image_alt": "Double Dragon Gaiden: Rise of the Dragons key art"
+      "card_image_url": "img/tmnt-shredders-revenge.jpg",
+      "card_image_alt": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC) key art"
     },
     "content": {
-      "short_description": "A tag-team Double Dragon revival with smart roguelite structure, fair pricing, and post-launch roster support.",
-      "reviewer_notes": "Total 83/100; strongest pillar score is accessibility, with the largest drag from gameplay.",
-      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
-      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
-      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 0; Outcome/ending variety: 5.",
+      "short_description": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC) ($2022) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
       "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
       "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
     },
     "scores": {
       "total": {
-        "score": 83,
+        "score": 85,
         "max": 100,
-        "tier": 4,
-        "percent": 83
+        "tier": 5,
+        "percent": 85
       },
       "pillars": {
         "values": {
-          "score": 23,
-          "max": 25
-        },
-        "ethics": {
-          "score": 20,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 5,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
           "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
-      "slug": "river-city-girls",
-      "name": "River City Girls (PC)",
-      "developer": "WayForward",
-      "publisher": "Arc System Works",
-      "genre": "Beat 'em up / action RPG",
-      "platform": "PC",
-      "release_year": 2019,
-      "current_retail_price_usd": 29.99
-    },
-    "assets": {
-      "card_image_url": "img/river-city-girls.jpg",
-      "card_image_alt": "River City Girls key art"
-    },
-    "content": {
-      "short_description": "A stylish Kunio-kun revival with strong presentation, RPG-lite progression, and a friendly no-MTX model.",
-      "reviewer_notes": "Total 83/100; strongest pillar score is accessibility, with the largest drag from gameplay.",
-      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
-      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
-      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 0; Outcome/ending variety: 5.",
-      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
-      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
-    },
-    "scores": {
-      "total": {
-        "score": 83,
-        "max": 100,
-        "tier": 4,
-        "percent": 83
-      },
-      "pillars": {
-        "values": {
-          "score": 23,
           "max": 25
         },
         "ethics": {
-          "score": 20,
+          "score": 15,
           "max": 25
         },
         "gameplay": {
-          "score": 5,
+          "score": 10,
           "max": 10
         },
         "accessibility": {
@@ -481,61 +591,6 @@
         },
         "gameplay": {
           "score": 5,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
-      "slug": "final-vendetta",
-      "name": "Final Vendetta (PC)",
-      "developer": "Bitmap Bureau",
-      "publisher": "Numskull Games",
-      "genre": "Beat 'em up",
-      "platform": "PC",
-      "release_year": 2022,
-      "current_retail_price_usd": 24.95
-    },
-    "assets": {
-      "card_image_url": "img/final-vendetta.jpg",
-      "card_image_alt": "Final Vendetta key art"
-    },
-    "content": {
-      "short_description": "A hard-edged arcade brawler with excellent feel and presentation, scored conservatively for short runtime and limited long-tail support.",
-      "reviewer_notes": "Total 63/100; strongest pillar score is accessibility, with the largest drag from gameplay.",
-      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
-      "ethics_findings": "Ethics pulse: Post-launch support duration: -10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
-      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: -5; Outcome/ending variety: 5.",
-      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
-      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
-    },
-    "scores": {
-      "total": {
-        "score": 63,
-        "max": 100,
-        "tier": 2,
-        "percent": 63
-      },
-      "pillars": {
-        "values": {
-          "score": 23,
-          "max": 25
-        },
-        "ethics": {
-          "score": 5,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 0,
           "max": 10
         },
         "accessibility": {
