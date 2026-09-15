@@ -104,13 +104,13 @@
     }
 
     .game-description-block .game-grid-column {
-        flex: 0 1 var(--about-pillar-card-width);
+        flex: 0 1 calc((var(--about-pillar-card-width) * 2) + 20px);
         min-width: 0;
     }
 
     .game-description-block .game-grid-column .about-grid {
         display: grid;
-        grid-template-columns: minmax(0, var(--about-pillar-card-width));
+        grid-template-columns: repeat(2, minmax(0, var(--about-pillar-card-width)));
         column-gap: 20px;
         row-gap: 10px;
         justify-content: center;

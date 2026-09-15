@@ -1,5 +1,5 @@
-/* Compact cards for the second carousel on news.html only. */
-.carousels-stack .carousel-section:nth-of-type(2) {
+/* Compact cards for genre carousels below the all-time carousel. */
+.carousels-stack .carousel-section.carousel-small {
     --card-width: 160px;
     --card-collapsed-height: 235px;
     --thumbnail-height: 118px;
@@ -8,11 +8,11 @@
     --card-gap: 6px;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .about-grid {
+.carousels-stack .carousel-section.carousel-small .about-grid {
     align-items: flex-start;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .game-card-collapsed {
+.carousels-stack .carousel-section.carousel-small .game-card-collapsed {
     width: var(--card-width);
     min-width: var(--card-width);
     max-width: var(--card-width);
@@ -25,20 +25,20 @@
     gap: var(--card-gap);
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .game-card-collapsed::after {
+.carousels-stack .carousel-section.carousel-small .game-card-collapsed::after {
     display: none;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .thumbnail-slot,
-.carousels-stack .carousel-section:nth-of-type(2) .game-thumbnail {
+.carousels-stack .carousel-section.carousel-small .thumbnail-slot,
+.carousels-stack .carousel-section.carousel-small .game-thumbnail {
     height: var(--thumbnail-height);
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .thumbnail-slot {
+.carousels-stack .carousel-section.carousel-small .thumbnail-slot {
     flex-basis: var(--thumbnail-height);
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .game-name.game-name-banner {
+.carousels-stack .carousel-section.carousel-small .game-name.game-name-banner {
     height: 43px;
     min-height: 43px;
     max-height: 43px;
@@ -51,19 +51,19 @@
     line-clamp: 2;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .game-info-wrapper {
+.carousels-stack .carousel-section.carousel-small .game-info-wrapper {
     padding: 0 var(--card-content-padding-x);
     flex-grow: 0;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .card-top-row {
+.carousels-stack .carousel-section.carousel-small .card-top-row {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
     gap: 6px;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .game-meta-panel {
+.carousels-stack .carousel-section.carousel-small .game-meta-panel {
     flex: 1 1 auto;
     max-width: none;
     min-width: 0;
@@ -72,7 +72,7 @@
     border-radius: 12px;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .publisher-info {
+.carousels-stack .carousel-section.carousel-small .publisher-info {
     font-size: 0.45rem;
     line-height: 1.1;
     white-space: nowrap;
@@ -80,17 +80,17 @@
     text-overflow: ellipsis;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .meta-label {
+.carousels-stack .carousel-section.carousel-small .meta-label {
     display: none;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .meta-value {
+.carousels-stack .carousel-section.carousel-small .meta-value {
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .game-score-panel {
+.carousels-stack .carousel-section.carousel-small .game-score-panel {
     flex: 0 0 64px;
     width: 64px;
     max-width: 64px;
@@ -99,16 +99,16 @@
     border-radius: 12px;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .card-score-row {
+.carousels-stack .carousel-section.carousel-small .card-score-row {
     margin: 0;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .game-score {
+.carousels-stack .carousel-section.carousel-small .game-score {
     font-size: 1.25rem;
 }
 
-.carousels-stack .carousel-section:nth-of-type(2) .game-description-panel,
-.carousels-stack .carousel-section:nth-of-type(2) .game-stats-panel,
-.carousels-stack .carousel-section:nth-of-type(2) .pillar-content {
+.carousels-stack .carousel-section.carousel-small .game-description-panel,
+.carousels-stack .carousel-section.carousel-small .game-stats-panel,
+.carousels-stack .carousel-section.carousel-small .pillar-content {
     display: none;
 }

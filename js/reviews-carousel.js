@@ -482,6 +482,13 @@ function getTopCardData(cardData, cardCount = CAROUSEL_CONFIG.CARDS_PER_CAROUSEL
         .slice(0, cardCount);
 }
 
+    function getLowestCardData(cardData, cardCount = CAROUSEL_CONFIG.CARDS_PER_CAROUSEL) {
+        return cardData
+        .map(cloneCardData)
+        .sort((a, b) => getComputedTotalScoreFromCardData(a) - getComputedTotalScoreFromCardData(b))
+        .slice(0, cardCount);
+    }
+
 function populateCarouselFromCardData(carousel, cardData) {
     carousel.innerHTML = '';
     cardData.forEach(data => {
@@ -547,11 +554,45 @@ document.addEventListener('DOMContentLoaded', async () => {
     firstSection.dataset.carouselIndex = '0';
     firstSection.dataset.carouselDefault = 'all-time';
 
-    /* Clone carousel sections to create source-backed genre carousels. */
-    gameData.sources.forEach((source, index) => {
+    if (document.body.dataset.page === 'recent') {
+        const recentCarouselConfigs = [
+            { title: 'Top 10 Rated Games of 2023', startYear: 2023, endYear: 2023, sort: 'highest' },
+            { title: 'Top 10 Rated Games of the decade 2013-2023', startYear: 2013, endYear: 2023, sort: 'highest' },
+            { title: 'Worst 10 Rated Games of 2023', startYear: 2023, endYear: 2023, sort: 'lowest' },
+            { title: 'Worst 10 Rated Games of the decade 2013-2023', startYear: 2013, endYear: 2023, sort: 'lowest' }
+        ];
+
+        recentCarouselConfigs.forEach((config, index) => {
+            const sectionClone = firstSection.cloneNode(true);
+            const filteredCards = gameData.cards.filter(card => {
+                const year = Number(card.releaseYear);
+                return year >= config.startYear && year <= config.endYear;
+            });
+
+            sectionClone.classList.add('carousel-small');
+            sectionClone.dataset.carouselGenre = config.title;
+            sectionClone.dataset.carouselIndex = String(index + 1);
+            delete sectionClone.dataset.carouselDefault;
+
+            const titleElement = sectionClone.querySelector('.carousel-title');
+            if (titleElement) titleElement.textContent = config.title;
+
+            const clonedCarousel = sectionClone.querySelector('.about-grid');
+            const rankedCards = config.sort === 'lowest'
+                ? getLowestCardData(filteredCards)
+                : getTopCardData(filteredCards);
+            populateCarouselFromCardData(clonedCarousel, rankedCards);
+            initializeCarouselScroll(clonedCarousel);
+            carouselsStack.appendChild(sectionClone);
+        });
+    } else {
+
+        /* Clone carousel sections to create source-backed genre carousels. */
+        gameData.sources.forEach((source, index) => {
         const sectionClone = firstSection.cloneNode(true);
         const carouselGenre = source.genre;
 
+        sectionClone.classList.add('carousel-small');
         sectionClone.dataset.carouselGenre = carouselGenre;
         sectionClone.dataset.carouselIndex = String(index + 1);
         delete sectionClone.dataset.carouselDefault;
@@ -565,8 +606,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         populateCarouselFromCardData(clonedCarousel, getTopCardData(source.cards));
         initializeCarouselScroll(clonedCarousel);
 
-        carouselsStack.appendChild(sectionClone);
-    });
+            carouselsStack.appendChild(sectionClone);
+        });
+    }
 
     /* Initialize card expand/collapse behavior only when available. */
     if (typeof initializeCardBehavior === 'function') {
