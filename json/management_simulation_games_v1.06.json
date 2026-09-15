@@ -1,61 +1,6 @@
 [
   {
     "game": {
-      "slug": "big-rigs-over-road-racing-simulation-elements",
-      "name": "Big Rigs: Over Road Racing (Simulation Elements)",
-      "developer": "Stellar Stone",
-      "publisher": "Terminal Reality",
-      "genre": "Management Simulation",
-      "platform": "PC",
-      "release_year": 2003,
-      "current_retail_price_usd": 39.99
-    },
-    "assets": {
-      "card_image_url": "img/big-rigs-over-road-racing-simulation-elements.jpg",
-      "card_image_alt": "Big Rigs: Over Road Racing (Simulation Elements) key art"
-    },
-    "content": {
-      "short_description": "Big Rigs: Over Road Racing (Simulation Elements) (2003) - A poorly-received title with fundamental design issues that prevented critical success.",
-      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
-      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
-      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
-      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
-      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
-    },
-    "scores": {
-      "total": {
-        "score": 90,
-        "max": 100,
-        "tier": 5,
-        "percent": 90
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 20,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
       "slug": "city-life-2006-version",
       "name": "City Life (2006 Version)",
       "developer": "Monte Cristo Multimedia",
@@ -677,11 +622,11 @@
     "content": {
       "short_description": "A benchmark-based single-game view for Startopia.",
       "reviewer_notes": "Accessibility and standards hold up well, but ethics is the obvious weak pillar because post-launch support receives the major penalty.",
-      "values_findings": "Values pulse: Launch retail price (USD): 3; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
-      "ethics_findings": "Ethics pulse: Post-launch support duration: -10; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
-      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 3; Outcome/ending variety: 5.",
-      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
-      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+      "values_findings": "On-par boxed pricing costs a little, but the absence of MTX, loot boxes, passes, and ads keeps values strong.",
+      "ethics_findings": "Announcement timing, marketing, and feature delivery are fine; limited documented support is the big station leak in this pillar.",
+      "gameplay_findings": "Campaign length and station-layout variety score well, though gameplay stops just shy of full marks.",
+      "accessibility_findings": "Era-appropriate settings, PC controls, and localization coverage are enough for full accessibility credit.",
+      "standards_findings": "Positive reception, offline play, single-player Q18 exemption, and small install size score well, while lack of full modding keeps standards below max."
     },
     "scores": {
       "total": {

@@ -56,61 +56,6 @@
   },
   {
     "game": {
-      "slug": "castlevania-sotn-mobile-port",
-      "name": "Castlevania: SOTN (Mobile Port)",
-      "developer": "Third-Party",
-      "publisher": "Various",
-      "genre": "Metroidvania",
-      "platform": "PC",
-      "release_year": 2010,
-      "current_retail_price_usd": 4.99
-    },
-    "assets": {
-      "card_image_url": "img/castlevania-sotn-mobile-port.jpg",
-      "card_image_alt": "Castlevania: SOTN (Mobile Port) key art"
-    },
-    "content": {
-      "short_description": "Castlevania: SOTN (Mobile Port) (2010) - A poorly-received title with fundamental design issues that prevented critical success.",
-      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
-      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
-      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
-      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
-      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
-    },
-    "scores": {
-      "total": {
-        "score": 90,
-        "max": 100,
-        "tier": 5,
-        "percent": 90
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 20,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
       "slug": "faxanadu",
       "name": "Faxanadu",
       "developer": "Hudson Soft",
