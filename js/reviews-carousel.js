@@ -72,6 +72,38 @@ function getCarouselTitle(genre, startYear = null, endYear = null, sortMode = 'b
     return `${prefix} ${genre} games of all-time`;
 }
 
+function filterCardsByScoreCutoff(cards, maxScore) {
+    return cards.filter(card => {
+        const totalScore = getComputedTotalScoreFromCardData(card);
+        return totalScore <= maxScore;
+    });
+}
+
+let globalGameData = { sources: [], cards: [] };
+
+function updateFirstCarouselWithGlobalData(sortMode = 'best') {
+    const firstSection = document.querySelector('[data-carousel-default="all-time"]');
+    if (!firstSection) return;
+
+    const firstCarousel = firstSection.querySelector('.about-grid');
+    if (!firstCarousel) return;
+
+    let cardsToDisplay = globalGameData.cards;
+    
+    // Apply score cutoff for worst games (only show games with score <= 30)
+    if (sortMode === 'worst') {
+        cardsToDisplay = filterCardsByScoreCutoff(cardsToDisplay, 30);
+    }
+
+    // Get top or worst based on sortMode
+    const carouselCards = sortMode === 'worst' 
+        ? getLowestCardData(cardsToDisplay)
+        : getTopCardData(cardsToDisplay);
+
+    populateCarouselFromCardData(firstCarousel, carouselCards);
+    initializeCarouselScroll(firstCarousel);
+}
+
 function updateCarouselTitles(sortMode = 'best') {
     const sections = document.querySelectorAll('.carousel-section');
     sections.forEach(section => {
@@ -90,7 +122,35 @@ function updateCarouselTitles(sortMode = 'best') {
         }
 
         titleElement.textContent = newTitle;
+
+        // Update carousel content for genre carousels when worst filter is applied
+        if (!isDefaultAllTime) {
+            const carousel = section.querySelector('.about-grid');
+            if (carousel) {
+                // Find the matching source by genre
+                const sourceIndex = Number(section.dataset.carouselIndex) - 1;
+                if (sourceIndex >= 0 && sourceIndex < globalGameData.sources.length) {
+                    const source = globalGameData.sources[sourceIndex];
+                    let cardsForGenre = source.cards;
+                    
+                    // Apply score cutoff for worst games (only show score <= 30)
+                    if (sortMode === 'worst') {
+                        cardsForGenre = filterCardsByScoreCutoff(cardsForGenre, 30);
+                    }
+                    
+                    const carouselCards = sortMode === 'worst'
+                        ? getLowestCardData(cardsForGenre)
+                        : getTopCardData(cardsForGenre);
+                    
+                    populateCarouselFromCardData(carousel, carouselCards);
+                    initializeCarouselScroll(carousel);
+                }
+            }
+        }
     });
+    
+    // Update first carousel with global data when toggle changes
+    updateFirstCarouselWithGlobalData(sortMode);
 }
 
 function getStatMaxValue(statIndex) {
@@ -533,6 +593,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     try {
         gameData = await loadGameCardsFromJsonFiles();
+        globalGameData = gameData;
     } catch (error) {
         console.error(error);
         renderCarouselLoadError(carouselsStack, error);
