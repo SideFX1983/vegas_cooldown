@@ -465,7 +465,13 @@
     border-color: #FFD700;
     position: relative;
 }
-
+/* Golden score color for premium cards */
+.game-card-collapsed.score-premium .game-score {
+    color: #FFD700 !important;
+    text-shadow: 
+        0 0 10px rgba(255, 215, 0, 0.8),
+        0 0 20px rgba(255, 215, 0, 0.4);
+}
 /* Sparkles positioned around the frame using ::before */
 .game-card-collapsed.score-premium::before {
     content: '';
