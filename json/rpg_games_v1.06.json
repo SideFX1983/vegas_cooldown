@@ -5,7 +5,7 @@
       "name": "Big Rigs: The Yellow Cab",
       "developer": "Stellar Stone",
       "publisher": "GameMill Entertainment",
-      "genre": "RPG",
+      "genre": "Role-Playing Game",
       "platform": "PC",
       "release_year": 2005,
       "current_retail_price_usd": 24.99
@@ -60,7 +60,7 @@
       "name": "Chaos Wars",
       "developer": "Neverland Company",
       "publisher": "KOEI",
-      "genre": "RPG",
+      "genre": "Role-Playing Game",
       "platform": "PC",
       "release_year": 2006,
       "current_retail_price_usd": 49.99
@@ -111,66 +111,11 @@
   },
   {
     "game": {
-      "slug": "dragonball-online",
-      "name": "Dragonball Online",
-      "developer": "Akatsuki/NCSoft",
-      "publisher": "NCSoft",
-      "genre": "RPG",
-      "platform": "PC",
-      "release_year": 2010,
-      "current_retail_price_usd": 0.0
-    },
-    "assets": {
-      "card_image_url": "img/dragonball-online.jpg",
-      "card_image_alt": "Dragonball Online key art"
-    },
-    "content": {
-      "short_description": "Dragonball Online (2010) - A mixed reception game with interesting ideas but notable flaws that limit its appeal.",
-      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
-    },
-    "scores": {
-      "total": {
-        "score": 90,
-        "max": 100,
-        "tier": 5,
-        "percent": 90
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 20,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
       "slug": "ride-of-war",
       "name": "Ride of War",
       "developer": "Windy Lights Game",
       "publisher": "Windy Lights Game",
-      "genre": "RPG",
+      "genre": "Role-Playing Game",
       "platform": "PC",
       "release_year": 2013,
       "current_retail_price_usd": 14.99
@@ -225,7 +170,7 @@
       "name": "Too Human",
       "developer": "Silicon Knights",
       "publisher": "Microsoft Game Studios",
-      "genre": "RPG",
+      "genre": "Role-Playing Game",
       "platform": "PC",
       "release_year": 2008,
       "current_retail_price_usd": 59.99
@@ -280,7 +225,7 @@
       "name": "Ultima IX: Ascension",
       "developer": "Origin Systems",
       "publisher": "Electronic Arts",
-      "genre": "RPG",
+      "genre": "Role-Playing Game",
       "platform": "PC",
       "release_year": 1999,
       "current_retail_price_usd": 49.99
@@ -331,11 +276,66 @@
   },
   {
     "game": {
+      "slug": "dragonball-online",
+      "name": "Dragonball Online",
+      "developer": "Akatsuki/NCSoft",
+      "publisher": "NCSoft",
+      "genre": "Role-Playing Game",
+      "platform": "PC",
+      "release_year": 2010,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/dragonball-online.jpg",
+      "card_image_alt": "Dragonball Online key art"
+    },
+    "content": {
+      "short_description": "A delisted MMORPG with servers permanently closed—completely unplayable. Once a niche Dragon Ball experience, now exists only in historical records.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Rough launch. Poor reception or significant technical problems."
+    },
+    "scores": {
+      "total": {
+        "score": 0,
+        "max": 100,
+        "tier": 5,
+        "percent": 0
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": -80,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
       "slug": "fable-legends",
       "name": "Fable Legends",
       "developer": "Lionhead Studios",
       "publisher": "Microsoft Game Studios",
-      "genre": "RPG",
+      "genre": "Role-Playing Game",
       "platform": "PC",
       "release_year": 2015,
       "current_retail_price_usd": 0.0
@@ -345,20 +345,20 @@
       "card_image_alt": "Fable Legends key art"
     },
     "content": {
-      "short_description": "Fable Legends (2015) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "short_description": "A cancelled free-to-play game that never completed its commercial launch. Servers were shut down before release, making it permanently unplayable.",
       "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
       "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
       "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
       "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
       "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "standards_findings": "Rough launch. Poor reception or significant technical problems."
     },
     "scores": {
       "total": {
-        "score": 85,
+        "score": 0,
         "max": 100,
         "tier": 5,
-        "percent": 85
+        "percent": 0
       },
       "pillars": {
         "values": {
@@ -378,7 +378,7 @@
           "max": 10
         },
         "standards": {
-          "score": 25,
+          "score": -80,
           "max": 30
         }
       }

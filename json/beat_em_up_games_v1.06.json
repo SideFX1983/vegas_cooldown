@@ -1,6 +1,556 @@
 [
   {
     "game": {
+      "slug": "aliens-vs-predator-extinction",
+      "name": "Aliens vs. Predator: Extinction",
+      "developer": "Lambent Software",
+      "publisher": "Fox Interactive",
+      "genre": "Beat Em Up",
+      "platform": "PC",
+      "release_year": 2003,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/aliens-vs-predator-extinction.jpg",
+      "card_image_alt": "Aliens vs. Predator: Extinction key art"
+    },
+    "content": {
+      "short_description": "Aliens vs. Predator: Extinction (2003) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "brawl-brothers",
+      "name": "Brawl Brothers",
+      "developer": "Brown Box",
+      "publisher": "Jaleco",
+      "genre": "Beat Em Up",
+      "platform": "PC",
+      "release_year": 1992,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/brawl-brothers.jpg",
+      "card_image_alt": "Brawl Brothers key art"
+    },
+    "content": {
+      "short_description": "Brawl Brothers (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "castle-crashers",
+      "name": "Castle Crashers (PC)",
+      "developer": "The Behemoth",
+      "publisher": "The Behemoth",
+      "genre": "Beat 'em up",
+      "platform": "PC",
+      "release_year": 2012,
+      "current_retail_price_usd": 14.99
+    },
+    "assets": {
+      "card_image_url": "img/castle-crashers.jpg",
+      "card_image_alt": "Castle Crashers key art"
+    },
+    "content": {
+      "short_description": "A durable co-op brawler whose long support tail, low price, and deep character progression keep it unusually strong under VEGAS scoring.",
+      "reviewer_notes": "Total 90/100; strongest pillar score is values, with the largest drag from gameplay.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Devs delivered honestly. Strong post-launch support and transparency.",
+      "gameplay_findings": "Moderate content. Decent playtime but limited replay value.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 5,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "final-fight-2",
+      "name": "Final Fight 2",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "genre": "Beat Em Up",
+      "platform": "PC",
+      "release_year": 1990,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/final-fight-2.jpg",
+      "card_image_alt": "Final Fight 2 key art"
+    },
+    "content": {
+      "short_description": "Final Fight 2 (1990) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "knights-of-legend",
+      "name": "Knights of Legend",
+      "developer": "SSI",
+      "publisher": "Strategic Simulations",
+      "genre": "Beat Em Up",
+      "platform": "PC",
+      "release_year": 1989,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/knights-of-legend.jpg",
+      "card_image_alt": "Knights of Legend key art"
+    },
+    "content": {
+      "short_description": "Knights of Legend (1989) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "martial-champions",
+      "name": "Martial Champions",
+      "developer": "Acclaim Entertainment",
+      "publisher": "Acclaim Entertainment",
+      "genre": "Beat Em Up",
+      "platform": "PC",
+      "release_year": 1992,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/martial-champions.jpg",
+      "card_image_alt": "Martial Champions key art"
+    },
+    "content": {
+      "short_description": "A generic and technically poor arcade fighting game that aged terribly and disappeared from arcades quickly.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "pit-fighter",
+      "name": "Pit Fighter",
+      "developer": "Atari Games",
+      "publisher": "Atari Games",
+      "genre": "Beat Em Up",
+      "platform": "PC",
+      "release_year": 1990,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/pit-fighter.jpg",
+      "card_image_alt": "Pit Fighter key art"
+    },
+    "content": {
+      "short_description": "An infamous 8-bit arcade fighter with broken controls and poor design, preserved only through emulation nostalgia.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "power-punch-ii",
+      "name": "Power Punch II",
+      "developer": "Video System",
+      "publisher": "Video System",
+      "genre": "Beat Em Up",
+      "platform": "PC",
+      "release_year": 1992,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/power-punch-ii.jpg",
+      "card_image_alt": "Power Punch II key art"
+    },
+    "content": {
+      "short_description": "Power Punch II (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "splatterhouse-3",
+      "name": "Splatterhouse 3",
+      "developer": "Indy Game Developers",
+      "publisher": "Turbo Technologies",
+      "genre": "Beat Em Up",
+      "platform": "PC",
+      "release_year": 1992,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/splatterhouse-3.jpg",
+      "card_image_alt": "Splatterhouse 3 key art"
+    },
+    "content": {
+      "short_description": "Splatterhouse 3 (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "tmnt-manhattan-missions",
+      "name": "TMNT: Manhattan Missions",
+      "developer": "Ultra Games",
+      "publisher": "Ultra Games",
+      "genre": "Beat Em Up",
+      "platform": "PC",
+      "release_year": 1992,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/tmnt-manhattan-missions.jpg",
+      "card_image_alt": "TMNT: Manhattan Missions key art"
+    },
+    "content": {
+      "short_description": "TMNT: Manhattan Missions (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
       "slug": "tmnt-shredders-revenge",
       "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC)",
       "developer": "Tribute Games",
@@ -11,7 +561,7 @@
       "current_retail_price_usd": 24.99
     },
     "assets": {
-      "card_image_url": "img/teenage-mutant-ninja-turtles-shredders-revenge.jpg",
+      "card_image_url": "img/tmnt-shredders-revenge.jpg",
       "card_image_alt": "Teenage Mutant Ninja Turtles: Shredder's Revenge key art"
     },
     "content": {
@@ -56,266 +606,46 @@
   },
   {
     "game": {
-      "slug": "capcom-beat-em-up-bundle",
-      "name": "Capcom Beat 'Em Up Bundle (PC)",
-      "developer": "Capcom",
-      "publisher": "Capcom",
+      "slug": "streets-of-rage-4",
+      "name": "Streets of Rage 4 (PC)",
+      "developer": "Dotemu, Lizardcube, and Guard Crush Games",
+      "publisher": "Dotemu",
       "genre": "Beat 'em up",
       "platform": "PC",
-      "release_year": 2018,
-      "current_retail_price_usd": 19.99
-    },
-    "assets": {
-      "card_image_url": "img/capcom-beat-em-up-bundle.jpg",
-      "card_image_alt": "Capcom Beat 'Em Up Bundle (PC) key art"
-    },
-    "content": {
-      "short_description": "Capcom Beat 'Em Up Bundle (PC) (2018) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
-      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
-    },
-    "scores": {
-      "total": {
-        "score": 85,
-        "max": 100,
-        "tier": 5,
-        "percent": 85
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 15,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
-      "slug": "double-dragon-gaiden-rise-of-the-dragons",
-      "name": "Double Dragon Gaiden: Rise of the Dragons (PC)",
-      "developer": "Secret Base",
-      "publisher": "Modus Games",
-      "genre": "Beat 'em up",
-      "platform": "PC",
-      "release_year": 2023,
+      "release_year": 2020,
       "current_retail_price_usd": 24.99
     },
     "assets": {
-      "card_image_url": "img/double-dragon-gaiden-rise-of-the-dragons.jpg",
-      "card_image_alt": "Double Dragon Gaiden: Rise of the Dragons (PC) key art"
+      "card_image_url": "img/streets-of-rage-4.jpg",
+      "card_image_alt": "Streets of Rage 4 key art"
     },
     "content": {
-      "short_description": "Double Dragon Gaiden: Rise of the Dragons (PC) (2023) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
-      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "short_description": "A polished revival with superb hand-drawn combat, generous solo/co-op modes, and unusually strong post-launch support for a modern brawler.",
+      "reviewer_notes": "Total 86/100; strongest pillar score is accessibility, with the largest drag from ethics.",
       "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
       "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
       "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
       "standards_findings": "Polished release. Strong player reception and technical quality."
     },
     "scores": {
       "total": {
-        "score": 85,
+        "score": 86,
         "max": 100,
-        "tier": 5,
-        "percent": 85
+        "tier": 4,
+        "percent": 86
       },
       "pillars": {
         "values": {
-          "score": 25,
+          "score": 23,
           "max": 25
         },
         "ethics": {
-          "score": 15,
+          "score": 20,
           "max": 25
         },
         "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
-      "slug": "fightn-rage",
-      "name": "Fight'N Rage (PC)",
-      "developer": "SebaGamesDev",
-      "publisher": "SebaGamesDev",
-      "genre": "Beat 'em up",
-      "platform": "PC",
-      "release_year": 2017,
-      "current_retail_price_usd": 19.99
-    },
-    "assets": {
-      "card_image_url": "img/fightn-rage.jpg",
-      "card_image_alt": "Fight'N Rage (PC) key art"
-    },
-    "content": {
-      "short_description": "Fight'N Rage (PC) (2017) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
-      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
-    },
-    "scores": {
-      "total": {
-        "score": 85,
-        "max": 100,
-        "tier": 5,
-        "percent": 85
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 15,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
-      "slug": "river-city-ransom-underground",
-      "name": "River City Ransom: Underground (PC)",
-      "developer": "Conatus Creative",
-      "publisher": "Conatus Creative",
-      "genre": "Beat 'em up",
-      "platform": "PC",
-      "release_year": 2017,
-      "current_retail_price_usd": 19.99
-    },
-    "assets": {
-      "card_image_url": "img/river-city-ransom-underground.jpg",
-      "card_image_alt": "River City Ransom: Underground (PC) key art"
-    },
-    "content": {
-      "short_description": "River City Ransom: Underground (PC) (2017) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
-      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
-    },
-    "scores": {
-      "total": {
-        "score": 85,
-        "max": 100,
-        "tier": 5,
-        "percent": 85
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 15,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
-      "slug": "scott-pilgrim-vs-the-world-the-game-complete-edition",
-      "name": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC)",
-      "developer": "Ubisoft Montreal and Ubisoft Chengdu",
-      "publisher": "Ubisoft",
-      "genre": "Beat 'em up",
-      "platform": "PC",
-      "release_year": 2021,
-      "current_retail_price_usd": 14.99
-    },
-    "assets": {
-      "card_image_url": "img/scott-pilgrim-vs-the-world-the-game-complete-edition.jpg",
-      "card_image_alt": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC) key art"
-    },
-    "content": {
-      "short_description": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC) ($2021) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
-      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
-    },
-    "scores": {
-      "total": {
-        "score": 85,
-        "max": 100,
-        "tier": 5,
-        "percent": 85
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 15,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
+          "score": 8,
           "max": 10
         },
         "accessibility": {
@@ -386,46 +716,101 @@
   },
   {
     "game": {
-      "slug": "tmnt-shredders-revenge",
-      "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC)",
-      "developer": "Tribute Games",
-      "publisher": "Dotemu",
-      "genre": "Beat 'em up",
+      "slug": "double-dragon-gaiden-rise-of-the-dragons",
+      "name": "Double Dragon Gaiden: Rise of the Dragons (PC)",
+      "developer": "Secret Base",
+      "publisher": "Modus Games",
+      "genre": "Beat 'em up / roguelite brawler",
       "platform": "PC",
-      "release_year": 2022,
+      "release_year": 2023,
       "current_retail_price_usd": 24.99
     },
     "assets": {
-      "card_image_url": "img/tmnt-shredders-revenge.jpg",
-      "card_image_alt": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC) key art"
+      "card_image_url": "img/double-dragon-gaiden-rise-of-the-dragons.jpg",
+      "card_image_alt": "Double Dragon Gaiden: Rise of the Dragons key art"
     },
     "content": {
-      "short_description": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC) ($2022) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
-      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "short_description": "A tag-team Double Dragon revival with smart roguelite structure, fair pricing, and post-launch roster support.",
+      "reviewer_notes": "Total 83/100; strongest pillar score is accessibility, with the largest drag from gameplay.",
       "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Moderate content. Decent playtime but limited replay value.",
       "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
       "standards_findings": "Polished release. Strong player reception and technical quality."
     },
     "scores": {
       "total": {
-        "score": 85,
+        "score": 83,
         "max": 100,
-        "tier": 5,
-        "percent": 85
+        "tier": 4,
+        "percent": 83
       },
       "pillars": {
         "values": {
-          "score": 25,
+          "score": 23,
           "max": 25
         },
         "ethics": {
-          "score": 15,
+          "score": 20,
           "max": 25
         },
         "gameplay": {
+          "score": 5,
+          "max": 10
+        },
+        "accessibility": {
           "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "river-city-girls",
+      "name": "River City Girls (PC)",
+      "developer": "WayForward",
+      "publisher": "Arc System Works",
+      "genre": "Beat 'em up / action RPG",
+      "platform": "PC",
+      "release_year": 2019,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/river-city-girls.jpg",
+      "card_image_alt": "River City Girls key art"
+    },
+    "content": {
+      "short_description": "A stylish Kunio-kun revival with strong presentation, RPG-lite progression, and a friendly no-MTX model.",
+      "reviewer_notes": "Total 83/100; strongest pillar score is accessibility, with the largest drag from gameplay.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
+      "gameplay_findings": "Moderate content. Decent playtime but limited replay value.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 83,
+        "max": 100,
+        "tier": 4,
+        "percent": 83
+      },
+      "pillars": {
+        "values": {
+          "score": 23,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 5,
           "max": 10
         },
         "accessibility": {
@@ -445,7 +830,7 @@
       "name": "Capcom Beat 'Em Up Bundle (PC)",
       "developer": "Capcom",
       "publisher": "Capcom",
-      "genre": "Beat 'em up",
+      "genre": "Beat 'em up collection",
       "platform": "PC",
       "release_year": 2018,
       "current_retail_price_usd": 19.99
@@ -555,7 +940,7 @@
       "name": "River City Ransom: Underground (PC)",
       "developer": "Conatus Creative",
       "publisher": "Conatus Creative",
-      "genre": "Beat 'em up",
+      "genre": "Beat 'em up / action RPG",
       "platform": "PC",
       "release_year": 2017,
       "current_retail_price_usd": 19.99
@@ -591,6 +976,61 @@
         },
         "gameplay": {
           "score": 5,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "final-vendetta",
+      "name": "Final Vendetta (PC)",
+      "developer": "Bitmap Bureau",
+      "publisher": "Numskull Games",
+      "genre": "Beat 'em up",
+      "platform": "PC",
+      "release_year": 2022,
+      "current_retail_price_usd": 24.95
+    },
+    "assets": {
+      "card_image_url": "img/final-vendetta.jpg",
+      "card_image_alt": "Final Vendetta key art"
+    },
+    "content": {
+      "short_description": "A hard-edged arcade brawler with excellent feel and presentation, scored conservatively for short runtime and limited long-tail support.",
+      "reviewer_notes": "Total 63/100; strongest pillar score is accessibility, with the largest drag from gameplay.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Ethical concerns. Poor support or misleading marketing.",
+      "gameplay_findings": "Limited gameplay. Short campaign with few outcome variations.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Polished release. Strong player reception and technical quality."
+    },
+    "scores": {
+      "total": {
+        "score": 63,
+        "max": 100,
+        "tier": 2,
+        "percent": 63
+      },
+      "pillars": {
+        "values": {
+          "score": 23,
+          "max": 25
+        },
+        "ethics": {
+          "score": 5,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 0,
           "max": 10
         },
         "accessibility": {

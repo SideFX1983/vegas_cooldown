@@ -5,7 +5,7 @@
       "name": "City Life (2006 Version)",
       "developer": "Monte Cristo Multimedia",
       "publisher": "CDV Software",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 2006,
       "current_retail_price_usd": 44.99
@@ -60,7 +60,7 @@
       "name": "Dwarf Fortress",
       "developer": "Bay 12 Games",
       "publisher": "Bay 12 Games",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 2006,
       "current_retail_price_usd": 0.0
@@ -115,7 +115,7 @@
       "name": "Offworld Trading Company",
       "developer": "Mohawk Games",
       "publisher": "Stardock",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 2014,
       "current_retail_price_usd": 49.99
@@ -170,7 +170,7 @@
       "name": "Rollercoaster Tycoon",
       "developer": "Chris Sawyer",
       "publisher": "MicroProse",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 1999,
       "current_retail_price_usd": 54.99
@@ -225,7 +225,7 @@
       "name": "Theme Hospital",
       "developer": "Bullfrog Productions",
       "publisher": "Electronic Arts",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 1997,
       "current_retail_price_usd": 49.99
@@ -280,7 +280,7 @@
       "name": "Tycoon City: New York",
       "developer": "Blue Tongue Entertainment",
       "publisher": "Deep Red Games",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 2006,
       "current_retail_price_usd": 39.99
@@ -335,7 +335,7 @@
       "name": "Aven Colony",
       "developer": "Mothership Entertainment",
       "publisher": "Team17",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 2017,
       "current_retail_price_usd": 29.99
@@ -390,7 +390,7 @@
       "name": "Farming Simulator 22",
       "developer": "Giants Software",
       "publisher": "Focus Entertainment",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 2021,
       "current_retail_price_usd": 49.99
@@ -445,7 +445,7 @@
       "name": "Planet Coaster",
       "developer": "Frontier Developments",
       "publisher": "Frontier Developments",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 2016,
       "current_retail_price_usd": 39.99
@@ -500,7 +500,7 @@
       "name": "Tropico 6",
       "developer": "Frictional/Limbic",
       "publisher": "Kalypso Media",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 2019,
       "current_retail_price_usd": 49.99
@@ -555,7 +555,7 @@
       "name": "Two Point Hospital",
       "developer": "Two Point Studios",
       "publisher": "Sega",
-      "genre": "Management",
+      "genre": "Management Simulation",
       "platform": "PC",
       "release_year": 2019,
       "current_retail_price_usd": 39.99
@@ -610,7 +610,7 @@
       "name": "Startopia",
       "developer": "Mucky Foot Productions",
       "publisher": "Eidos Interactive",
-      "genre": "Management",
+      "genre": "Space-station management simulation",
       "platform": "PC",
       "release_year": 2001,
       "current_retail_price_usd": 6.99

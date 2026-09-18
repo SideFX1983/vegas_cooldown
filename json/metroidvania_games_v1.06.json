@@ -1,61 +1,6 @@
 [
   {
     "game": {
-      "slug": "castlevania-ii-simons-quest",
-      "name": "Castlevania II: Simon's Quest",
-      "developer": "Konami",
-      "publisher": "Konami",
-      "genre": "Metroidvania",
-      "platform": "PC",
-      "release_year": 1988,
-      "current_retail_price_usd": 49.99
-    },
-    "assets": {
-      "card_image_url": "img/castlevania-ii-simons-quest.jpg",
-      "card_image_alt": "Castlevania II: Simon's Quest key art"
-    },
-    "content": {
-      "short_description": "Castlevania II: Simon's Quest (1988) - A poorly-received title with fundamental design issues that prevented critical success.",
-      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
-    },
-    "scores": {
-      "total": {
-        "score": 90,
-        "max": 100,
-        "tier": 5,
-        "percent": 90
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 20,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
       "slug": "faxanadu",
       "name": "Faxanadu",
       "developer": "Hudson Soft",
@@ -181,61 +126,6 @@
     },
     "content": {
       "short_description": "Whip Rush (2010) - A poorly-received title with fundamental design issues that prevented critical success.",
-      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
-    },
-    "scores": {
-      "total": {
-        "score": 90,
-        "max": 100,
-        "tier": 5,
-        "percent": 90
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 20,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
-      "slug": "wonder-boy-in-monster-land",
-      "name": "Wonder Boy in Monster Land",
-      "developer": "Westone",
-      "publisher": "Sega",
-      "genre": "Metroidvania",
-      "platform": "PC",
-      "release_year": 1988,
-      "current_retail_price_usd": 49.99
-    },
-    "assets": {
-      "card_image_url": "img/wonder-boy-in-monster-land.jpg",
-      "card_image_alt": "Wonder Boy in Monster Land key art"
-    },
-    "content": {
-      "short_description": "Wonder Boy in Monster Land (1988) - A poorly-received title with fundamental design issues that prevented critical success.",
       "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
       "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
       "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",

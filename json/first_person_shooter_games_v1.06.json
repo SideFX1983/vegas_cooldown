@@ -15,7 +15,7 @@
       "card_image_alt": "Half-Life key art"
     },
     "content": {
-      "short_description": "A masterclass in atmospheric dread and an incredible storyline. You feel like a genuinely desperate scientist with a gun trying to escape.",
+      "short_description": "A masterclass in atmospheric dread and an incredible storyline, that make you feel like a genuinely desperate survivor trapped in a hostile world.",
       "reviewer_notes": "Total 98/100; top momentum in Values 25/25, with the biggest drag in Accessibility 10/10.",
       "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
       "ethics_findings": "Devs delivered honestly. Strong post-launch support and transparency.",
@@ -221,61 +221,6 @@
   },
   {
     "game": {
-      "slug": "et-the-extra-terrestrial",
-      "name": "E.T. the Extra-Terrestrial",
-      "developer": "Atari",
-      "publisher": "Atari",
-      "genre": "First-person shooter",
-      "platform": "PC",
-      "release_year": 1982,
-      "current_retail_price_usd": 24.99
-    },
-    "assets": {
-      "card_image_url": "img/et-the-extra-terrestrial.jpg",
-      "card_image_alt": "E.T. the Extra-Terrestrial key art"
-    },
-    "content": {
-      "short_description": "E.T. the Extra-Terrestrial - A poorly-received FPS with critical flaws.",
-      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
-    },
-    "scores": {
-      "total": {
-        "score": 90,
-        "max": 100,
-        "tier": 5,
-        "percent": 90
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 20,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
       "slug": "half-life-2",
       "name": "Half-Life 2",
       "developer": "Valve",
@@ -390,7 +335,7 @@
       "name": "Quake III Arena",
       "developer": "id Software",
       "publisher": "Activision",
-      "genre": "First-person shooter",
+      "genre": "Arena shooter",
       "platform": "PC",
       "release_year": 1999,
       "current_retail_price_usd": 9.99
@@ -496,66 +441,11 @@
   },
   {
     "game": {
-      "slug": "superman-64",
-      "name": "Superman 64",
-      "developer": "Titus Interactive",
-      "publisher": "Titus Interactive",
-      "genre": "First-person shooter",
-      "platform": "PC",
-      "release_year": 1999,
-      "current_retail_price_usd": 59.99
-    },
-    "assets": {
-      "card_image_url": "img/superman-64.jpg",
-      "card_image_alt": "Superman 64 key art"
-    },
-    "content": {
-      "short_description": "Legendarily broken game with uncontrollable flight mechanics and punishing level design, preserved only as a historical curiosity.",
-      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
-    },
-    "scores": {
-      "total": {
-        "score": 90,
-        "max": 100,
-        "tier": 5,
-        "percent": 90
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 20,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 25,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
       "slug": "unreal-tournament-2004",
       "name": "Unreal Tournament 2004",
       "developer": "Epic Games / Digital Extremes",
       "publisher": "Atari",
-      "genre": "First-person shooter",
+      "genre": "Arena shooter",
       "platform": "PC",
       "release_year": 2004,
       "current_retail_price_usd": 14.99
@@ -934,121 +824,11 @@
   },
   {
     "game": {
-      "slug": "anthem",
-      "name": "Anthem",
-      "developer": "BioWare",
-      "publisher": "Electronic Arts",
-      "genre": "First-person shooter",
-      "platform": "PC",
-      "release_year": 2019,
-      "current_retail_price_usd": 59.99
-    },
-    "assets": {
-      "card_image_url": "img/anthem.jpg",
-      "card_image_alt": "Anthem key art"
-    },
-    "content": {
-      "short_description": "BioWare's live-service disaster, riddled with bugs and abandoned by developers, leaving the game in a broken state.",
-      "reviewer_notes": "Total 80/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Good quality. Generally well-received with solid performance."
-    },
-    "scores": {
-      "total": {
-        "score": 80,
-        "max": 100,
-        "tier": 5,
-        "percent": 80
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 15,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 20,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
-      "slug": "concord",
-      "name": "Concord",
-      "developer": "Firewalk Studios",
-      "publisher": "PlayStation Studios",
-      "genre": "First-person shooter",
-      "platform": "PC",
-      "release_year": 2024,
-      "current_retail_price_usd": 0.0
-    },
-    "assets": {
-      "card_image_url": "img/concord.jpg",
-      "card_image_alt": "Concord key art"
-    },
-    "content": {
-      "short_description": "A historic failure - discontinued two weeks after launch with full refunds, making it completely unplayable.",
-      "reviewer_notes": "Total 80/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Good quality. Generally well-received with solid performance."
-    },
-    "scores": {
-      "total": {
-        "score": 80,
-        "max": 100,
-        "tier": 5,
-        "percent": 80
-      },
-      "pillars": {
-        "values": {
-          "score": 25,
-          "max": 25
-        },
-        "ethics": {
-          "score": 15,
-          "max": 25
-        },
-        "gameplay": {
-          "score": 10,
-          "max": 10
-        },
-        "accessibility": {
-          "score": 10,
-          "max": 10
-        },
-        "standards": {
-          "score": 20,
-          "max": 30
-        }
-      }
-    }
-  },
-  {
-    "game": {
       "slug": "half-life-alyx",
       "name": "Half-Life: Alyx",
       "developer": "Valve",
       "publisher": "Valve",
-      "genre": "First-person shooter",
+      "genre": "VR first-person shooter",
       "platform": "PC",
       "release_year": 2020,
       "current_retail_price_usd": 59.99
@@ -1099,6 +879,116 @@
   },
   {
     "game": {
+      "slug": "anthem",
+      "name": "Anthem",
+      "developer": "BioWare",
+      "publisher": "Electronic Arts",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2019,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/anthem.jpg",
+      "card_image_alt": "Anthem key art"
+    },
+    "content": {
+      "short_description": "BioWare's live-service disaster—abandoned by developers and largely unplayable, with servers in indefinite maintenance state. A cautionary tale of mismanaged live-service development.",
+      "reviewer_notes": "Total 80/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Rough launch. Poor reception or significant technical problems."
+    },
+    "scores": {
+      "total": {
+        "score": 0,
+        "max": 100,
+        "tier": 5,
+        "percent": 0
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": -85,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "concord",
+      "name": "Concord",
+      "developer": "Firewalk Studios",
+      "publisher": "PlayStation Studios",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2024,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/concord.jpg",
+      "card_image_alt": "Concord key art"
+    },
+    "content": {
+      "short_description": "A historic failure - discontinued two weeks after launch with full refunds, making it completely unplayable.",
+      "reviewer_notes": "Total 80/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
+      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
+      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
+      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
+      "standards_findings": "Rough launch. Poor reception or significant technical problems."
+    },
+    "scores": {
+      "total": {
+        "score": 0,
+        "max": 100,
+        "tier": 5,
+        "percent": 0
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": -85,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
       "slug": "star-wars-battlefront-2015",
       "name": "Star Wars Battlefront 2015",
       "developer": "DICE",
@@ -1119,14 +1009,14 @@
       "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
       "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
       "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Good quality. Generally well-received with solid performance."
+      "standards_findings": "Rough launch. Poor reception or significant technical problems."
     },
     "scores": {
       "total": {
-        "score": 80,
+        "score": 0,
         "max": 100,
         "tier": 5,
-        "percent": 80
+        "percent": 0
       },
       "pillars": {
         "values": {
@@ -1146,7 +1036,7 @@
           "max": 10
         },
         "standards": {
-          "score": 20,
+          "score": -85,
           "max": 30
         }
       }

@@ -359,7 +359,7 @@
     width: auto;
     height: auto;
     transform: none;
-    margin-top: 8px;
+    margin-top: auto;
     z-index: 2;
     padding: 8px;
     display: flex;

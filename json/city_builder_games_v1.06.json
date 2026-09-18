@@ -5,7 +5,7 @@
       "name": "Anno 1404 (Dawn of Discovery)",
       "developer": "Related Designs / Blue Byte",
       "publisher": "Ubisoft",
-      "genre": "City Builder",
+      "genre": "Logistics city builder / trade simulation",
       "platform": "PC",
       "release_year": 2009,
       "current_retail_price_usd": 14.99
@@ -60,7 +60,7 @@
       "name": "Banished",
       "developer": "Shining Rock Software",
       "publisher": "Shining Rock Software",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2014,
       "current_retail_price_usd": 29.99
@@ -115,7 +115,7 @@
       "name": "Caesar Online",
       "developer": "Sierra Entertainment",
       "publisher": "Sierra Entertainment",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2001,
       "current_retail_price_usd": 44.99
@@ -170,7 +170,7 @@
       "name": "Caesars III",
       "developer": "Impressions Games",
       "publisher": "Virgin Interactive",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 1998,
       "current_retail_price_usd": 54.99
@@ -225,7 +225,7 @@
       "name": "City Builder 2",
       "developer": "Blue Moon Interactive",
       "publisher": "SCI Entertainment",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2001,
       "current_retail_price_usd": 39.99
@@ -280,7 +280,7 @@
       "name": "Citylife 2008",
       "developer": "Lesta Games",
       "publisher": "CDV Software",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2008,
       "current_retail_price_usd": 49.99
@@ -335,7 +335,7 @@
       "name": "Imagine City Builder",
       "developer": "Imagine Games",
       "publisher": "Imagine Publishing/Activision",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2007,
       "current_retail_price_usd": 19.99
@@ -390,7 +390,7 @@
       "name": "SimCity 4",
       "developer": "Maxis",
       "publisher": "Electronic Arts",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2003,
       "current_retail_price_usd": 49.99
@@ -445,7 +445,7 @@
       "name": "Timberborn",
       "developer": "Mechanistry",
       "publisher": "Mechanistry",
-      "genre": "Colony Sim",
+      "genre": "Colony/city builder with water physics",
       "platform": "PC",
       "release_year": 2021,
       "current_retail_price_usd": 34.99
@@ -500,7 +500,7 @@
       "name": "Tropico: Paradise Island",
       "developer": "PopTop Software",
       "publisher": "Strategy First",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 1998,
       "current_retail_price_usd": 49.99
@@ -555,7 +555,7 @@
       "name": "Tycoon City: London",
       "developer": "Blue Tongue Entertainment",
       "publisher": "Deep Red Games",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2005,
       "current_retail_price_usd": 39.99
@@ -610,7 +610,7 @@
       "name": "Virtual City Empire",
       "developer": "Upside",
       "publisher": "Strategy First",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2008,
       "current_retail_price_usd": 34.99
@@ -665,7 +665,7 @@
       "name": "Zeus: Master of Olympus",
       "developer": "Impressions Games",
       "publisher": "Sierra Studios",
-      "genre": "City Builder",
+      "genre": "Historical city builder",
       "platform": "PC",
       "release_year": 2000,
       "current_retail_price_usd": 9.99
@@ -720,7 +720,7 @@
       "name": "Tropico",
       "developer": "PopTop Software",
       "publisher": "Gathering of Developers",
-      "genre": "City Builder",
+      "genre": "Political city builder / island management",
       "platform": "PC",
       "release_year": 2001,
       "current_retail_price_usd": 9.99
@@ -775,7 +775,7 @@
       "name": "Against the Storm",
       "developer": "Eremite Games",
       "publisher": "Hooded Horse",
-      "genre": "City Builder",
+      "genre": "Roguelite city builder",
       "platform": "PC",
       "release_year": 2023,
       "current_retail_price_usd": 29.99
@@ -830,7 +830,7 @@
       "name": "Cities: Skylines",
       "developer": "Colossal Order",
       "publisher": "Paradox Interactive",
-      "genre": "City Builder",
+      "genre": "City builder / urban simulation",
       "platform": "PC",
       "release_year": 2015,
       "current_retail_price_usd": 29.99
@@ -885,7 +885,7 @@
       "name": "Civilization VI",
       "developer": "Firaxis Games",
       "publisher": "2K Games",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2016,
       "current_retail_price_usd": 59.99
@@ -940,7 +940,7 @@
       "name": "Islanders",
       "developer": "GrayAqua",
       "publisher": "Devolver Digital",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2022,
       "current_retail_price_usd": 9.99
@@ -995,7 +995,7 @@
       "name": "Northgard",
       "developer": "Shiro Games",
       "publisher": "Shiro Games",
-      "genre": "City Builder",
+      "genre": "City Building",
       "platform": "PC",
       "release_year": 2018,
       "current_retail_price_usd": 19.99
