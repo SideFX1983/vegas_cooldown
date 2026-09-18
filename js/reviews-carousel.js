@@ -25,7 +25,7 @@ const JSON_SOURCE_GENRE_LABELS = {
     'rpg_games_v1.06.json': 'Role-Playing Game',
     'rts_games_v1.06.json': 'Real-Time Strategy'
 };
-const JSON_CACHE_BUST_VERSION = 'json-all-files-20260802-1907';
+const JSON_CACHE_BUST_VERSION = 'json-all-files-20260918-premium';
 const FALLBACK_GAME_IMAGE = 'img/vegas_logo.png';
 
 function withJsonCacheBust(path) {

@@ -68,11 +68,55 @@ extra visual-inspection step per image, which isn't built in here. Spot-check
 `run_log.csv` tells you exactly which IGDB entry (game id + matched name)
 each image came from, which makes manually re-picking one easy.
 
+## Retrying a bad screenshot
+
+Don't like a screenshot for a game — bad crop, wrong scene, low quality?
+
+1. Create a folder called `find_other_screenshots/` next to `output_images/`
+   (same level, i.e. directly inside the pipeline folder).
+2. Copy the offending image(s) into it, **keeping the filename exactly as-is**
+   (e.g. `cities-skylines.jpg`) — the script matches games by that filename.
+3. Run:
+   ```bash
+   python3 retry_screenshots.py
+   ```
+
+For each flagged file, it:
+- Re-queries IGDB for that game
+- Picks a **different** screenshot than any used before (tracked in
+  `screenshot_history.json`, shared with the main script) — so you won't get
+  the same rejected image back
+- Prefers higher-resolution source images: ~1920×1080 for games from 2001
+  onward, ~1024×768 for older titles (soft preference — falls back to the
+  best available if IGDB doesn't have that much resolution for a given game)
+- Resizes/crops to 400×550 the same way as the first pass (never squished)
+- Overwrites the file in `output_images/`
+- **Deletes the flagged copy from `find_other_screenshots/` only on success**
+  — if no replacement could be found, the file stays there so you know it
+  still needs attention, and you can re-run later (e.g. after IGDB gets new
+  screenshots added) without losing track of it
+
+Check `retry_log.csv` afterward for anything that couldn't be replaced —
+usually because every available screenshot for that game has already been
+tried (`no_unused_screenshots`), meaning IGDB simply doesn't have more options
+for that title.
+
+**One-time caveat:** your first 103 games were fetched before history
+tracking existed. If you flag one of those originals for retry, there's a
+small chance (only on this first retry) it re-picks the same image, since
+there's nothing recorded yet to exclude. Every run after that is fully
+tracked, for every game.
+
 ## Files in this folder
 
-- `fetch_screenshots.py` — the pipeline script (this is the one you run)
+- `fetch_screenshots.py` — first-pass pipeline script
+- `retry_screenshots.py` — re-fetch script for flagged/rejected screenshots
+- `igdb_common.py` — shared logic used by both scripts (don't need to touch this)
 - `config.example.json` — rename to `config.json` and add your credentials
 - `requirements.txt` — Python dependencies
 - `input_json/` — your original 8 game-list files (already copied in)
-- `output_images/` — created on first run; final resized screenshots go here
-- `run_log.csv` — created after each run; per-game status/log
+- `output_images/` — final resized screenshots, one per game (`<slug>.jpg`)
+- `find_other_screenshots/` — you create this; drop rejected images here to trigger a re-fetch
+- `screenshot_history.json` — created automatically; tracks which IGDB image was used per game
+- `run_log.csv` — per-game status/log from `fetch_screenshots.py`
+- `retry_log.csv` — per-game status/log from `retry_screenshots.py`
