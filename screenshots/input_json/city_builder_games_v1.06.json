@@ -1,0 +1,1047 @@
+[
+  {
+    "game": {
+      "slug": "anno-1404-dawn-of-discovery",
+      "name": "Anno 1404 (Dawn of Discovery)",
+      "developer": "Related Designs / Blue Byte",
+      "publisher": "Ubisoft",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2009,
+      "current_retail_price_usd": 14.99
+    },
+    "assets": {
+      "card_image_url": "img/anno-1404-dawn-of-discovery.jpg",
+      "card_image_alt": "Anno 1404 (Dawn of Discovery) key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Anno 1404 (Dawn of Discovery).",
+      "reviewer_notes": "Ethics, gameplay, and accessibility are full-score pillars; standards is the main dip because original offline/DRM uncertainty prevents a perfect result.",
+      "values_findings": "Premium launch pricing was on par, but the absence of MTX, loot boxes, passes, and ads keeps values very strong.",
+      "ethics_findings": "Support, announcement timing, pre-launch coverage, and launch feature integrity all align for a full ethics score.",
+      "gameplay_findings": "Long production chains, trade routes, island planning, and faction goals give gameplay full logistics credit.",
+      "accessibility_findings": "Difficulty options, PC controls, text-heavy interface support, and localization coverage satisfy the full accessibility branch.",
+      "standards_findings": "Reception, single-player Q18 exemption, mod/scenario support, and file size score well, but original DRM/offline uncertainty keeps standards below perfect."
+    },
+    "scores": {
+      "total": {
+        "score": 93,
+        "max": 100,
+        "tier": 5,
+        "percent": 93
+      },
+      "pillars": {
+        "values": {
+          "score": 23,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "banished",
+      "name": "Banished",
+      "developer": "Shining Rock Software",
+      "publisher": "Shining Rock Software",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2014,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/banished.jpg",
+      "card_image_alt": "Banished key art"
+    },
+    "content": {
+      "short_description": "Banished (2014) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "caesar-online",
+      "name": "Caesar Online",
+      "developer": "Sierra Entertainment",
+      "publisher": "Sierra Entertainment",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2001,
+      "current_retail_price_usd": 44.99
+    },
+    "assets": {
+      "card_image_url": "img/caesar-online.jpg",
+      "card_image_alt": "Caesar Online key art"
+    },
+    "content": {
+      "short_description": "An attempted multiplayer revival of Caesar that failed to gain traction before servers were permanently shut down.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "caesars-iii",
+      "name": "Caesars III",
+      "developer": "Impressions Games",
+      "publisher": "Virgin Interactive",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 1998,
+      "current_retail_price_usd": 54.99
+    },
+    "assets": {
+      "card_image_url": "img/caesars-iii.jpg",
+      "card_image_alt": "Caesars III key art"
+    },
+    "content": {
+      "short_description": "A masterpiece city-building experience set in ancient Rome with beautiful isometric graphics and compelling gameplay still unmatched today.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "city-builder-2",
+      "name": "City Builder 2",
+      "developer": "Blue Moon Interactive",
+      "publisher": "SCI Entertainment",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2001,
+      "current_retail_price_usd": 39.99
+    },
+    "assets": {
+      "card_image_url": "img/city-builder-2.jpg",
+      "card_image_alt": "City Builder 2 key art"
+    },
+    "content": {
+      "short_description": "City Builder 2 (2001) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "citylife-2008",
+      "name": "Citylife 2008",
+      "developer": "Lesta Games",
+      "publisher": "CDV Software",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2008,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/citylife-2008.jpg",
+      "card_image_alt": "Citylife 2008 key art"
+    },
+    "content": {
+      "short_description": "Citylife 2008 (2008) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "imagine-city-builder",
+      "name": "Imagine City Builder",
+      "developer": "Imagine Games",
+      "publisher": "Imagine Publishing/Activision",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2007,
+      "current_retail_price_usd": 19.99
+    },
+    "assets": {
+      "card_image_url": "img/imagine-city-builder.jpg",
+      "card_image_alt": "Imagine City Builder key art"
+    },
+    "content": {
+      "short_description": "Imagine City Builder (2007) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "simcity-4",
+      "name": "SimCity 4",
+      "developer": "Maxis",
+      "publisher": "Electronic Arts",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2003,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/simcity-4.jpg",
+      "card_image_alt": "SimCity 4 key art"
+    },
+    "content": {
+      "short_description": "One of the finest urban simulation games ever made, offering detailed systems and intricate city planning despite some pacing issues.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "timberborn",
+      "name": "Timberborn",
+      "developer": "Mechanistry",
+      "publisher": "Mechanistry",
+      "genre": "Colony Sim",
+      "platform": "PC",
+      "release_year": 2021,
+      "current_retail_price_usd": 34.99
+    },
+    "assets": {
+      "card_image_url": "img/timberborn.jpg",
+      "card_image_alt": "Timberborn key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Timberborn.",
+      "reviewer_notes": "Ethics, gameplay, accessibility, and standards all stand tall; values is the main weak pillar because paid Early Access creates a rubric penalty.",
+      "values_findings": "Clean monetization helps, but paid Early Access at $20 or more and merely on-par pricing pull values well below the otherwise excellent profile.",
+      "ethics_findings": "Announcement timing, demos, support cadence, feedback, and feature delivery combine for a full ethics score.",
+      "gameplay_findings": "Long settlements, factions, drought planning, vertical builds, and map variety give gameplay full credit.",
+      "accessibility_findings": "Settings, configurable controls, difficulty options, and localization support put accessibility at full score.",
+      "standards_findings": "Positive reception, offline play, single-player Q18 exemption, mod support, and reasonable install size produce a perfect standards dam."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 4,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 15,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 30,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "tropico-paradise-island",
+      "name": "Tropico: Paradise Island",
+      "developer": "PopTop Software",
+      "publisher": "Strategy First",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 1998,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/tropico-paradise-island.jpg",
+      "card_image_alt": "Tropico: Paradise Island key art"
+    },
+    "content": {
+      "short_description": "Tropico: Paradise Island (1998) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "tycoon-city-london",
+      "name": "Tycoon City: London",
+      "developer": "Blue Tongue Entertainment",
+      "publisher": "Deep Red Games",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2005,
+      "current_retail_price_usd": 39.99
+    },
+    "assets": {
+      "card_image_url": "img/tycoon-city-london.jpg",
+      "card_image_alt": "Tycoon City: London key art"
+    },
+    "content": {
+      "short_description": "Tycoon City: London (2005) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "virtual-city-empire",
+      "name": "Virtual City Empire",
+      "developer": "Upside",
+      "publisher": "Strategy First",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2008,
+      "current_retail_price_usd": 34.99
+    },
+    "assets": {
+      "card_image_url": "img/virtual-city-empire.jpg",
+      "card_image_alt": "Virtual City Empire key art"
+    },
+    "content": {
+      "short_description": "Virtual City Empire (2008) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "zeus-master-of-olympus",
+      "name": "Zeus: Master of Olympus",
+      "developer": "Impressions Games",
+      "publisher": "Sierra Studios",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2000,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/zeus-master-of-olympus.jpg",
+      "card_image_alt": "Zeus: Master of Olympus key art"
+    },
+    "content": {
+      "short_description": "Zeus: Master of Olympus ($2000) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "tropico",
+      "name": "Tropico",
+      "developer": "PopTop Software",
+      "publisher": "Gathering of Developers",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2001,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/tropico.jpg",
+      "card_image_alt": "Tropico key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Tropico.",
+      "reviewer_notes": "Gameplay and accessibility stand out at full score; ethics and standards are solid but lower because support and modding are less robust than the best performers.",
+      "values_findings": "Boxed pricing was merely on par, but the clean launch model avoids MTX, loot boxes, passes, and ads for a strong values pillar.",
+      "ethics_findings": "Marketing timing and feature delivery score well, while post-launch support lands in the middle support branch rather than the full one.",
+      "gameplay_findings": "Leaders, factions, elections, economics, and scenario paths give Tropico full gameplay variety and duration credit.",
+      "accessibility_findings": "Difficulty settings, PC controls, and international localization carry accessibility to full marks under the rubric.",
+      "standards_findings": "Reception, offline play, and the single-player Q18 exemption are strong, but limited official modding keeps standards below perfect."
+    },
+    "scores": {
+      "total": {
+        "score": 88,
+        "max": 100,
+        "tier": 4,
+        "percent": 88
+      },
+      "pillars": {
+        "values": {
+          "score": 23,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "against-the-storm",
+      "name": "Against the Storm",
+      "developer": "Eremite Games",
+      "publisher": "Hooded Horse",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2023,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/against-the-storm.jpg",
+      "card_image_alt": "Against the Storm key art"
+    },
+    "content": {
+      "short_description": "Against the Storm (2023) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "cities-skylines",
+      "name": "Cities: Skylines",
+      "developer": "Colossal Order",
+      "publisher": "Paradox Interactive",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2015,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/cities-skylines.jpg",
+      "card_image_alt": "Cities: Skylines key art"
+    },
+    "content": {
+      "short_description": "A masterfully designed city builder that dethroned SimCity with its mod-friendly architecture and balanced simulation depth.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "civilization-vi",
+      "name": "Civilization VI",
+      "developer": "Firaxis Games",
+      "publisher": "2K Games",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2016,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/civilization-vi.jpg",
+      "card_image_alt": "Civilization VI key art"
+    },
+    "content": {
+      "short_description": "Civilization VI ($2016) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "islanders",
+      "name": "Islanders",
+      "developer": "GrayAqua",
+      "publisher": "Devolver Digital",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2022,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/islanders.jpg",
+      "card_image_alt": "Islanders key art"
+    },
+    "content": {
+      "short_description": "Islanders (2022) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "northgard",
+      "name": "Northgard",
+      "developer": "Shiro Games",
+      "publisher": "Shiro Games",
+      "genre": "City Builder",
+      "platform": "PC",
+      "release_year": 2018,
+      "current_retail_price_usd": 19.99
+    },
+    "assets": {
+      "card_image_url": "img/northgard.jpg",
+      "card_image_alt": "Northgard key art"
+    },
+    "content": {
+      "short_description": "Northgard (2018) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  }
+]

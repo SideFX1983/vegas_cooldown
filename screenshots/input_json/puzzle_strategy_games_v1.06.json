@@ -1,0 +1,552 @@
+[
+  {
+    "game": {
+      "slug": "blockade-runner",
+      "name": "Blockade Runner",
+      "developer": "Pixeljam Games",
+      "publisher": "Pixeljam Games",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 2009,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/blockade-runner.jpg",
+      "card_image_alt": "Blockade Runner key art"
+    },
+    "content": {
+      "short_description": "Blockade Runner (2009) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "catacomb-kids",
+      "name": "Catacomb Kids",
+      "developer": "Omega Centauri",
+      "publisher": "SCI Entertainment",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 1990,
+      "current_retail_price_usd": 39.99
+    },
+    "assets": {
+      "card_image_url": "img/catacomb-kids.jpg",
+      "card_image_alt": "Catacomb Kids key art"
+    },
+    "content": {
+      "short_description": "A puzzle platformer overwhelmed by its own complexity that never found its audience before fading to obscurity.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "dune-strategist",
+      "name": "Dune Strategist",
+      "developer": "Cryo Interactive",
+      "publisher": "BMG Interactive",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 1992,
+      "current_retail_price_usd": 44.99
+    },
+    "assets": {
+      "card_image_url": "img/dune-strategist.jpg",
+      "card_image_alt": "Dune Strategist key art"
+    },
+    "content": {
+      "short_description": "Dune Strategist (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "gearz",
+      "name": "Gearz",
+      "developer": "Crystal Graphics",
+      "publisher": "Crystal Graphics",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 2001,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/gearz.jpg",
+      "card_image_alt": "Gearz key art"
+    },
+    "content": {
+      "short_description": "Gearz (2001) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "pipe-dreams-online",
+      "name": "Pipe Dreams Online",
+      "developer": "Civilization Studios",
+      "publisher": "Civilization Studios",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 1998,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/pipe-dreams-online.jpg",
+      "card_image_alt": "Pipe Dreams Online key art"
+    },
+    "content": {
+      "short_description": "Pipe Dreams Online (1998) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "puzzle-putts",
+      "name": "Puzzle Putts",
+      "developer": "Micro\u00efds",
+      "publisher": "Micro\u00efds",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 1995,
+      "current_retail_price_usd": 39.99
+    },
+    "assets": {
+      "card_image_url": "img/puzzle-putts.jpg",
+      "card_image_alt": "Puzzle Putts key art"
+    },
+    "content": {
+      "short_description": "Puzzle Putts (1995) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "specter",
+      "name": "Specter",
+      "developer": "Infocom/Lucasfilm",
+      "publisher": "Lucasfilm Games",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 1990,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/specter.jpg",
+      "card_image_alt": "Specter key art"
+    },
+    "content": {
+      "short_description": "Specter (1990) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "the-incredible-machine",
+      "name": "The Incredible Machine",
+      "developer": "Dynamix/Tunnell",
+      "publisher": "Sierra Entertainment",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 1992,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/the-incredible-machine.jpg",
+      "card_image_alt": "The Incredible Machine key art"
+    },
+    "content": {
+      "short_description": "The Incredible Machine (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "mini-metro",
+      "name": "Mini Metro",
+      "developer": "Dinosaur Polo Club",
+      "publisher": "Dinosaur Polo Club",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 2015,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/mini-metro.jpg",
+      "card_image_alt": "Mini Metro key art"
+    },
+    "content": {
+      "short_description": "Mini Metro (2015) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "mini-motorways",
+      "name": "Mini Motorways",
+      "developer": "Dinosaur Polo Club",
+      "publisher": "Dinosaur Polo Club",
+      "genre": "Turn-Based Strategy",
+      "platform": "PC",
+      "release_year": 2021,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/mini-motorways.jpg",
+      "card_image_alt": "Mini Motorways key art"
+    },
+    "content": {
+      "short_description": "Mini Motorways ($2021) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  }
+]

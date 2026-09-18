@@ -1,0 +1,497 @@
+[
+  {
+    "game": {
+      "slug": "aqua-racer",
+      "name": "Aqua Racer",
+      "developer": "Funtech Entertainment",
+      "publisher": "Funtech Entertainment",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 2000,
+      "current_retail_price_usd": 34.99
+    },
+    "assets": {
+      "card_image_url": "img/aqua-racer.jpg",
+      "card_image_alt": "Aqua Racer key art"
+    },
+    "content": {
+      "short_description": "Aqua Racer (2000) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "atari-2600-indy-500",
+      "name": "Atari 2600 Indy 500",
+      "developer": "Atari",
+      "publisher": "Atari",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 1977,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/atari-2600-indy-500.jpg",
+      "card_image_alt": "Atari 2600 Indy 500 key art"
+    },
+    "content": {
+      "short_description": "Atari 2600 Indy 500 (1977) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "big-rigs-over-road-racing",
+      "name": "Big Rigs: Over Road Racing",
+      "developer": "Stellar Stone",
+      "publisher": "GameMill Entertainment",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 2003,
+      "current_retail_price_usd": 19.99
+    },
+    "assets": {
+      "card_image_url": "img/big-rigs-over-road-racing.jpg",
+      "card_image_alt": "Big Rigs: Over Road Racing key art"
+    },
+    "content": {
+      "short_description": "Infamous for its complete lack of collision physics and broken mechanics, a textbook example of unfinished game release.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "derby-owners-club",
+      "name": "Derby Owners Club",
+      "developer": "Sega-AM2",
+      "publisher": "Sega",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 2005,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/derby-owners-club.jpg",
+      "card_image_alt": "Derby Owners Club key art"
+    },
+    "content": {
+      "short_description": "Derby Owners Club (2005) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "gear-up",
+      "name": "Gear Up",
+      "developer": "Westlake Interactive",
+      "publisher": "Westlake Interactive",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 2003,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/gear-up.jpg",
+      "card_image_alt": "Gear Up key art"
+    },
+    "content": {
+      "short_description": "An abandoned racing simulator with severe performance issues and features that were promised but never delivered.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "rennin-renees",
+      "name": "Rennin' Renees",
+      "developer": "Artech Digital Entertainments",
+      "publisher": "Artech Digital Entertainments",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 1995,
+      "current_retail_price_usd": 39.99
+    },
+    "assets": {
+      "card_image_url": "img/rennin-renees.jpg",
+      "card_image_alt": "Rennin' Renees key art"
+    },
+    "content": {
+      "short_description": "Rennin' Renees (1995) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "south-park-rally",
+      "name": "South Park Rally",
+      "developer": "Mattel Media",
+      "publisher": "Mattel Media",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 1999,
+      "current_retail_price_usd": 39.99
+    },
+    "assets": {
+      "card_image_url": "img/south-park-rally.jpg",
+      "card_image_alt": "South Park Rally key art"
+    },
+    "content": {
+      "short_description": "South Park Rally (1999) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "street-racer",
+      "name": "Street Racer",
+      "developer": "Terramarque",
+      "publisher": "BMG Interactive",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 1994,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/street-racer.jpg",
+      "card_image_alt": "Street Racer key art"
+    },
+    "content": {
+      "short_description": "A confusing console racing title with unresponsive controls and terrible track design across platforms.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "turbo-cup",
+      "name": "Turbo Cup",
+      "developer": "CRI/ARI",
+      "publisher": "Koei",
+      "genre": "Racing",
+      "platform": "PC",
+      "release_year": 1992,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/turbo-cup.jpg",
+      "card_image_alt": "Turbo Cup key art"
+    },
+    "content": {
+      "short_description": "Turbo Cup (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  }
+]

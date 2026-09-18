@@ -1,0 +1,1155 @@
+[
+  {
+    "game": {
+      "slug": "half-life",
+      "name": "Half-Life (PC)",
+      "developer": "Valve",
+      "publisher": "Sierra Studios",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 1998,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/half-life.jpg",
+      "card_image_alt": "Half-Life key art"
+    },
+    "content": {
+      "short_description": "A masterclass in atmospheric dread and an incredible storyline, that make you feel like a genuinely desperate survivor trapped in a hostile world.",
+      "reviewer_notes": "Total 98/100; top momentum in Values 25/25, with the biggest drag in Accessibility 10/10.",
+      "values_findings": "Values pulse: Launch standard edition retail price (USD): 5; Early access/demo pricing: 5; Microtransactions at launch: 5; Loot boxes/randomized paid rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support, updates, and DLCs: 10; Announcement lead time before US launch: 5; Pre-launch trailers, content updates, community feedback: 5; Advertised features present at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Average expected duration of main campaign: 5; Variety of outcomes/game endings: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features (subtitles, colorblind modes, difficulty adjustments): 2; Control input methods supported: 2; Localization and translation breadth: 6.",
+      "standards_findings": "Standards pulse: State of initial player reviews after first month of launch: 5; Game completely playable offline: 5; Launch-day cross-platform multiplayer support: 10; Modding support level: 5; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 98,
+        "max": 100,
+        "tier": 5,
+        "percent": 98
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 30,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "call-of-duty-4-modern-warfare",
+      "name": "Call of Duty 4: Modern Warfare",
+      "developer": "Infinity Ward",
+      "publisher": "Activision",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2007,
+      "current_retail_price_usd": 19.99
+    },
+    "assets": {
+      "card_image_url": "img/call-of-duty-4-modern-warfare.jpg",
+      "card_image_alt": "Call of Duty 4: Modern Warfare key art"
+    },
+    "content": {
+      "short_description": "Call of Duty 4: Modern Warfare - A masterful FPS that defined or redefined the genre with innovative mechanics and lasting influence.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "call-of-duty-modern-warfare-2",
+      "name": "Call of Duty: Modern Warfare 2",
+      "developer": "Infinity Ward",
+      "publisher": "Activision",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2009,
+      "current_retail_price_usd": 19.99
+    },
+    "assets": {
+      "card_image_url": "img/call-of-duty-modern-warfare-2.jpg",
+      "card_image_alt": "Call of Duty: Modern Warfare 2 key art"
+    },
+    "content": {
+      "short_description": "A blockbuster military shooter that refined fast-paced multiplayer with memorable characters and cinematic single-player despite some balance issues.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "daikatana",
+      "name": "Daikatana",
+      "developer": "Ion Storm",
+      "publisher": "Eidos Interactive",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2000,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/daikatana.jpg",
+      "card_image_alt": "Daikatana key art"
+    },
+    "content": {
+      "short_description": "A high-profile disaster from legendary designer John Romero, hamstrung by poor AI companions and dated level design.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "et-the-extra-terrestrial",
+      "name": "E.T. the Extra-Terrestrial",
+      "developer": "Atari",
+      "publisher": "Atari",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 1982,
+      "current_retail_price_usd": 24.99
+    },
+    "assets": {
+      "card_image_url": "img/et-the-extra-terrestrial.jpg",
+      "card_image_alt": "E.T. the Extra-Terrestrial key art"
+    },
+    "content": {
+      "short_description": "E.T. the Extra-Terrestrial - A poorly-received FPS with critical flaws.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "half-life-2",
+      "name": "Half-Life 2",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2004,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/half-life-2.jpg",
+      "card_image_alt": "Half-Life 2 key art"
+    },
+    "content": {
+      "short_description": "Half-Life 2 - A solid shooter that delivers engaging multiplayer and campaign experiences.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "half-life-2-episode-1",
+      "name": "Half-Life 2: Episode 1",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2006,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/half-life-2-episode-1.jpg",
+      "card_image_alt": "Half-Life 2: Episode 1 key art"
+    },
+    "content": {
+      "short_description": "Half-Life 2: Episode 1 - A masterful FPS that defined or redefined the genre with innovative mechanics and lasting influence.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "quake-iii-arena",
+      "name": "Quake III Arena",
+      "developer": "id Software",
+      "publisher": "Activision",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 1999,
+      "current_retail_price_usd": 9.99
+    },
+    "assets": {
+      "card_image_url": "img/quake-iii-arena.jpg",
+      "card_image_alt": "Quake III Arena key art"
+    },
+    "content": {
+      "short_description": "The definitive arena FPS with perfectly balanced weapons and lightning-fast competitive gameplay that defined esports-ready shooter mechanics.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "shadowrun-2007",
+      "name": "Shadowrun 2007",
+      "developer": "FASA Studio",
+      "publisher": "Microsoft",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2007,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/shadowrun-2007.jpg",
+      "card_image_alt": "Shadowrun 2007 key art"
+    },
+    "content": {
+      "short_description": "A confusing fusion of FPS and fantasy mechanics that failed to find its audience, with servers permanently shut down.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "superman-64",
+      "name": "Superman 64",
+      "developer": "Titus Interactive",
+      "publisher": "Titus Interactive",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 1999,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/superman-64.jpg",
+      "card_image_alt": "Superman 64 key art"
+    },
+    "content": {
+      "short_description": "Legendarily broken game with uncontrollable flight mechanics and punishing level design, preserved only as a historical curiosity.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "unreal-tournament-2004",
+      "name": "Unreal Tournament 2004",
+      "developer": "Epic Games / Digital Extremes",
+      "publisher": "Atari",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2004,
+      "current_retail_price_usd": 14.99
+    },
+    "assets": {
+      "card_image_url": "img/unreal-tournament-2004.jpg",
+      "card_image_alt": "Unreal Tournament 2004 key art"
+    },
+    "content": {
+      "short_description": "Unreal Tournament 2004 - A masterful FPS that defined or redefined the genre with innovative mechanics and lasting influence.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 19.99,
+      "developer": "2K Boston / 2K Australia",
+      "genre": "First-person shooter",
+      "name": "BioShock",
+      "platform": "PC",
+      "publisher": "2K",
+      "release_year": 2007
+    },
+    "assets": {
+      "card_image_url": "img/bioshock.jpeg",
+      "card_image_alt": "BioShock key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for BioShock.",
+      "reviewer_notes": "Total 87/100; top momentum in Values 25/25, with the biggest drag in Accessibility 4/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: 5; Pre-launch trailers/feedback adaptations: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 0; Input methods: 2; Localization and translation: 2.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 87,
+        "max": 100,
+        "tier": 4,
+        "percent": 87
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 25,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 8,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 4,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "aliens-colonial-marines",
+      "name": "Aliens: Colonial Marines",
+      "developer": "Gearbox Software",
+      "publisher": "Sega",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2013,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/aliens-colonial-marines.jpg",
+      "card_image_alt": "Aliens: Colonial Marines key art"
+    },
+    "content": {
+      "short_description": "A high-profile failure with misleading marketing, broken AI, and a complete disconnect between trailers and actual gameplay.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 5; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 20,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "bioshock-infinite",
+      "name": "BioShock Infinite",
+      "developer": "Irrational Games",
+      "publisher": "2K",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2013,
+      "current_retail_price_usd": 29.99
+    },
+    "assets": {
+      "card_image_url": "img/bioshock-infinite.jpg",
+      "card_image_alt": "BioShock Infinite key art"
+    },
+    "content": {
+      "short_description": "BioShock Infinite - A solid shooter that delivers engaging multiplayer and campaign experiences.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 5; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 20,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "blacklight-retribution",
+      "name": "Blacklight: Retribution",
+      "developer": "Zombie Studios",
+      "publisher": "Perfect World Entertainment",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2011,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/blacklight-retribution.jpg",
+      "card_image_alt": "Blacklight: Retribution key art"
+    },
+    "content": {
+      "short_description": "A free-to-play shooter with extreme pay-to-win systems that was completely delisted after server closure.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 5; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 20,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "brink",
+      "name": "Brink",
+      "developer": "Splash Damage",
+      "publisher": "Bethesda Softworks",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2011,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/brink.jpg",
+      "card_image_alt": "Brink key art"
+    },
+    "content": {
+      "short_description": "A parkour-FPS hybrid that couldn't balance its mechanics, resulting in an abandoned game with no meaningful playerbase.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 5; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 20,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "current_retail_price_usd": 9.99,
+      "developer": "id Software",
+      "genre": "First-person shooter",
+      "name": "Quake",
+      "platform": "PC",
+      "publisher": "GT Interactive",
+      "release_year": 1996
+    },
+    "assets": {
+      "card_image_url": "img/quake.jpeg",
+      "card_image_alt": "Quake key art"
+    },
+    "content": {
+      "short_description": "A benchmark-based single-game view for Quake.",
+      "reviewer_notes": "Total 83/100; top momentum in Values 25/25, with the biggest drag in Accessibility 7/10.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 10; Announcement lead time: -5; Pre-launch trailers/feedback adaptations: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 3; Outcome/ending variety: 3.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: -1; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 5; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 83,
+        "max": 100,
+        "tier": 2,
+        "percent": 83
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 6,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 7,
+          "max": 10
+        },
+        "standards": {
+          "score": 30,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "anthem",
+      "name": "Anthem",
+      "developer": "BioWare",
+      "publisher": "Electronic Arts",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2019,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/anthem.jpg",
+      "card_image_alt": "Anthem key art"
+    },
+    "content": {
+      "short_description": "BioWare's live-service disaster, riddled with bugs and abandoned by developers, leaving the game in a broken state.",
+      "reviewer_notes": "Total 80/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 5; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 80,
+        "max": 100,
+        "tier": 5,
+        "percent": 80
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 20,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "concord",
+      "name": "Concord",
+      "developer": "Firewalk Studios",
+      "publisher": "PlayStation Studios",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2024,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/concord.jpg",
+      "card_image_alt": "Concord key art"
+    },
+    "content": {
+      "short_description": "A historic failure - discontinued two weeks after launch with full refunds, making it completely unplayable.",
+      "reviewer_notes": "Total 80/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 5; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 80,
+        "max": 100,
+        "tier": 5,
+        "percent": 80
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 20,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "half-life-alyx",
+      "name": "Half-Life: Alyx",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2020,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/half-life-alyx.jpg",
+      "card_image_alt": "Half-Life: Alyx key art"
+    },
+    "content": {
+      "short_description": "Half-Life: Alyx - A solid shooter that delivers engaging multiplayer and campaign experiences.",
+      "reviewer_notes": "Total 80/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 5; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 80,
+        "max": 100,
+        "tier": 5,
+        "percent": 80
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 20,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "star-wars-battlefront-2015",
+      "name": "Star Wars Battlefront 2015",
+      "developer": "DICE",
+      "publisher": "Electronic Arts",
+      "genre": "First-person shooter",
+      "platform": "PC",
+      "release_year": 2015,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/star-wars-battlefront-2015.jpg",
+      "card_image_alt": "Star Wars Battlefront 2015 key art"
+    },
+    "content": {
+      "short_description": "An online-only multiplayer game that became unplayable after server shutdowns, leaving physical copies as non-functional media.",
+      "reviewer_notes": "Total 80/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 5; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 80,
+        "max": 100,
+        "tier": 5,
+        "percent": 80
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 20,
+          "max": 30
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,387 @@
+[
+  {
+    "game": {
+      "slug": "big-rigs-the-yellow-cab",
+      "name": "Big Rigs: The Yellow Cab",
+      "developer": "Stellar Stone",
+      "publisher": "GameMill Entertainment",
+      "genre": "RPG",
+      "platform": "PC",
+      "release_year": 2005,
+      "current_retail_price_usd": 24.99
+    },
+    "assets": {
+      "card_image_url": "img/big-rigs-the-yellow-cab.jpg",
+      "card_image_alt": "Big Rigs: The Yellow Cab key art"
+    },
+    "content": {
+      "short_description": "Big Rigs: The Yellow Cab (2005) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "chaos-wars",
+      "name": "Chaos Wars",
+      "developer": "Neverland Company",
+      "publisher": "KOEI",
+      "genre": "RPG",
+      "platform": "PC",
+      "release_year": 2006,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/chaos-wars.jpg",
+      "card_image_alt": "Chaos Wars key art"
+    },
+    "content": {
+      "short_description": "Chaos Wars (2006) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "dragonball-online",
+      "name": "Dragonball Online",
+      "developer": "Akatsuki/NCSoft",
+      "publisher": "NCSoft",
+      "genre": "RPG",
+      "platform": "PC",
+      "release_year": 2010,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/dragonball-online.jpg",
+      "card_image_alt": "Dragonball Online key art"
+    },
+    "content": {
+      "short_description": "Dragonball Online (2010) - A mixed reception game with interesting ideas but notable flaws that limit its appeal.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "ride-of-war",
+      "name": "Ride of War",
+      "developer": "Windy Lights Game",
+      "publisher": "Windy Lights Game",
+      "genre": "RPG",
+      "platform": "PC",
+      "release_year": 2013,
+      "current_retail_price_usd": 14.99
+    },
+    "assets": {
+      "card_image_url": "img/ride-of-war.jpg",
+      "card_image_alt": "Ride of War key art"
+    },
+    "content": {
+      "short_description": "Ride of War (2013) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "too-human",
+      "name": "Too Human",
+      "developer": "Silicon Knights",
+      "publisher": "Microsoft Game Studios",
+      "genre": "RPG",
+      "platform": "PC",
+      "release_year": 2008,
+      "current_retail_price_usd": 59.99
+    },
+    "assets": {
+      "card_image_url": "img/too-human.jpg",
+      "card_image_alt": "Too Human key art"
+    },
+    "content": {
+      "short_description": "Too Human (2008) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "ultima-ix-ascension",
+      "name": "Ultima IX: Ascension",
+      "developer": "Origin Systems",
+      "publisher": "Electronic Arts",
+      "genre": "RPG",
+      "platform": "PC",
+      "release_year": 1999,
+      "current_retail_price_usd": 49.99
+    },
+    "assets": {
+      "card_image_url": "img/ultima-ix-ascension.jpg",
+      "card_image_alt": "Ultima IX: Ascension key art"
+    },
+    "content": {
+      "short_description": "Ultima IX: Ascension (1999) - A mixed reception game with interesting ideas but notable flaws that limit its appeal.",
+      "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 5; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 90,
+        "max": 100,
+        "tier": 5,
+        "percent": 90
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 20,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  },
+  {
+    "game": {
+      "slug": "fable-legends",
+      "name": "Fable Legends",
+      "developer": "Lionhead Studios",
+      "publisher": "Microsoft Game Studios",
+      "genre": "RPG",
+      "platform": "PC",
+      "release_year": 2015,
+      "current_retail_price_usd": 0.0
+    },
+    "assets": {
+      "card_image_url": "img/fable-legends.jpg",
+      "card_image_alt": "Fable Legends key art"
+    },
+    "content": {
+      "short_description": "Fable Legends (2015) - A poorly-received title with fundamental design issues that prevented critical success.",
+      "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
+      "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
+      "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
+      "gameplay_findings": "Gameplay pulse: Main campaign/core duration: 5; Outcome/ending variety: 5.",
+      "accessibility_findings": "Accessibility pulse: Accessibility features: 2; Input methods: 2; Localization and translation: 6.",
+      "standards_findings": "Standards pulse: First-month player review state: 5; Offline playability: 5; Crossplay at launch: 10; Modding support: 0; File size optimization: 5."
+    },
+    "scores": {
+      "total": {
+        "score": 85,
+        "max": 100,
+        "tier": 5,
+        "percent": 85
+      },
+      "pillars": {
+        "values": {
+          "score": 25,
+          "max": 25
+        },
+        "ethics": {
+          "score": 15,
+          "max": 25
+        },
+        "gameplay": {
+          "score": 10,
+          "max": 10
+        },
+        "accessibility": {
+          "score": 10,
+          "max": 10
+        },
+        "standards": {
+          "score": 25,
+          "max": 30
+        }
+      }
+    }
+  }
+]
