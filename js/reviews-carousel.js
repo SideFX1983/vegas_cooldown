@@ -471,6 +471,11 @@ function createGameCard(cardData) {
         scoreElement.style.color = getTierColor(matchedScoreTier);
     }
 
+    /* Add premium gold frame class for scores 95 or above */
+    if (computedTotalScore >= 95 && cardElement) {
+        cardElement.classList.add('score-premium');
+    }
+
     const scoreFillElement = cardClone.querySelector('.score-meter-fill');
     const scorePercent = Math.max(0, Math.min(100, computedTotalScore));
     scoreFillElement.style.width = `${scorePercent}%`;
