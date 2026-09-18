@@ -690,43 +690,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function applyGlobalThemeTier() {
-        const scoreElement = document.querySelector('.game-score');
-        const scoreFillElement = document.querySelector('.score-meter-fill');
-
-        const defaultTierFromClass = (() => {
-            if (!scoreElement) return 4;
-            const tierClass = Array.from(scoreElement.classList).find(cls => /^tier-[1-5]$/.test(cls));
-            if (!tierClass) return 4;
-            return Number.parseInt(tierClass.replace('tier-', ''), 10);
-        })();
-
-        const tier = parseTier(params.get('tier')) || defaultTierFromClass;
-        const tierColor = getTierColor(tier);
-
-        if (scoreElement) {
-            scoreElement.classList.remove('tier-1', 'tier-2', 'tier-3', 'tier-4', 'tier-5');
-            scoreElement.classList.add(`tier-${tier}`);
-            scoreElement.style.color = tierColor;
-        }
-
-        if (scoreFillElement) {
-            scoreFillElement.style.backgroundColor = tierColor;
-        }
-
-        const descriptionBlock = document.querySelector('.game-description-block');
-        if (descriptionBlock) {
-            descriptionBlock.style.backgroundColor = tierColor;
-        }
-
-        document.querySelectorAll('.about-grid .letter').forEach(letter => {
-            if (letter.style.color) return;
-            const letterColor = 'var(--game-name-color, #00eaff)';
-            letter.style.color = letterColor;
-            letter.style.textShadow = `0 0 10px ${letterColor}`;
-        });
-    }
-
     async function initializeData() {
         const hasUrlData = params.has('title') || params.has('page') || params.has('valuesFinding');
 
