@@ -488,29 +488,29 @@
     /* Create subtle sparkle points using box-shadow */
     box-shadow:
         /* Top-left sparkle */
-        -3px -3px 0 0 rgba(255, 255, 150, 0.9),
-        -3px -3px 0 1px rgba(255, 215, 0, 0.7),
+        -3px -3px 0 0 rgba(255, 255, 150, 0.45),
+        -3px -3px 0 1px rgba(255, 215, 0, 0.35),
         /* Top center sparkle */
-        50% -4px 0 -2px rgba(255, 255, 200, 0.95),
-        50% -4px 0 -1px rgba(255, 215, 0, 0.8),
+        50% -4px 0 -2px rgba(255, 255, 200, 0.475),
+        50% -4px 0 -1px rgba(255, 215, 0, 0.4),
         /* Top-right sparkle */
-        calc(100% + 3px) -3px 0 0 rgba(255, 255, 150, 0.9),
-        calc(100% + 3px) -3px 0 1px rgba(255, 215, 0, 0.7),
+        calc(100% + 3px) -3px 0 0 rgba(255, 255, 150, 0.45),
+        calc(100% + 3px) -3px 0 1px rgba(255, 215, 0, 0.35),
         /* Right side sparkle */
-        calc(100% + 4px) 50% 0 -2px rgba(255, 255, 180, 0.85),
-        calc(100% + 4px) 50% 0 -1px rgba(255, 215, 0, 0.75),
+        calc(100% + 4px) 50% 0 -2px rgba(255, 255, 180, 0.425),
+        calc(100% + 4px) 50% 0 -1px rgba(255, 215, 0, 0.375),
         /* Bottom-right sparkle */
-        calc(100% + 3px) calc(100% + 3px) 0 0 rgba(255, 255, 150, 0.9),
-        calc(100% + 3px) calc(100% + 3px) 0 1px rgba(255, 215, 0, 0.7),
+        calc(100% + 3px) calc(100% + 3px) 0 0 rgba(255, 255, 150, 0.45),
+        calc(100% + 3px) calc(100% + 3px) 0 1px rgba(255, 215, 0, 0.35),
         /* Bottom center sparkle */
-        50% calc(100% + 4px) 0 -2px rgba(255, 255, 200, 0.95),
-        50% calc(100% + 4px) 0 -1px rgba(255, 215, 0, 0.8),
+        50% calc(100% + 4px) 0 -2px rgba(255, 255, 200, 0.475),
+        50% calc(100% + 4px) 0 -1px rgba(255, 215, 0, 0.4),
         /* Bottom-left sparkle */
-        -3px calc(100% + 3px) 0 0 rgba(255, 255, 150, 0.9),
-        -3px calc(100% + 3px) 0 1px rgba(255, 215, 0, 0.7),
+        -3px calc(100% + 3px) 0 0 rgba(255, 255, 150, 0.45),
+        -3px calc(100% + 3px) 0 1px rgba(255, 215, 0, 0.35),
         /* Left side sparkle */
-        -4px 50% 0 -2px rgba(255, 255, 180, 0.85),
-        -4px 50% 0 -1px rgba(255, 215, 0, 0.75);
+        -4px 50% 0 -2px rgba(255, 255, 180, 0.425),
+        -4px 50% 0 -1px rgba(255, 215, 0, 0.375);
 }
 
 
