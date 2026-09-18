@@ -533,6 +533,20 @@ function createGameCard(cardData) {
     const notesElement = cardClone.querySelector('.card-notes');
     notesElement.textContent = cardData.notes;
 
+    /* Load Lottie sparkles animation for premium cards */
+    if (cardElement && cardElement.classList.contains('score-premium') && typeof lottie !== 'undefined') {
+        const lottieContainer = cardClone.querySelector('.lottie-sparkles');
+        if (lottieContainer) {
+            lottie.loadAnimation({
+                container: lottieContainer,
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                path: 'lottie/sparkles.json?v=json-all-files-20260918-premium'
+            });
+        }
+    }
+
     return cardClone;
 }
 
