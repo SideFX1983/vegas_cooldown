@@ -16,7 +16,7 @@
     --card-border-width: 5px;
     --card-border-color: #005c9ca6;
     --card-border: var(--card-border-width) solid var(--card-border-color);
-    --card-border-radius: 3px;
+    --card-border-radius: 5px;
     --card-transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1), 
                        box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -36,7 +36,7 @@
 
     /* Thumbnail */
     --thumbnail-filler-bg: rgba(12, 22, 38, 0.75);
-    --thumbnail-border-radius: 3px;
+    --thumbnail-border-radius: 5px;
     --thumbnail-border: 1px solid rgba(80, 190, 255, 0.5);
     --thumbnail-clip-shape: polygon(0 0, 100% 0, 100% 90%, 70% 90%, 62% 100%, 0 100%);
 
@@ -50,7 +50,7 @@
     
     /* Stronger neon outlines */
     --neon-outline: 1.5px solid rgba(0, 245, 255, 0.85);
-    --neon-outline-radius: 3px;
+    --neon-outline-radius: 5px;
     --neon-outline-glow: 
         0 0 12px rgba(0, 245, 255, 0.35),
         0 0 25px rgba(0, 200, 255, 0.15);
@@ -307,7 +307,7 @@
 .game-card-collapsed .score-meter {
     height: 10px;
     margin-top: 8px;
-    border-radius: 3px;
+    border-radius: 5px;
     border: 1px solid rgba(120, 220, 255, 0.6);
     background: rgba(5, 15, 30, 0.8);
     overflow: hidden;
@@ -317,7 +317,7 @@
     display: block;
     height: 100%;
     width: 0;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .game-card-collapsed .card-description,
@@ -464,6 +464,7 @@
     --card-border-color: #FFD700;
     border-color: #FFD700;
     position: relative;
+    z-index: 1;
 }
 /* Golden score color for premium cards */
 .game-card-collapsed.score-premium .game-score {
@@ -512,17 +513,7 @@
         -4px 50% 0 -1px rgba(255, 215, 0, 0.75);
 }
 
-.game-card-collapsed.score-premium .lottie-sparkles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: var(--card-border-radius);
-    pointer-events: none;
-    z-index: 3;
-    overflow: hidden;
-}
+
 
 .game-card-collapsed.score-premium[role='link']:hover,
 .game-card-collapsed.score-premium[role='link']:focus-visible {

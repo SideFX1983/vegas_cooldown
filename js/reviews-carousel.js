@@ -533,50 +533,7 @@ function createGameCard(cardData) {
     const notesElement = cardClone.querySelector('.card-notes');
     notesElement.textContent = cardData.notes;
 
-    /* Load Lottie sparkles animation for premium cards */
-    if (cardElement && cardElement.classList.contains('score-premium') && typeof lottie !== 'undefined') {
-        const lottieContainer = cardClone.querySelector('.lottie-sparkles');
-        if (lottieContainer) {
-            // Minimal sparkle animation data - uses Lottie's built-in features
-            const sparkleAnimData = {
-                "v": "5.7.0",
-                "fr": 60,
-                "ip": 0,
-                "op": 180,
-                "w": 300,
-                "h": 300,
-                "nm": "Sparkles",
-                "ddd": 0,
-                "assets": [],
-                "layers": [{
-                    "ddd": 0,
-                    "ind": 1,
-                    "ty": 4,
-                    "nm": "Sparkles",
-                    "sr": 1,
-                    "ks": {"o": {"a": [{"t": 0, "s": [30], "e": [100]}, {"t": 90, "s": [100], "e": [30]}, {"t": 180, "s": [30]}], "ix": 11}, "r": {"a": 0, "k": 0, "ix": 10}, "p": {"a": 0, "k": [150, 150, 0], "ix": 2}, "a": {"a": 0, "k": [0, 0, 0], "ix": 1}, "s": {"a": 0, "k": [100, 100, 100], "ix": 6}},
-                    "ao": 0,
-                    "shapes": [{"ty": "gr", "it": [{"d": 1, "ty": "el", "s": {"a": 0, "k": [12, 12], "ix": 2}, "p": {"a": 0, "k": [0, 0], "ix": 3}, "nm": "Sparkle", "mn": "ADBE Vector Shape - Ellipse", "hd": false}, {"ty": "fl", "c": {"a": 0, "k": [1, 1, 0, 1], "ix": 4}, "o": {"a": 0, "k": [100], "ix": 5}, "r": 1, "bm": 0, "nm": "Fill", "mn": "ADBE Vector Graphic - Fill", "hd": false}], "nm": "Sparkle Group", "np": 2, "cix": 2, "bm": 0, "ix": 1, "mn": "ADBE Vector Group", "hd": false}],
-                    "ip": 0,
-                    "op": 180,
-                    "st": 0,
-                    "bm": 0
-                }]
-            };
-            
-            try {
-                lottie.loadAnimation({
-                    container: lottieContainer,
-                    renderer: 'svg',
-                    loop: true,
-                    autoplay: true,
-                    animationData: sparkleAnimData
-                });
-            } catch (e) {
-                console.warn('Lottie animation failed to load:', e);
-            }
-        }
-    }
+
 
     return cardClone;
 }
