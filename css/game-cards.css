@@ -341,7 +341,7 @@
 
 .game-card-collapsed .game-description-panel {
     box-sizing: border-box;
-    max-height: 100px;
+    max-height: 70px;
     overflow: hidden;
     padding-top: 0;
     box-shadow: var(--neon-outline-glow);
