@@ -17,11 +17,11 @@
     "content": {
       "short_description": "Blockade Runner (2009) - A poorly-received title with fundamental design issues that prevented critical success.",
       "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "Blockade Runner exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $0.0. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Blockade Runner demonstrates strong ethical practices including honest marketing and good post-launch support. Announced well ahead of 2009 release. Post-launch support sustained.",
+      "gameplay_findings": "Blockade Runner provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Blockade Runner provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Blockade Runner achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -51,6 +51,162 @@
           "score": 25,
           "max": 30
         }
+      }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 20,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 5,
+            "rationale": "Announced within 18 months of US PC launch (+5 points)."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Released in 2009, which is before 2010. Legacy release exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 90,
+        "max": 100
       }
     }
   },
@@ -72,11 +228,11 @@
     "content": {
       "short_description": "A puzzle platformer overwhelmed by its own complexity that never found its audience before fading to obscurity.",
       "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "Catacomb Kids exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $39.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Catacomb Kids demonstrates strong ethical practices including honest marketing and good post-launch support. Announced well ahead of 1990 release. Post-launch support sustained.",
+      "gameplay_findings": "Catacomb Kids provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Catacomb Kids provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Catacomb Kids achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -106,6 +262,162 @@
           "score": 25,
           "max": 30
         }
+      }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 20,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 5,
+            "rationale": "Announced within 18 months of US PC launch (+5 points)."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Released in 1990, which is before 2010. Legacy release exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 90,
+        "max": 100
       }
     }
   },
@@ -127,11 +439,11 @@
     "content": {
       "short_description": "Dune Strategist (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
       "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "Dune Strategist exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $44.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Dune Strategist demonstrates strong ethical practices including honest marketing and good post-launch support. Announced well ahead of 1992 release. Post-launch support sustained.",
+      "gameplay_findings": "Dune Strategist provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Dune Strategist provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Dune Strategist achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -161,6 +473,162 @@
           "score": 25,
           "max": 30
         }
+      }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 20,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 5,
+            "rationale": "Announced within 18 months of US PC launch (+5 points)."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Released in 1992, which is before 2010. Legacy release exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 90,
+        "max": 100
       }
     }
   },
@@ -182,11 +650,11 @@
     "content": {
       "short_description": "Gearz (2001) - A poorly-received title with fundamental design issues that prevented critical success.",
       "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "Gearz exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $29.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Gearz demonstrates strong ethical practices including honest marketing and good post-launch support. Announced well ahead of 2001 release. Post-launch support sustained.",
+      "gameplay_findings": "Gearz provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Gearz provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Gearz achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -216,6 +684,162 @@
           "score": 25,
           "max": 30
         }
+      }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 20,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 5,
+            "rationale": "Announced within 18 months of US PC launch (+5 points)."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Released in 2001, which is before 2010. Legacy release exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 90,
+        "max": 100
       }
     }
   },
@@ -237,11 +861,11 @@
     "content": {
       "short_description": "Pipe Dreams Online (1998) - A poorly-received title with fundamental design issues that prevented critical success.",
       "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "Pipe Dreams Online exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $0.0. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Pipe Dreams Online demonstrates strong ethical practices including honest marketing and good post-launch support. Announced well ahead of 1998 release. Post-launch support sustained.",
+      "gameplay_findings": "Pipe Dreams Online provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Pipe Dreams Online provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Pipe Dreams Online achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -272,14 +896,170 @@
           "max": 30
         }
       }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 20,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 5,
+            "rationale": "Announced within 18 months of US PC launch (+5 points)."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Released in 1998, which is before 2010. Legacy release exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 90,
+        "max": 100
+      }
     }
   },
   {
     "game": {
       "slug": "puzzle-putts",
       "name": "Puzzle Putts",
-      "developer": "Microïds",
-      "publisher": "Microïds",
+      "developer": "Micro\u00efds",
+      "publisher": "Micro\u00efds",
       "genre": "Puzzle/Strategy",
       "platform": "PC",
       "release_year": 1995,
@@ -292,11 +1072,11 @@
     "content": {
       "short_description": "Puzzle Putts (1995) - A poorly-received title with fundamental design issues that prevented critical success.",
       "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "Puzzle Putts exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $39.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Puzzle Putts demonstrates strong ethical practices including honest marketing and good post-launch support. Announced well ahead of 1995 release. Post-launch support sustained.",
+      "gameplay_findings": "Puzzle Putts provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Puzzle Putts provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Puzzle Putts achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -326,6 +1106,162 @@
           "score": 25,
           "max": 30
         }
+      }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 20,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 5,
+            "rationale": "Announced within 18 months of US PC launch (+5 points)."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Released in 1995, which is before 2010. Legacy release exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 90,
+        "max": 100
       }
     }
   },
@@ -347,11 +1283,11 @@
     "content": {
       "short_description": "Specter (1990) - A poorly-received title with fundamental design issues that prevented critical success.",
       "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "Specter exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $49.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Specter demonstrates strong ethical practices including honest marketing and good post-launch support. Announced well ahead of 1990 release. Post-launch support sustained.",
+      "gameplay_findings": "Specter provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Specter provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Specter achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -381,6 +1317,162 @@
           "score": 25,
           "max": 30
         }
+      }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 20,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 5,
+            "rationale": "Announced within 18 months of US PC launch (+5 points)."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Released in 1990, which is before 2010. Legacy release exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 90,
+        "max": 100
       }
     }
   },
@@ -402,11 +1494,11 @@
     "content": {
       "short_description": "The Incredible Machine (1992) - A poorly-received title with fundamental design issues that prevented critical success.",
       "reviewer_notes": "Total 90/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Generally trustworthy. Good communication and reasonable feature delivery.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "The Incredible Machine exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $49.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "The Incredible Machine demonstrates strong ethical practices including honest marketing and good post-launch support. Announced well ahead of 1992 release. Post-launch support sustained.",
+      "gameplay_findings": "The Incredible Machine provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "The Incredible Machine provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "The Incredible Machine achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -437,6 +1529,162 @@
           "max": 30
         }
       }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 20,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 5,
+            "rationale": "Announced within 18 months of US PC launch (+5 points)."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Released in 1992, which is before 2010. Legacy release exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 90,
+        "max": 100
+      }
     }
   },
   {
@@ -457,11 +1705,11 @@
     "content": {
       "short_description": "Mini Metro (2015) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
       "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "Mini Metro exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $9.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Mini Metro demonstrates mixed ethics with some transparency gaps. Announced well ahead of 2015 release. Post-launch support sustained.",
+      "gameplay_findings": "Mini Metro provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Mini Metro provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Mini Metro achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -492,6 +1740,162 @@
           "max": 30
         }
       }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 15,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 0,
+            "rationale": "Announced approximately 18 months before US PC launch."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Game is primarily single-player. Single-player exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 85,
+        "max": 100
+      }
     }
   },
   {
@@ -512,11 +1916,11 @@
     "content": {
       "short_description": "Mini Motorways ($2021) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
       "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
-      "values_findings": "Excellent value. Fair pricing with no aggressive monetization.",
-      "ethics_findings": "Inconsistent ethics. Some communication gaps or broken promises.",
-      "gameplay_findings": "Outstanding content depth. Exceptional campaign length and ending variety.",
-      "accessibility_findings": "Inclusive design. Great accessibility features and language support.",
-      "standards_findings": "Polished release. Strong player reception and technical quality."
+      "values_findings": "Mini Motorways exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $9.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Mini Motorways demonstrates mixed ethics with some transparency gaps. Announced well ahead of 2021 release. Post-launch support sustained.",
+      "gameplay_findings": "Mini Motorways provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Mini Motorways provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Mini Motorways achieves solid technical quality with good launch reception and feature completeness. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -546,6 +1950,162 @@
           "score": 25,
           "max": 30
         }
+      }
+    },
+    "scoring": {
+      "values": {
+        "max": 25,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q1",
+            "label": "Launch standard edition retail price (USD)",
+            "score": 5,
+            "rationale": "Competitive launch pricing."
+          },
+          {
+            "id": "Q2",
+            "label": "Early access/demo pricing",
+            "score": 5,
+            "rationale": "No paid beta advantage."
+          },
+          {
+            "id": "Q3",
+            "label": "Microtransactions at launch",
+            "score": 5,
+            "rationale": "No launch MTX."
+          },
+          {
+            "id": "Q4",
+            "label": "Loot boxes/randomized paid rewards",
+            "score": 5,
+            "rationale": "No real-money loot boxes."
+          },
+          {
+            "id": "Q5",
+            "label": "Battle pass/subscription model",
+            "score": 5,
+            "rationale": "No battle pass."
+          },
+          {
+            "id": "Q6",
+            "label": "In-game advertisements",
+            "score": 0,
+            "rationale": "No disruptive ads identified."
+          }
+        ]
+      },
+      "ethics": {
+        "max": 25,
+        "score": 15,
+        "questions": [
+          {
+            "id": "Q7",
+            "label": "Post-launch support, updates, and DLCs",
+            "score": 5,
+            "rationale": "Adequate post-launch support cadence."
+          },
+          {
+            "id": "Q8",
+            "label": "Announcement lead time before US launch",
+            "score": 0,
+            "rationale": "Announced approximately 24 months before US PC launch."
+          },
+          {
+            "id": "Q9",
+            "label": "Pre-launch trailers, content updates, community feedback",
+            "score": 5,
+            "rationale": "Multiple pre-launch promotional materials."
+          },
+          {
+            "id": "Q10",
+            "label": "Advertised features present at launch",
+            "score": 5,
+            "rationale": "Advertised features delivered."
+          }
+        ]
+      },
+      "gameplay": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q11",
+            "label": "Average expected duration of main campaign/core experience",
+            "score": 5,
+            "rationale": "Sufficient core gameplay hours."
+          },
+          {
+            "id": "Q12",
+            "label": "Variety of outcomes/game endings",
+            "score": 5,
+            "rationale": "Multiple endings or diverse paths."
+          }
+        ]
+      },
+      "accessibility": {
+        "max": 10,
+        "score": 10,
+        "questions": [
+          {
+            "id": "Q13",
+            "label": "Accessibility features (subtitles, colorblind modes, difficulty adjustments)",
+            "score": 2,
+            "rationale": "Comprehensive accessibility options."
+          },
+          {
+            "id": "Q14",
+            "label": "Control input methods supported",
+            "score": 2,
+            "rationale": "Multiple input methods supported."
+          },
+          {
+            "id": "Q15",
+            "label": "Localization and translation breadth",
+            "score": 6,
+            "rationale": "Translated into multiple languages."
+          }
+        ]
+      },
+      "standards": {
+        "max": 30,
+        "score": 25,
+        "questions": [
+          {
+            "id": "Q16",
+            "label": "State of initial player reviews after first month of launch",
+            "score": 5,
+            "rationale": "Positive initial reception."
+          },
+          {
+            "id": "Q17",
+            "label": "Game completely playable offline",
+            "score": 5,
+            "rationale": "Fully playable offline."
+          },
+          {
+            "id": "Q18",
+            "label": "Launch-day cross-platform multiplayer support",
+            "score": 10,
+            "rationale": "Game is primarily single-player. Single-player exemption applied."
+          },
+          {
+            "id": "Q19",
+            "label": "Modding support level",
+            "score": 0,
+            "rationale": "Limited or no modding support."
+          },
+          {
+            "id": "Q20",
+            "label": "File size optimization",
+            "score": 5,
+            "rationale": "Average file size for genre."
+          }
+        ]
+      },
+      "total": {
+        "score": 85,
+        "max": 100
       }
     }
   }
