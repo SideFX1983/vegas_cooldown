@@ -4,14 +4,16 @@ const TIER_CLASS_LIST = ['tier-1', 'tier-2', 'tier-3', 'tier-4', 'tier-5'];
 
 function getTierColor(tier) {
     const colorMap = {
-        5: '#3A86FF', /* Tier 5: Azure Blue */
-        4: '#8338EC', /* Tier 4: Blue Violet */
-        3: '#FF006E', /* Tier 3: Neon Pink */
-        2: '#FB5607', /* Tier 2: Blaze Orange */
-        1: '#FFBE0B'  /* Tier 1: Amber Gold */
+        5: '--score-gold',
+        4: '--score-orange',
+        3: '--score-purple',
+        2: '--score-blue',
+        1: '--score-brown'
     };
 
-    return colorMap[tier] || 'inherit';
+    return colorMap[tier]
+        ? getComputedStyle(document.documentElement).getPropertyValue(colorMap[tier]).trim()
+        : 'inherit';
 }
 
 function getTierFromStatValue(statIndex, statValue) {
@@ -50,11 +52,36 @@ function getTierFromStatValue(statIndex, statValue) {
 function getTierFromTotalScore(totalScore) {
     if (!Number.isFinite(totalScore)) return null;
 
-    if (totalScore >= 91) return 5;
-    if (totalScore >= 81 && totalScore <= 90) return 4;
-    if (totalScore >= 71 && totalScore <= 80) return 3;
-    if (totalScore >= 61 && totalScore <= 70) return 2;
-    if (totalScore <= 60) return 1;
+    if (totalScore >= 95) return 5;
+    if (totalScore >= 85) return 4;
+    if (totalScore >= 75) return 3;
+    if (totalScore >= 41) return 2;
+    if (totalScore < 41) return 1;
 
     return null;
+}
+
+function getTierFromPercent(percent) {
+    if (!Number.isFinite(percent)) return 1;
+    if (percent >= 100) return 5;
+    if (percent >= 80) return 4;
+    if (percent >= 60) return 3;
+    if (percent >= 40) return 2;
+    return 1;
+}
+
+function getTierFromCriterionScore(score, branches) {
+    const scores = Object.keys(branches || {})
+        .map(Number)
+        .filter(Number.isFinite)
+        .sort((firstScore, secondScore) => firstScore - secondScore);
+    const uniqueScores = scores.filter((value, index) => index === 0 || value !== scores[index - 1]);
+    const scoreIndex = uniqueScores.indexOf(Number(score));
+
+    if (scoreIndex < 0 || uniqueScores.length === 0) return 1;
+    if (uniqueScores.length === 1 || scoreIndex === uniqueScores.length - 1) return 5;
+    if (scoreIndex === 0) return Number(score) > 0 ? 4 : 1;
+
+    const rankFromHighest = uniqueScores.length - 1 - scoreIndex;
+    return Math.max(2, 5 - rankFromHighest);
 }

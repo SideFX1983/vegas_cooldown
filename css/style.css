@@ -9,12 +9,18 @@
     --text-main: #e0faff;
     --nav-height: 50px;
 
-    /* Color Gradient: Highest (Azure Blue) to Lowest (Amber Gold) */
-    --color-azure-blue: #3A86FF;
-    --color-blue-violet: #8338EC;
-    --color-neon-pink: #FF006E;
-    --color-blaze-orange: #FB5607;
-    --color-amber-gold: #FFBE0B;
+    /* Central score palette: highest to lowest */
+    --score-gold: #FFBE0B;
+    --score-orange: #FB5607;
+    --score-purple: #8338EC;
+    --score-blue: #3A86FF;
+    --score-brown: #4A2E21;
+
+    --color-azure-blue: var(--score-blue);
+    --color-blue-violet: var(--score-purple);
+    --color-neon-pink: var(--score-brown);
+    --color-blaze-orange: var(--score-orange);
+    --color-amber-gold: var(--score-gold);
 }
 
 * { box-sizing: border-box; }
@@ -53,6 +59,7 @@ body::before {
 
 main {
     flex: 0 0 auto;
+    min-height: 1400px;
 }
 
 .navbar {
@@ -129,8 +136,8 @@ main {
 
 /* --- Colors & Labels --- */
 .letter { color: var(--neon-blue); text-shadow: 0 0 10px var(--neon-blue); }
-.bonus { color: var(--neon-blue); font-weight: bold; }
-.penalty { color: var(--neon-red); font-weight: bold; text-shadow: 0 0 8px rgba(255, 49, 49, 0.4); }
+.bonus { color: var(--score-gold); font-weight: bold; }
+.penalty { color: var(--score-brown); font-weight: bold; text-shadow: 0 0 8px color-mix(in srgb, var(--score-brown) 40%, transparent); }
 
 
 
@@ -269,81 +276,103 @@ main {
 }
 
 /* --- Point Value Color Gradient --- */
-/* Highest positive values → Azure Blue, 0 → Neon Pink, Lowest negative → Amber Gold */
+/* Highest values are gold; lower positive, neutral, and negative values descend through the shared palette. */
 
-/* Positive values: Highest (Azure Blue) to mid (Blue Violet) */
+/* Positive values: highest to lowest */
 .points-10, .points-p10 { 
-    color: var(--color-azure-blue); 
+    color: var(--score-gold);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(58, 134, 255, 0.4);
 }
 .points-6, .points-p6 { 
-    color: var(--color-azure-blue); 
+    color: var(--score-gold);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(58, 134, 255, 0.4);
 }
 .points-5, .points-p5 { 
-    color: var(--color-azure-blue); 
+    color: var(--score-gold);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(58, 134, 255, 0.4);
 }
 .points-3, .points-p3 { 
-    color: var(--color-blue-violet); 
+    color: var(--score-orange);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(131, 56, 236, 0.4);
 }
 .points-2, .points-p2 { 
-    color: var(--color-blue-violet); 
+    color: var(--score-purple);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(131, 56, 236, 0.4);
 }
 .points-1, .points-p1 { 
-    color: var(--color-blue-violet); 
+    color: var(--score-blue);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(131, 56, 236, 0.4);
 }
 
-/* Zero values: Neon Pink only */
+/* Zero values: low neutral */
 .points-0 { 
-    color: var(--color-neon-pink); 
+    color: var(--score-blue);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(255, 0, 110, 0.4);
 }
 
-/* Negative values: Less severe (Blaze Orange) to most severe (Amber Gold) */
+/* Negative values: less severe to most severe */
 .points-n2, .points-m2 { 
-    color: var(--color-blaze-orange); 
+    color: var(--score-blue);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(251, 86, 7, 0.4);
 }
 .points-n3, .points-m3 { 
-    color: var(--color-blaze-orange); 
+    color: var(--score-purple);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(251, 86, 7, 0.4);
 }
 .points-n5, .points-m5 { 
-    color: var(--color-blaze-orange); 
+    color: var(--score-orange);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(251, 86, 7, 0.4);
 }
 .points-n10, .points-m10 { 
-    color: var(--color-blaze-orange); 
+    color: var(--score-orange);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(251, 86, 7, 0.4);
 }
 .points-n20, .points-m20 { 
-    color: var(--color-amber-gold); 
+    color: var(--score-brown);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(255, 190, 11, 0.4);
 }
 .points-n100, .points-m100 { 
-    color: var(--color-amber-gold); 
+    color: var(--score-brown);
     font-weight: bold; 
     text-shadow: 0 0 8px rgba(255, 190, 11, 0.4);
 }
 
+.points-10, .points-p10,
+.points-6, .points-p6,
+.points-5, .points-p5,
+.points-3, .points-p3,
+.points-2, .points-p2,
+.points-1, .points-p1,
+.points-0,
+.points-n2, .points-m2,
+.points-n3, .points-m3,
+.points-n5, .points-m5,
+.points-n10, .points-m10,
+.points-n20, .points-m20,
+.points-n100, .points-m100 {
+    text-shadow: 0 0 8px color-mix(in srgb, currentColor 40%, transparent);
+}
+
 .points-max {
-    color: var(--color-azure-blue);
+    color: var(--score-gold);
     font-weight: bold;
     text-shadow: 0 0 8px rgba(58, 134, 255, 0.4);
 }
+
+.criterion-tier-5 { color: var(--score-gold) !important; }
+.criterion-tier-4 { color: var(--score-orange) !important; }
+.criterion-tier-3 { color: var(--score-purple) !important; }
+.criterion-tier-2 { color: var(--score-blue) !important; }
+.criterion-tier-1 { color: var(--score-brown) !important; }

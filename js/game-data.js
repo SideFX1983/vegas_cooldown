@@ -238,18 +238,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return parsed;
     }
 
-    function getTierColor(tier) {
-        const colorMap = {
-            5: '#3A86FF',
-            4: '#8338EC',
-            3: '#FF006E',
-            2: '#FB5607',
-            1: '#FFBE0B'
-        };
-
-        return colorMap[tier] || '#00c8e0';
-    }
-
     function setText(selector, value) {
         if (!value) return;
         const element = document.querySelector(selector);
@@ -287,6 +275,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function createBenchmarkListItem(item) {
         const listItem = document.createElement('li');
 
+        if (item.criterion) {
+            const criterion = document.createElement('span');
+            criterion.className = 'benchmark-criterion';
+            criterion.textContent = item.criterion;
+            listItem.appendChild(criterion);
+        }
+
         const label = document.createElement('span');
         label.className = item.className;
         label.textContent = item.label;
@@ -304,13 +299,49 @@ document.addEventListener('DOMContentLoaded', () => {
         return listItem;
     }
 
+    function renderStructuredBenchmarkMatches(pillarKey, questions) {
+        const contentElement = document.querySelector(pillarSelectors[pillarKey]);
+        const criterionMap = benchmarkCriteria[pillarKey];
+        if (!contentElement || !criterionMap || !Array.isArray(questions)) return;
+
+        contentElement.querySelector('.game-benchmark-list')?.remove();
+
+        const list = document.createElement('ul');
+        list.className = 'game-benchmark-list';
+
+        questions.forEach(question => {
+            const rawCriterion = String(question?.label || '').trim();
+            const criterion = criterionAliases[pillarKey]?.[rawCriterion] || rawCriterion;
+            const branches = criterionMap[criterion];
+            const score = Number(question?.score);
+            if (!branches || !Number.isFinite(score)) return;
+
+            const item = branches[String(score)];
+            if (!item) return;
+
+            list.appendChild(createBenchmarkListItem({
+                criterion: rawCriterion,
+                ...item,
+                description: question.rationale || item.description,
+                className: getCriterionItemClassName(item, score, branches)
+            }));
+        });
+
+        if (list.children.length) contentElement.appendChild(list);
+    }
+
     function getHighestCriterionScore(branches) {
         return Math.max(...Object.keys(branches).map(Number));
     }
 
+    function getCriterionTier(score, branches) {
+        return getTierFromCriterionScore(score, branches);
+    }
+
     function getCriterionItemClassName(item, score, branches) {
-        if (score !== getHighestCriterionScore(branches)) return item.className;
-        return `${item.className} points-max`.trim();
+        const tier = getCriterionTier(score, branches);
+        const maxClass = tier === 5 ? 'points-max' : '';
+        return `${item.className} criterion-tier-${tier} ${maxClass}`.trim();
     }
 
     function renderBenchmarkMatches(pillarKey, findingText, fallbackFindings) {
@@ -350,13 +381,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderBenchmarkMatchesForData(data) {
         const content = data?.content || {};
+        const scoring = data?.scoring || {};
         const fallbackFindings = fallbackFindingsBySlug[data?.game?.slug];
 
-        renderBenchmarkMatches('values', content.values_findings, fallbackFindings);
-        renderBenchmarkMatches('ethics', content.ethics_findings, fallbackFindings);
-        renderBenchmarkMatches('gameplay', content.gameplay_findings, fallbackFindings);
-        renderBenchmarkMatches('accessibility', content.accessibility_findings, fallbackFindings);
-        renderBenchmarkMatches('standards', content.standards_findings, fallbackFindings);
+        ['values', 'ethics', 'gameplay', 'accessibility', 'standards'].forEach(pillarKey => {
+            const questions = scoring[pillarKey]?.questions;
+            if (Array.isArray(questions)) {
+                renderStructuredBenchmarkMatches(pillarKey, questions);
+                return;
+            }
+
+            renderBenchmarkMatches(pillarKey, content[`${pillarKey}_findings`], fallbackFindings);
+        });
 
         if (typeof initializePillarListItemBehavior === 'function') {
             initializePillarListItemBehavior(document.querySelector('#game-about-grid') || document);
@@ -432,43 +468,12 @@ document.addEventListener('DOMContentLoaded', () => {
         return { score, max };
     }
 
-    function getTierFromPercent(percent) {
-        if (!Number.isFinite(percent)) return 1;
-        if (percent >= 80) return 5;
-        if (percent >= 60) return 4;
-        if (percent >= 40) return 3;
-        if (percent >= 20) return 2;
-        return 1;
-    }
-
-    function getTierFromStatValue(statIndex, statValue) {
-        if (!Number.isFinite(statValue)) return null;
-
-        if (statIndex === 0 || statIndex === 1) {
-            if (statValue === 25) return 5;
-            if (statValue >= 20 && statValue <= 24) return 4;
-            if (statValue >= 15 && statValue <= 19) return 3;
-            if (statValue >= 10 && statValue <= 14) return 2;
-            return 1;
-        }
-
-        if (statIndex === 2 || statIndex === 3) {
-            if (statValue === 10) return 5;
-            if (statValue >= 8 && statValue <= 9) return 4;
-            if (statValue >= 6 && statValue <= 7) return 3;
-            if (statValue >= 4 && statValue <= 5) return 2;
-            return 1;
-        }
-
-        if (statIndex === 4) {
-            if (statValue === 30) return 5;
-            if (statValue >= 24 && statValue <= 29) return 4;
-            if (statValue >= 18 && statValue <= 23) return 3;
-            if (statValue >= 12 && statValue <= 17) return 2;
-            return 1;
-        }
-
-        return null;
+    function getCardFrameClass(totalScore) {
+        if (totalScore >= 95) return 'card-frame-gold';
+        if (totalScore >= 85) return 'card-frame-orange';
+        if (totalScore >= 75) return 'card-frame-purple';
+        if (totalScore >= 41) return 'card-frame-blue';
+        return 'card-frame-brown';
     }
 
     function setGameCardStats(statsValues) {
@@ -570,6 +575,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (scoreElement && Number.isFinite(total.score)) {
             scoreElement.textContent = String(Math.round(total.score));
+        }
+
+        const cardElement = document.querySelector('.game-card-collapsed');
+        if (cardElement && Number.isFinite(total.score)) {
+            cardElement.classList.remove('card-frame-gold', 'card-frame-orange', 'card-frame-purple', 'card-frame-blue', 'card-frame-brown');
+            cardElement.classList.add(getCardFrameClass(total.score));
         }
 
         if (scoreFillElement && Number.isFinite(total.percent)) {

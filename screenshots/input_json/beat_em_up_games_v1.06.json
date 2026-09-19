@@ -2,7 +2,7 @@
   {
     "game": {
       "slug": "tmnt-shredders-revenge",
-      "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC)",
+      "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge ",
       "developer": "Tribute Games",
       "publisher": "Dotemu",
       "genre": "Beat 'em up",
@@ -57,7 +57,7 @@
   {
     "game": {
       "slug": "capcom-beat-em-up-bundle",
-      "name": "Capcom Beat 'Em Up Bundle (PC)",
+      "name": "Capcom Beat 'Em Up Bundle ",
       "developer": "Capcom",
       "publisher": "Capcom",
       "genre": "Beat 'em up",
@@ -67,10 +67,10 @@
     },
     "assets": {
       "card_image_url": "img/capcom-beat-em-up-bundle.jpg",
-      "card_image_alt": "Capcom Beat 'Em Up Bundle (PC) key art"
+      "card_image_alt": "Capcom Beat 'Em Up Bundle  key art"
     },
     "content": {
-      "short_description": "Capcom Beat 'Em Up Bundle (PC) (2018) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "short_description": "Capcom Beat 'Em Up Bundle  (2018) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
       "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
       "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
       "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
@@ -112,7 +112,7 @@
   {
     "game": {
       "slug": "double-dragon-gaiden-rise-of-the-dragons",
-      "name": "Double Dragon Gaiden: Rise of the Dragons (PC)",
+      "name": "Double Dragon Gaiden: Rise of the Dragons ",
       "developer": "Secret Base",
       "publisher": "Modus Games",
       "genre": "Beat 'em up",
@@ -122,10 +122,10 @@
     },
     "assets": {
       "card_image_url": "img/double-dragon-gaiden-rise-of-the-dragons.jpg",
-      "card_image_alt": "Double Dragon Gaiden: Rise of the Dragons (PC) key art"
+      "card_image_alt": "Double Dragon Gaiden: Rise of the Dragons  key art"
     },
     "content": {
-      "short_description": "Double Dragon Gaiden: Rise of the Dragons (PC) (2023) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "short_description": "Double Dragon Gaiden: Rise of the Dragons  (2023) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
       "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
       "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
       "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
@@ -167,7 +167,7 @@
   {
     "game": {
       "slug": "fightn-rage",
-      "name": "Fight'N Rage (PC)",
+      "name": "Fight'N Rage ",
       "developer": "SebaGamesDev",
       "publisher": "SebaGamesDev",
       "genre": "Beat 'em up",
@@ -177,10 +177,10 @@
     },
     "assets": {
       "card_image_url": "img/fightn-rage.jpg",
-      "card_image_alt": "Fight'N Rage (PC) key art"
+      "card_image_alt": "Fight'N Rage  key art"
     },
     "content": {
-      "short_description": "Fight'N Rage (PC) (2017) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "short_description": "Fight'N Rage  (2017) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
       "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
       "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
       "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
@@ -222,7 +222,7 @@
   {
     "game": {
       "slug": "river-city-ransom-underground",
-      "name": "River City Ransom: Underground (PC)",
+      "name": "River City Ransom: Underground ",
       "developer": "Conatus Creative",
       "publisher": "Conatus Creative",
       "genre": "Beat 'em up",
@@ -232,10 +232,10 @@
     },
     "assets": {
       "card_image_url": "img/river-city-ransom-underground.jpg",
-      "card_image_alt": "River City Ransom: Underground (PC) key art"
+      "card_image_alt": "River City Ransom: Underground  key art"
     },
     "content": {
-      "short_description": "River City Ransom: Underground (PC) (2017) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
+      "short_description": "River City Ransom: Underground  (2017) - A solid and well-regarded title that delivers on its core promises with engaging gameplay.",
       "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
       "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
       "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
@@ -277,7 +277,7 @@
   {
     "game": {
       "slug": "scott-pilgrim-vs-the-world-the-game-complete-edition",
-      "name": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC)",
+      "name": "Scott Pilgrim vs. The World: The Game - Complete Edition ",
       "developer": "Ubisoft Montreal and Ubisoft Chengdu",
       "publisher": "Ubisoft",
       "genre": "Beat 'em up",
@@ -287,10 +287,10 @@
     },
     "assets": {
       "card_image_url": "img/scott-pilgrim-vs-the-world-the-game-complete-edition.jpg",
-      "card_image_alt": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC) key art"
+      "card_image_alt": "Scott Pilgrim vs. The World: The Game - Complete Edition  key art"
     },
     "content": {
-      "short_description": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC) ($2021) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
+      "short_description": "Scott Pilgrim vs. The World: The Game - Complete Edition  ($2021) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
       "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
       "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
       "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
@@ -332,7 +332,7 @@
   {
     "game": {
       "slug": "scott-pilgrim-vs-the-world-the-game-complete-edition",
-      "name": "Scott Pilgrim vs. The World: The Game - Complete Edition (PC)",
+      "name": "Scott Pilgrim vs. The World: The Game - Complete Edition ",
       "developer": "Ubisoft Montreal and Ubisoft Chengdu",
       "publisher": "Ubisoft",
       "genre": "Beat 'em up",
@@ -387,7 +387,7 @@
   {
     "game": {
       "slug": "tmnt-shredders-revenge",
-      "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC)",
+      "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge ",
       "developer": "Tribute Games",
       "publisher": "Dotemu",
       "genre": "Beat 'em up",
@@ -397,10 +397,10 @@
     },
     "assets": {
       "card_image_url": "img/tmnt-shredders-revenge.jpg",
-      "card_image_alt": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC) key art"
+      "card_image_alt": "Teenage Mutant Ninja Turtles: Shredder's Revenge  key art"
     },
     "content": {
-      "short_description": "Teenage Mutant Ninja Turtles: Shredder's Revenge (PC) ($2022) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
+      "short_description": "Teenage Mutant Ninja Turtles: Shredder's Revenge  ($2022) - A highly acclaimed and influential entry in its genre, recognized for exceptional design and lasting impact.",
       "reviewer_notes": "Total 85/100; strongest pillar is values, with accessibility as the main score limiter.",
       "values_findings": "Values pulse: Launch retail price (USD): 5; Early access/demo price: 5; Microtransactions at launch: 5; Loot boxes/random rewards: 5; Battle pass/subscription model: 5; In-game advertisements: 0.",
       "ethics_findings": "Ethics pulse: Post-launch support duration: 5; Announcement lead time: 0; Pre-launch trailers and community feedback: 5; Advertised feature delivery at launch: 5.",
@@ -442,7 +442,7 @@
   {
     "game": {
       "slug": "capcom-beat-em-up-bundle",
-      "name": "Capcom Beat 'Em Up Bundle (PC)",
+      "name": "Capcom Beat 'Em Up Bundle ",
       "developer": "Capcom",
       "publisher": "Capcom",
       "genre": "Beat 'em up",
@@ -497,7 +497,7 @@
   {
     "game": {
       "slug": "fightn-rage",
-      "name": "Fight'N Rage (PC)",
+      "name": "Fight'N Rage ",
       "developer": "SebaGamesDev",
       "publisher": "SebaGamesDev",
       "genre": "Beat 'em up",
@@ -552,7 +552,7 @@
   {
     "game": {
       "slug": "river-city-ransom-underground",
-      "name": "River City Ransom: Underground (PC)",
+      "name": "River City Ransom: Underground ",
       "developer": "Conatus Creative",
       "publisher": "Conatus Creative",
       "genre": "Beat 'em up",

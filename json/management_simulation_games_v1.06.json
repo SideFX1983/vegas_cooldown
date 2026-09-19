@@ -1,8 +1,8 @@
 [
   {
     "game": {
-      "slug": "black-and-white-1-and-2",
-      "name": "Black & White 1 and 2 (PC)",
+      "slug": "black-and-white-1",
+      "name": "Black & White 1",
       "developer": "Lionhead Studios",
       "publisher": "Microsoft",
       "genre": "God Game",
@@ -11,17 +11,17 @@
       "current_retail_price_usd": 9.99
     },
     "assets": {
-      "card_image_url": "img/black-and-white-1-and-2.jpg",
-      "card_image_alt": "Black & White 1 and 2 (PC) key art"
+      "card_image_url": "img/black-and-white-1.jpg",
+      "card_image_alt": "Black & White 1 key art"
     },
     "content": {
       "short_description": "A distinctive god game experience with compelling gameplay and strong design.",
       "reviewer_notes": "Total 95/100; solid performance across pillars.",
-      "values_findings": "Black & White 1 and 2 (PC) exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $9.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
-      "ethics_findings": "Black & White 1 and 2 (PC) demonstrates exemplary transparency with clear pre-launch communication and delivered promises. Announced well ahead of 2001 release. Post-launch support sustained.",
-      "gameplay_findings": "Black & White 1 and 2 (PC) provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
-      "accessibility_findings": "Black & White 1 and 2 (PC) provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
-      "standards_findings": "Black & White 1 and 2 (PC) achieves excellent technical and community standards with strong reception and robust feature support. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
+      "values_findings": "Black & White 1 exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $9.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Black & White 1 demonstrates exemplary transparency with clear pre-launch communication and delivered promises. Announced well ahead of 2001 release. Post-launch support sustained.",
+      "gameplay_findings": "Black & White 1 provides exceptional gameplay depth with substantial campaign and multiple meaningful outcomes. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Black & White 1 provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Black & White 1 achieves excellent technical and community standards with strong reception and robust feature support. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {

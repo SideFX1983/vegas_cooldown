@@ -131,3 +131,43 @@ body.menu-open .hero-section {
     opacity: 0.3;
     pointer-events: none;
 }
+
+@media (min-width: 1024px) {
+    .navbar,
+    body.menu-open .navbar {
+        height: 50px !important;
+    }
+
+    .nav-drawer,
+    body.menu-open .nav-drawer {
+        position: static;
+        width: auto;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+        padding: 0;
+        gap: 25px;
+    }
+
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    body.menu-open .hero-section {
+        transform: none;
+        opacity: 1;
+        pointer-events: auto;
+    }
+}

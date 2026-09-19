@@ -58,32 +58,32 @@
 
 .about-pillar-collapsed .pillar-points.tier-5,
 .about-pillar-expanded .pillar-points.tier-5 {
-    background: rgba(58, 134, 255, 0.62);
-    box-shadow: 0 0 10px rgba(58, 134, 255, 0.5);
+    background: color-mix(in srgb, var(--score-gold) 62%, transparent);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--score-gold) 50%, transparent);
 }
 
 .about-pillar-collapsed .pillar-points.tier-4,
 .about-pillar-expanded .pillar-points.tier-4 {
-    background: rgba(131, 56, 236, 0.62);
-    box-shadow: 0 0 10px rgba(131, 56, 236, 0.5);
+    background: color-mix(in srgb, var(--score-orange) 62%, transparent);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--score-orange) 50%, transparent);
 }
 
 .about-pillar-collapsed .pillar-points.tier-3,
 .about-pillar-expanded .pillar-points.tier-3 {
-    background: rgba(255, 0, 110, 0.62);
-    box-shadow: 0 0 10px rgba(255, 0, 110, 0.45);
+    background: color-mix(in srgb, var(--score-purple) 62%, transparent);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--score-purple) 50%, transparent);
 }
 
 .about-pillar-collapsed .pillar-points.tier-2,
 .about-pillar-expanded .pillar-points.tier-2 {
-    background: rgba(251, 86, 7, 0.62);
-    box-shadow: 0 0 10px rgba(251, 86, 7, 0.5);
+    background: color-mix(in srgb, var(--score-blue) 62%, transparent);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--score-blue) 50%, transparent);
 }
 
 .about-pillar-collapsed .pillar-points.tier-1,
 .about-pillar-expanded .pillar-points.tier-1 {
-    background: rgba(255, 190, 11, 0.62);
-    box-shadow: 0 0 10px rgba(255, 190, 11, 0.5);
+    background: color-mix(in srgb, var(--score-brown) 82%, transparent);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--score-brown) 50%, transparent);
 }
 
 .about-pillar-collapsed .pillar-points {
@@ -200,6 +200,37 @@
 .about-pillar-expanded li,
 .about-pillar-expanded .li-toggle-details {
     color: #ffffff;
+}
+
+.game-benchmark-list .benchmark-criterion {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #ffffff;
+}
+
+.game-benchmark-list .criterion-tier-5 {
+    color: var(--score-gold) !important;
+    text-shadow: 0 0 8px color-mix(in srgb, var(--score-gold) 40%, transparent);
+}
+
+.game-benchmark-list .criterion-tier-4 {
+    color: var(--score-orange) !important;
+    text-shadow: 0 0 8px color-mix(in srgb, var(--score-orange) 40%, transparent);
+}
+
+.game-benchmark-list .criterion-tier-3 {
+    color: var(--score-purple) !important;
+    text-shadow: 0 0 8px color-mix(in srgb, var(--score-purple) 40%, transparent);
+}
+
+.game-benchmark-list .criterion-tier-2 {
+    color: var(--score-blue) !important;
+    text-shadow: 0 0 8px color-mix(in srgb, var(--score-blue) 40%, transparent);
+}
+
+.game-benchmark-list .criterion-tier-1 {
+    color: var(--score-brown) !important;
+    text-shadow: 0 0 8px color-mix(in srgb, var(--score-brown) 50%, transparent);
 }
 
 .about-pillar-collapsed .game-benchmark-list {

@@ -195,6 +195,7 @@ function toCardDataFromBenchmarkEntry(entry, sourcePath = '') {
         publisher: game.publisher || 'Unknown Publisher',
         genre: game.genre || 'Unknown Genre',
         releaseYear: String(game.release_year || ''),
+        releaseDate: game.release_date || game.releaseDate || game.release_datetime || '',
         totalScore: String(entry?.scores?.total?.score || 0),
         sourcePath,
         description: content.short_description || '',
@@ -220,6 +221,23 @@ function getSourceGenreLabel(path, entries) {
 
     const firstGenre = entries.find(entry => entry?.game?.genre)?.game?.genre;
     return firstGenre || filename.replace(/_games.*$/i, '').replace(/[_-]+/g, ' ');
+}
+
+function getRecent2023CardData(cards) {
+    const recentCards = cards
+        .filter(card => Number(card.releaseYear) === 2023)
+        .map(cloneCardData);
+    const cardsWithDates = recentCards.filter(card => Number.isFinite(Date.parse(card.releaseDate)));
+
+    if (cardsWithDates.length === recentCards.length && recentCards.length > 0) {
+        return recentCards.sort((firstCard, secondCard) => (
+            Date.parse(firstCard.releaseDate) - Date.parse(secondCard.releaseDate)
+        ));
+    }
+
+    return recentCards.sort((firstCard, secondCard) => (
+        getCardTitle(firstCard).localeCompare(getCardTitle(secondCard), undefined, { sensitivity: 'base' })
+    ));
 }
 
 async function getJsonDataPaths() {
@@ -453,6 +471,8 @@ function createGameCard(cardData) {
     const computedTotalScore = normalizedStats.reduce((sum, value) => sum + value, 0);
 
     if (cardElement) {
+        cardElement.classList.remove('card-frame-gold', 'card-frame-orange', 'card-frame-purple', 'card-frame-blue', 'card-frame-brown');
+        cardElement.classList.add(getCardFrameClass(computedTotalScore));
         cardElement.dataset.filterTitle = getCardTitle(cardData);
         cardElement.dataset.filterPublisher = cardData.publisher || '';
         cardElement.dataset.filterGenre = cardData.genre || '';
@@ -556,6 +576,14 @@ function getTopCardData(cardData, cardCount = CAROUSEL_CONFIG.CARDS_PER_CAROUSEL
         .slice(0, cardCount);
     }
 
+    function getCardFrameClass(totalScore) {
+        if (totalScore >= 95) return 'card-frame-gold';
+        if (totalScore >= 85) return 'card-frame-orange';
+        if (totalScore >= 75) return 'card-frame-purple';
+        if (totalScore >= 41) return 'card-frame-blue';
+        return 'card-frame-brown';
+    }
+
 function populateCarouselFromCardData(carousel, cardData) {
     carousel.innerHTML = '';
     cardData.forEach(data => {
@@ -588,8 +616,9 @@ function initializeCarouselScroll(carousel) {
 document.addEventListener('DOMContentLoaded', async () => {
     const carouselsStack = document.getElementById('carousels-stack');
     const firstSection = carouselsStack ? carouselsStack.querySelector('.carousel-section') : null;
+    const secondSection = carouselsStack ? carouselsStack.querySelectorAll('.carousel-section')[1] : null;
 
-    if (!carouselsStack || !firstSection) {
+    if (!carouselsStack || !firstSection || !secondSection) {
         console.error('Carousel container or template section not found.');
         return;
     }
@@ -608,74 +637,34 @@ document.addEventListener('DOMContentLoaded', async () => {
         return;
     }
 
-    const firstCarouselCardData = getTopCardData(gameData.cards);
-    populateCarouselFromCardData(firstCarousel, firstCarouselCardData);
-
-    initializeCarouselScroll(firstCarousel);
-
-    const firstTitleElement = firstSection.querySelector('.carousel-title');
-    if (firstTitleElement) {
-        firstTitleElement.textContent = 'TOP 10 All-Time Games';
-    }
-
-    firstSection.dataset.carouselGenre = 'All-Time Greatest Games';
-    firstSection.dataset.carouselIndex = '0';
-    firstSection.dataset.carouselDefault = 'all-time';
-
     if (document.body.dataset.page === 'recent') {
-        const recentCarouselConfigs = [
-            { title: 'Top 10 Rated Games of 2023', startYear: 2023, endYear: 2023, sort: 'highest' },
-            { title: 'Top 10 Rated Games of the decade 2013-2023', startYear: 2013, endYear: 2023, sort: 'highest' },
-            { title: 'Worst 10 Rated Games of 2023', startYear: 2023, endYear: 2023, sort: 'lowest' },
-            { title: 'Worst 10 Rated Games of the decade 2013-2023', startYear: 2013, endYear: 2023, sort: 'lowest' }
-        ];
-
-        recentCarouselConfigs.forEach((config, index) => {
-            const sectionClone = firstSection.cloneNode(true);
-            const filteredCards = gameData.cards.filter(card => {
-                const year = Number(card.releaseYear);
-                return year >= config.startYear && year <= config.endYear;
-            });
-
-            sectionClone.classList.add('carousel-small');
-            sectionClone.dataset.carouselGenre = config.title;
-            sectionClone.dataset.carouselIndex = String(index + 1);
-            delete sectionClone.dataset.carouselDefault;
-
-            const titleElement = sectionClone.querySelector('.carousel-title');
-            if (titleElement) titleElement.textContent = config.title;
-
-            const clonedCarousel = sectionClone.querySelector('.about-grid');
-            const rankedCards = config.sort === 'lowest'
-                ? getLowestCardData(filteredCards)
-                : getTopCardData(filteredCards);
-            populateCarouselFromCardData(clonedCarousel, rankedCards);
-            initializeCarouselScroll(clonedCarousel);
-            carouselsStack.appendChild(sectionClone);
-        });
+        firstSection.dataset.carouselGenre = 'Recently Added';
+        firstSection.dataset.carouselIndex = '0';
+        const firstTitleElement = firstSection.querySelector('.carousel-title');
+        if (firstTitleElement) firstTitleElement.textContent = 'Recently Added';
+        populateCarouselFromCardData(firstCarousel, getRecent2023CardData(gameData.cards));
+        initializeCarouselScroll(firstCarousel);
     } else {
 
-        /* Clone carousel sections to create source-backed genre carousels. */
-        gameData.sources.forEach((source, index) => {
-        const sectionClone = firstSection.cloneNode(true);
-        const carouselGenre = source.genre;
+        const firstCarouselCardData = getTopCardData(gameData.cards);
+        populateCarouselFromCardData(firstCarousel, firstCarouselCardData);
+        initializeCarouselScroll(firstCarousel);
 
-        sectionClone.classList.add('carousel-small');
-        sectionClone.dataset.carouselGenre = carouselGenre;
-        sectionClone.dataset.carouselIndex = String(index + 1);
-        delete sectionClone.dataset.carouselDefault;
+        const secondCarousel = secondSection.querySelector('.about-grid');
+        populateCarouselFromCardData(secondCarousel, getLowestCardData(gameData.cards));
+        initializeCarouselScroll(secondCarousel);
 
-        const titleElement = sectionClone.querySelector('.carousel-title');
-        if (titleElement) {
-            titleElement.textContent = getCarouselTitle(carouselGenre, null, null, 'best');
+        const firstTitleElement = firstSection.querySelector('.carousel-title');
+        if (firstTitleElement) {
+            firstTitleElement.textContent = 'TOP 10 All-Time Games';
         }
 
-        const clonedCarousel = sectionClone.querySelector('.about-grid');
-        populateCarouselFromCardData(clonedCarousel, getTopCardData(source.cards));
-        initializeCarouselScroll(clonedCarousel);
-
-            carouselsStack.appendChild(sectionClone);
-        });
+        firstSection.dataset.carouselGenre = 'All-Time Greatest Games';
+        firstSection.dataset.carouselIndex = '0';
+        firstSection.dataset.carouselDefault = 'all-time';
+        secondSection.dataset.carouselGenre = 'All-Time Worst Games';
+        secondSection.dataset.carouselIndex = '1';
+        secondSection.dataset.carouselDefault = 'all-time-worst';
     }
 
     /* Initialize card expand/collapse behavior only when available. */

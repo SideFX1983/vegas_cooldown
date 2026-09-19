@@ -1057,7 +1057,7 @@
   {
     "game": {
       "slug": "silent-hill-2",
-      "name": "Silent Hill 2 (PC)",
+      "name": "Silent Hill 2 ",
       "developer": "Konami Computer Entertainment Tokyo",
       "publisher": "Konami",
       "genre": "Psychological Horror",
@@ -1067,16 +1067,16 @@
     },
     "assets": {
       "card_image_url": "img/silent-hill-2.jpg",
-      "card_image_alt": "Silent Hill 2 (PC) key art"
+      "card_image_alt": "Silent Hill 2  key art"
     },
     "content": {
       "short_description": "A distinctive psychological horror experience with compelling gameplay and strong design.",
       "reviewer_notes": "Total 90/100; solid performance across pillars.",
-      "values_findings": "Silent Hill 2 (PC) exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $14.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
-      "ethics_findings": "Silent Hill 2 (PC) demonstrates exemplary transparency with clear pre-launch communication and delivered promises. Announced well ahead of 2003 release. Post-launch support sustained.",
-      "gameplay_findings": "Silent Hill 2 (PC) provides solid gameplay with good campaign length and varied player agency. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
-      "accessibility_findings": "Silent Hill 2 (PC) provides solid accessibility options with good language support. Multi-language localization included.",
-      "standards_findings": "Silent Hill 2 (PC) achieves excellent technical and community standards with strong reception and robust feature support. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
+      "values_findings": "Silent Hill 2  exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $14.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Silent Hill 2  demonstrates exemplary transparency with clear pre-launch communication and delivered promises. Announced well ahead of 2003 release. Post-launch support sustained.",
+      "gameplay_findings": "Silent Hill 2  provides solid gameplay with good campaign length and varied player agency. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Silent Hill 2  provides solid accessibility options with good language support. Multi-language localization included.",
+      "standards_findings": "Silent Hill 2  achieves excellent technical and community standards with strong reception and robust feature support. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {

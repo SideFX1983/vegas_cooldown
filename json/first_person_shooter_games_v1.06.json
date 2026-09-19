@@ -2,7 +2,7 @@
   {
     "game": {
       "slug": "half-life",
-      "name": "Half-Life (PC)",
+      "name": "Half-Life ",
       "developer": "Valve",
       "publisher": "Sierra Studios",
       "genre": "First-person shooter",
@@ -17,11 +17,11 @@
     "content": {
       "short_description": "A masterclass in atmospheric dread and an incredible storyline, that make you feel like a genuinely desperate survivor trapped in a hostile world.",
       "reviewer_notes": "Total 98/100; top momentum in Values 25/25, with the biggest drag in Accessibility 10/10.",
-      "values_findings": "Half-Life (PC) exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $9.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
-      "ethics_findings": "Half-Life (PC) demonstrates exemplary transparency with clear pre-launch communication and delivered promises. Announced well ahead of 1998 release. Post-launch support sustained.",
-      "gameplay_findings": "Half-Life (PC) provides solid gameplay with good campaign length and varied player agency. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
-      "accessibility_findings": "Half-Life (PC) provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
-      "standards_findings": "Half-Life (PC) achieves excellent technical and community standards with strong reception and robust feature support. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
+      "values_findings": "Half-Life  exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $9.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Half-Life  demonstrates exemplary transparency with clear pre-launch communication and delivered promises. Announced well ahead of 1998 release. Post-launch support sustained.",
+      "gameplay_findings": "Half-Life  provides solid gameplay with good campaign length and varied player agency. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Half-Life  provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Half-Life  achieves excellent technical and community standards with strong reception and robust feature support. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {
@@ -213,7 +213,7 @@
   {
     "game": {
       "slug": "prey-2006",
-      "name": "Prey (PC)",
+      "name": "Prey ",
       "developer": "Human Head Studios",
       "publisher": "2K Games",
       "genre": "First-person shooter",
@@ -228,11 +228,11 @@
     "content": {
       "short_description": "An innovative FPS combining groundbreaking gravity mechanics with a compelling sci-fi narrative about survival and transformation aboard an alien warship, offering engaging combat and memorable boss encounters.",
       "reviewer_notes": "Total 97/100; exceptional performance in Values 25/25 and Ethics 25/25, with strongest standards pillar at 30/30. Accessibility 9/10 reflects 2006-era technical limitations rather than design negligence.",
-      "values_findings": "Prey (PC) exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $9.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
-      "ethics_findings": "Prey (PC) demonstrates exemplary transparency with clear pre-launch communication and delivered promises. Announced well ahead of 2006 release. Post-launch support sustained.",
-      "gameplay_findings": "Prey (PC) provides solid gameplay with good campaign length and varied player agency. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
-      "accessibility_findings": "Prey (PC) provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
-      "standards_findings": "Prey (PC) achieves excellent technical and community standards with strong reception and robust feature support. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
+      "values_findings": "Prey  exemplifies responsible monetization with premium pricing and zero exploitative mechanics. Launched at $9.99. No day-one microtransactions. No loot boxes or randomized paid rewards.",
+      "ethics_findings": "Prey  demonstrates exemplary transparency with clear pre-launch communication and delivered promises. Announced well ahead of 2006 release. Post-launch support sustained.",
+      "gameplay_findings": "Prey  provides solid gameplay with good campaign length and varied player agency. Designed as single-player experience. Multiplayer features added post-launch. Multiple endings reward different playstyles.",
+      "accessibility_findings": "Prey  provides comprehensive accessibility including multiple control schemes and localization. Multi-language localization included.",
+      "standards_findings": "Prey  achieves excellent technical and community standards with strong reception and robust feature support. Fully offline-playable campaign. Legacy release exemption applied (pre-2010)."
     },
     "scores": {
       "total": {

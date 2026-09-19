@@ -27,13 +27,6 @@
         inset 0 0 0 6px rgba(120, 230, 255, 0.08),
         0 0 25px rgba(80, 210, 255, 0.25);
 
-    /* 5-Color Gradient System for Stats & Scores */
-    --color-azure-blue: #3A86FF;
-    --color-blue-violet: #8338EC;
-    --color-neon-pink: #FF006E;
-    --color-blaze-orange: #FB5607;
-    --color-amber-gold: #FFBE0B;
-
     /* Thumbnail */
     --thumbnail-filler-bg: rgba(12, 22, 38, 0.75);
     --thumbnail-border-radius: 5px;
@@ -65,12 +58,12 @@
     --stats-text-color: #a3f0ff;
     --collapsed-bottom-ui-height: 24px;
 
-    /* Tier colors mapped to 5-tier system */
-    --tier-5-hex: #3A86FF;   /* Azure Blue */
-    --tier-4-hex: #8338EC;   /* Blue Violet */
-    --tier-3-hex: #FF006E;   /* Neon Pink */
-    --tier-2-hex: #FB5607;   /* Blaze Orange */
-    --tier-1-hex: #FFBE0B;   /* Amber Gold */
+    /* Tier colors mapped to the central score palette */
+    --tier-5-hex: var(--score-gold);
+    --tier-4-hex: var(--score-orange);
+    --tier-3-hex: var(--score-purple);
+    --tier-2-hex: var(--score-blue);
+    --tier-1-hex: var(--score-brown);
 }
 
 .game-card-collapsed {
@@ -430,6 +423,26 @@
     background: transparent;
 }
 
+.game-card-collapsed .game-stats-panel .game-stat-value.tier-5 {
+    color: var(--score-gold) !important;
+}
+
+.game-card-collapsed .game-stats-panel .game-stat-value.tier-4 {
+    color: var(--score-orange) !important;
+}
+
+.game-card-collapsed .game-stats-panel .game-stat-value.tier-3 {
+    color: var(--score-purple) !important;
+}
+
+.game-card-collapsed .game-stats-panel .game-stat-value.tier-2 {
+    color: var(--score-blue) !important;
+}
+
+.game-card-collapsed .game-stats-panel .game-stat-value.tier-1 {
+    color: var(--score-brown) !important;
+}
+
 .game-card-collapsed .pillar-content {
     display: none;
     margin-top: 8px;
@@ -440,16 +453,16 @@
 }
 
 /* ========================================
-   5-Color Gradient System: Score & Stats
-   Highest values → Azure Blue, 0 → Neon Pink, Lowest → Amber Gold
-   ======================================== */
+    5-Color Gradient System: Score & Stats
+    Lowest values -> Icky Brown, highest values -> Amber Gold
+    ======================================== */
 
 .game-card-collapsed .score-meter-fill {
     background: linear-gradient(
         90deg,
-        var(--color-azure-blue) 0%,
-        var(--color-blue-violet) 25%,
-        var(--color-neon-pink) 50%,
+        var(--score-brown) 0%,
+        var(--color-azure-blue) 25%,
+        var(--color-blue-violet) 50%,
         var(--color-blaze-orange) 75%,
         var(--color-amber-gold) 100%
     ) !important;
@@ -461,17 +474,42 @@
    ======================================== */
 
 .game-card-collapsed.score-premium {
-    --card-border-color: #FFD700;
-    border-color: #FFD700;
+    --card-border-color: var(--score-gold);
+    border-color: var(--score-gold);
     position: relative;
     z-index: 1;
 }
+
+.game-card-collapsed.card-frame-gold {
+    --card-border-color: var(--score-gold);
+    border-color: var(--score-gold);
+}
+
+.game-card-collapsed.card-frame-orange {
+    --card-border-color: var(--score-orange);
+    border-color: var(--score-orange);
+}
+
+.game-card-collapsed.card-frame-purple {
+    --card-border-color: var(--score-purple);
+    border-color: var(--score-purple);
+}
+
+.game-card-collapsed.card-frame-blue {
+    --card-border-color: var(--score-blue);
+    border-color: var(--score-blue);
+}
+
+.game-card-collapsed.card-frame-brown {
+    --card-border-color: var(--score-brown);
+    border-color: var(--score-brown);
+}
 /* Golden score color for premium cards */
 .game-card-collapsed.score-premium .game-score {
-    color: #FFD700 !important;
+    color: var(--score-gold) !important;
     text-shadow: 
-        0 0 10px rgba(255, 215, 0, 0.8),
-        0 0 20px rgba(255, 215, 0, 0.4);
+        0 0 10px color-mix(in srgb, var(--score-gold) 80%, transparent),
+        0 0 20px color-mix(in srgb, var(--score-gold) 40%, transparent);
 }
 /* Sparkles positioned around the frame using ::before */
 .game-card-collapsed.score-premium::before {

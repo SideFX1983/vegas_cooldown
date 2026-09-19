@@ -1,10 +1,10 @@
 slug,name,status,detail
-tmnt-shredders-revenge,Teenage Mutant Ninja Turtles: Shredder's Revenge (PC),no_igdb_match,
-capcom-beat-em-up-bundle,Capcom Beat 'Em Up Bundle (PC),no_igdb_match,
-double-dragon-gaiden-rise-of-the-dragons,Double Dragon Gaiden: Rise of the Dragons (PC),no_igdb_match,
-fightn-rage,Fight'N Rage (PC),no_igdb_match,
-river-city-ransom-underground,River City Ransom: Underground (PC),no_igdb_match,
-scott-pilgrim-vs-the-world-the-game-complete-edition,Scott Pilgrim vs. The World: The Game - Complete Edition (PC),no_igdb_match,
+tmnt-shredders-revenge,Teenage Mutant Ninja Turtles: Shredder's Revenge,no_igdb_match,
+capcom-beat-em-up-bundle,Capcom Beat 'Em Up Bundle,no_igdb_match,
+double-dragon-gaiden-rise-of-the-dragons,Double Dragon Gaiden: Rise of the Dragons,no_igdb_match,
+fightn-rage,Fight'N Rage,no_igdb_match,
+river-city-ransom-underground,River City Ransom: Underground,no_igdb_match,
+scott-pilgrim-vs-the-world-the-game-complete-edition,Scott Pilgrim vs. The World: The Game - Complete Edition,no_igdb_match,
 anno-1404-dawn-of-discovery,Anno 1404 (Dawn of Discovery),ok,"igdb_id=662 (Dawn of Discovery), src_res=1728x1080"
 banished,Banished,ok,"igdb_id=2002 (Banished), src_res=1280x1024"
 caesar-online,Caesar Online,no_igdb_match,
@@ -24,7 +24,7 @@ cities-skylines,Cities: Skylines,ok,"igdb_id=9066 (Cities: Skylines), src_res=19
 civilization-vi,Civilization VI,no_screenshots,matched_igdb_id=341802 (Sid Meier's Civilization VI: Aztec Civilization Pack)
 islanders,Islanders,ok,"igdb_id=62 (The Curse of Monkey Island), src_res=640x480"
 northgard,Northgard,ok,"igdb_id=18918 (Northgard), src_res=1920x1080"
-half-life,Half-Life (PC),no_screenshots,matched_igdb_id=320851 (Half-Life 2: Survivor)
+half-life,Half-Life,no_screenshots,matched_igdb_id=320851 (Half-Life 2: Survivor)
 call-of-duty-4-modern-warfare,Call of Duty 4: Modern Warfare,ok,"igdb_id=134651 (Call of Duty 4: Modern Warfare), src_res=500x376"
 call-of-duty-modern-warfare-2,Call of Duty: Modern Warfare 2,ok,"igdb_id=559 (Call of Duty: Modern Warfare 2), src_res=1919x1080"
 daikatana,Daikatana,ok,"igdb_id=361416 (Daikatana), src_res=1440x1080"

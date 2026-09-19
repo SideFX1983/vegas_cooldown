@@ -268,8 +268,9 @@ document.addEventListener('DOMContentLoaded', () => {
             || state.endYear !== maxYear;
     }
 
-    function getCarouselTitle(genre, isDefaultAllTime = false) {
+    function getCarouselTitle(genre, isDefaultAllTime = false, isDefaultAllTimeWorst = false) {
         if (isDefaultAllTime) return 'All-Time Greatest Games';
+        if (isDefaultAllTimeWorst) return 'All-Time Worst Games';
 
         if (state.startYear !== minYear || state.endYear !== maxYear) {
             return `Top 10 ${genre} games from ${state.startYear}-${state.endYear}`;
@@ -299,7 +300,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         sections.forEach(section => {
             const title = section.querySelector('.carousel-title');
-            if (title) title.textContent = getCarouselTitle(section.dataset.carouselGenre || 'Game', isDefaultAllTime && section.dataset.carouselDefault === 'all-time');
+            if (title) {
+                title.textContent = getCarouselTitle(
+                    section.dataset.carouselGenre || 'Game',
+                    section.dataset.carouselDefault === 'all-time',
+                    section.dataset.carouselDefault === 'all-time-worst'
+                );
+            }
         });
 
         if (isDefaultAllTime) {
@@ -343,7 +350,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function applyFilters() {
         const selectedGenres = [...state.genres];
         const selectedPublishers = [...state.publishers];
-        const sortDirection = state.sortMode === 'worst' ? 1 : -1;
 
         updateCarouselSections(selectedGenres, selectedPublishers);
 
@@ -351,6 +357,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const cards = [...carousel.querySelectorAll('.game-card-collapsed')];
             const section = carousel.closest('.carousel-section');
             const useCarouselGenreFilter = Boolean(section?.dataset.carouselGenre);
+            const sortDirection = section?.dataset.carouselDefault === 'all-time-worst' ? 1 : -1;
 
             cards
                 .sort((firstCard, secondCard) => {
