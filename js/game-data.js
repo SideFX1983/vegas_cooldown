@@ -662,6 +662,48 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function applyGenreBackgroundTheme() {
+        const descriptionBlock = document.querySelector('.game-description-block');
+        if (!descriptionBlock) return;
+
+        const genreText = (
+            params.get('genre') ||
+            document.querySelector('.genre-line .meta-value')?.textContent ||
+            ''
+        ).trim();
+
+        const genreKey = String(genreText).toLowerCase();
+        const backgroundThemes = {
+            racing: 'img/arcade-racing-bg.png',
+            'arcade racing': 'img/arcade-racing-bg.png'
+        };
+
+        const matchedTheme = Object.entries(backgroundThemes).find(([key]) => genreKey.includes(key));
+
+        if (!matchedTheme) {
+            descriptionBlock.style.backgroundImage = '';
+            descriptionBlock.style.backgroundColor = '';
+            descriptionBlock.style.backgroundSize = '';
+            descriptionBlock.style.backgroundPosition = '';
+            descriptionBlock.style.backgroundRepeat = '';
+            descriptionBlock.style.backgroundAttachment = '';
+            descriptionBlock.style.border = '';
+            descriptionBlock.style.boxShadow = '';
+            descriptionBlock.style.color = '';
+            return;
+        }
+
+        descriptionBlock.style.backgroundColor = 'transparent';
+        descriptionBlock.style.backgroundImage = `url('${matchedTheme[1]}')`;
+        descriptionBlock.style.backgroundSize = 'auto';
+        descriptionBlock.style.backgroundPosition = 'top center';
+        descriptionBlock.style.backgroundRepeat = 'no-repeat';
+        descriptionBlock.style.backgroundAttachment = 'scroll';
+        descriptionBlock.style.border = 'none';
+        descriptionBlock.style.boxShadow = 'none';
+        descriptionBlock.style.color = 'transparent';
+    }
+
     function applySkorePremiumStyling() {
         const scoreElement = document.querySelector('.game-score');
         const cardElement = document.querySelector('.game-card-collapsed');
@@ -696,6 +738,7 @@ document.addEventListener('DOMContentLoaded', () => {
         applyPillarTiers();
         syncGameCardStatsFromPillars();
         applyGlobalThemeTier();
+        applyGenreBackgroundTheme();
         applySkorePremiumStyling();
     }
 

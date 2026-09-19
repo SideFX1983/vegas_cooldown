@@ -9,6 +9,13 @@
     gap: 24px;
 }
 
+.game-description-block {
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+}
+
 .game-card-column {
     width: 100%;
     display: flex;
@@ -121,6 +128,13 @@
         height: 130px;
         min-height: 130px;
         max-height: 130px;
+    }
+
+    .game-description-block .game-grid-column .about-pillar-expanded {
+        height: auto;
+        min-height: 130px;
+        max-height: none;
+        overflow: visible;
     }
 
     .game-description-block .game-grid-column .about-pillar-collapsed,

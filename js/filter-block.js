@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const startBubble = filterBlock.querySelector('[data-filter-bubble="start"]');
     const endBubble = filterBlock.querySelector('[data-filter-bubble="end"]');
     const toggleInput = filterBlock.querySelector('.filter-toggle__input');
+    const genreSelect = filterBlock.querySelector('#genre-filter');
+    const publisherSelect = filterBlock.querySelector('#publisher-filter');
     const minYear = Number(yearStart?.min || 1990);
     const maxYear = Number(yearStart?.max || 2023);
     const range = maxYear - minYear;
@@ -20,6 +22,34 @@ document.addEventListener('DOMContentLoaded', () => {
         publishers: new Set(),
         sortMode: toggleInput?.checked ? 'worst' : 'best'
     };
+
+    function populateFilterSelect(select, label, values) {
+        if (!select) return;
+
+        select.innerHTML = '';
+        const allOption = document.createElement('option');
+        allOption.value = 'all';
+        allOption.textContent = `All ${label}`;
+        select.appendChild(allOption);
+
+        const sortedValues = [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+        sortedValues.forEach(value => {
+            const option = document.createElement('option');
+            option.value = value;
+            option.textContent = value;
+            select.appendChild(option);
+        });
+
+        select.value = 'all';
+    }
+
+    function populateFilterOptions() {
+        const allGenres = (globalGameData?.cards || []).map(card => card.genre).filter(Boolean);
+        const allPublishers = (globalGameData?.cards || []).map(card => card.publisher).filter(Boolean);
+
+        populateFilterSelect(genreSelect, 'genres', allGenres);
+        populateFilterSelect(publisherSelect, 'publishers', allPublishers);
+    }
 
     const genreAliases = {
         fps: ['first-person shooter', 'first person shooter'],
@@ -363,22 +393,22 @@ document.addEventListener('DOMContentLoaded', () => {
         trigger.setAttribute('aria-expanded', String(isExpanded));
     });
 
-    filterBlock.querySelectorAll('.filter-pill').forEach(pill => {
-        pill.addEventListener('click', () => {
-            const isSelected = pill.getAttribute('aria-pressed') !== 'true';
-            const group = pill.closest('.filter-genre') ? state.genres : state.publishers;
+    genreSelect?.addEventListener('change', () => {
+        state.genres.clear();
+        const value = genreSelect.value;
+        if (value && value !== 'all') {
+            state.genres.add(value);
+        }
+        applyFilters();
+    });
 
-            pill.setAttribute('aria-pressed', String(isSelected));
-            pill.classList.toggle('is-selected', isSelected);
-
-            if (isSelected) {
-                group.add(pill.dataset.filterValue || pill.textContent.trim());
-            } else {
-                group.delete(pill.dataset.filterValue || pill.textContent.trim());
-            }
-
-            applyFilters();
-        });
+    publisherSelect?.addEventListener('change', () => {
+        state.publishers.clear();
+        const value = publisherSelect.value;
+        if (value && value !== 'all') {
+            state.publishers.add(value);
+        }
+        applyFilters();
     });
 
     toggleInput?.addEventListener('change', () => {
@@ -388,9 +418,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     bindYearInput(yearStart, startBubble);
     bindYearInput(yearEnd, endBubble);
-    filterBlock.querySelectorAll('.filter-genre, .filter-publisher').forEach(bindScrollablePills);
     updateSlider();
-    document.addEventListener('gamesCarouselReady', applyFilters);
+    populateFilterOptions();
+    document.addEventListener('gamesCarouselReady', () => {
+        populateFilterOptions();
+        applyFilters();
+    });
     document.addEventListener('gamesCarouselError', () => updateNoResultsMessage(true));
 
     filterBlock.filterState = state;

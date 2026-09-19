@@ -18,8 +18,15 @@
     background: rgba(10, 10, 10, 0.9);
     border: var(--card-border-width, 5px) solid var(--pillar-border-color);
     border-radius: 12px;
-    overflow: hidden;
     cursor: pointer;
+}
+
+.about-pillar-collapsed {
+    overflow: hidden;
+}
+
+.about-pillar-expanded {
+    overflow: visible;
 }
 
 .about-pillar-collapsed > :not(.pillar-points),
@@ -157,9 +164,12 @@
 
 .about-pillar-collapsed {
     max-height: 145px;
+    height: auto;
 }
 
 .about-pillar-expanded {
+    height: auto;
+    min-height: 145px;
     max-height: none;
 }
 
