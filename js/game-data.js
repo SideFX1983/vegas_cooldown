@@ -334,14 +334,43 @@ document.addEventListener('DOMContentLoaded', () => {
         return Math.max(...Object.keys(branches).map(Number));
     }
 
+    function getTierFromCriterionScore(score, branches) {
+        const scoreKeys = Object.keys(branches).map(Number).filter(Number.isFinite).sort((a, b) => a - b);
+        if (!scoreKeys.length) return 1;
+        const highest = Math.max(...scoreKeys);
+        if (score === highest) return 5;
+        if (score > 0) return 3;
+        if (score === 0) return 2;
+        return 1;
+    }
+
     function getCriterionTier(score, branches) {
         return getTierFromCriterionScore(score, branches);
     }
 
     function getCriterionItemClassName(item, score, branches) {
         const tier = getCriterionTier(score, branches);
-        const maxClass = tier === 5 ? 'points-max' : '';
+        const maxClass = score === getHighestCriterionScore(branches) ? 'points-max' : '';
         return `${item.className} criterion-tier-${tier} ${maxClass}`.trim();
+    }
+
+    function getScoringSourceText(data, pillarKey, findingText, fallbackFindings) {
+        const structuredQuestions = data?.scoring?.[pillarKey]?.questions;
+        if (Array.isArray(structuredQuestions) && structuredQuestions.length > 0) {
+            return structuredQuestions
+                .map(question => `${question.label}: ${question.score}`)
+                .join('; ');
+        }
+
+        if (typeof findingText === 'string' && findingText.trim()) {
+            return findingText;
+        }
+
+        if (fallbackFindings?.[pillarKey]) {
+            return fallbackFindings[pillarKey].join('; ');
+        }
+
+        return '';
     }
 
     function renderBenchmarkMatches(pillarKey, findingText, fallbackFindings) {
@@ -350,9 +379,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         contentElement.querySelector('.game-benchmark-list')?.remove();
 
-        const sourceText = fallbackFindings?.[pillarKey]
-            ? fallbackFindings[pillarKey].join('; ')
-            : findingText;
+        const sourceText = (typeof findingText === 'string' && findingText.trim())
+            ? findingText
+            : (fallbackFindings?.[pillarKey] ? fallbackFindings[pillarKey].join('; ') : '');
         const criterionScores = getCriterionScores(pillarKey, sourceText);
         const criterionMap = benchmarkCriteria[pillarKey];
         if (!criterionMap || criterionScores.size === 0) return;
@@ -386,12 +415,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         ['values', 'ethics', 'gameplay', 'accessibility', 'standards'].forEach(pillarKey => {
             const questions = scoring[pillarKey]?.questions;
-            if (Array.isArray(questions)) {
+            if (Array.isArray(questions) && questions.length > 0) {
                 renderStructuredBenchmarkMatches(pillarKey, questions);
                 return;
             }
 
-            renderBenchmarkMatches(pillarKey, content[`${pillarKey}_findings`], fallbackFindings);
+            renderBenchmarkMatches(
+                pillarKey,
+                getScoringSourceText(data, pillarKey, content[`${pillarKey}_findings`], fallbackFindings),
+                fallbackFindings
+            );
         });
 
         if (typeof initializePillarListItemBehavior === 'function') {
