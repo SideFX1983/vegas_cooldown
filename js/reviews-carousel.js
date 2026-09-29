@@ -615,16 +615,23 @@ function initializeCarouselScroll(carousel) {
 
 document.addEventListener('DOMContentLoaded', async () => {
     const carouselsStack = document.getElementById('carousels-stack');
-    const firstSection = carouselsStack ? carouselsStack.querySelector('.carousel-section') : null;
-    const secondSection = carouselsStack ? carouselsStack.querySelectorAll('.carousel-section')[1] : null;
+    const sections = carouselsStack ? Array.from(carouselsStack.querySelectorAll('.carousel-section')) : [];
 
-    if (!carouselsStack || !firstSection || !secondSection) {
-        console.error('Carousel container or template section not found.');
+    if (!carouselsStack || sections.length < 4) {
+        console.error('Carousel container or template sections not found.');
         return;
     }
 
-    /* Populate first carousel */
-    const firstCarousel = firstSection.querySelector('.about-grid');
+    const recentSection = sections[0];
+    const comingSoonSection = sections[1];
+    const topSection = sections[2];
+    const worstSection = sections[3];
+
+    const recentCarousel = recentSection.querySelector('.about-grid');
+    const comingSoonCarousel = comingSoonSection.querySelector('.about-grid');
+    const topCarousel = topSection.querySelector('.about-grid');
+    const worstCarousel = worstSection.querySelector('.about-grid');
+
     let gameData = { sources: [], cards: [] };
 
     try {
@@ -638,33 +645,71 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     if (document.body.dataset.page === 'recent') {
-        firstSection.dataset.carouselGenre = 'Recently Added';
-        firstSection.dataset.carouselIndex = '0';
-        const firstTitleElement = firstSection.querySelector('.carousel-title');
-        if (firstTitleElement) firstTitleElement.textContent = 'Recently Added';
-        populateCarouselFromCardData(firstCarousel, getRecent2023CardData(gameData.cards));
-        initializeCarouselScroll(firstCarousel);
-    } else {
+        recentSection.dataset.carouselGenre = 'Recently Added';
+        recentSection.dataset.carouselIndex = '0';
+        const recentTitleElement = recentSection.querySelector('.carousel-title');
+        if (recentTitleElement) recentTitleElement.textContent = 'Recently Added';
+        populateCarouselFromCardData(recentCarousel, getRecent2023CardData(gameData.cards));
+        initializeCarouselScroll(recentCarousel);
 
-        const firstCarouselCardData = getTopCardData(gameData.cards);
-        populateCarouselFromCardData(firstCarousel, firstCarouselCardData);
-        initializeCarouselScroll(firstCarousel);
+        const comingSoonTitleElement = comingSoonSection.querySelector('.carousel-title');
+        if (comingSoonTitleElement) comingSoonTitleElement.textContent = 'Coming Soon';
+        if (comingSoonCarousel) {
+            comingSoonCarousel.innerHTML = '';
+        }
+    } else if (document.body.dataset.page === 'games') {
+        recentSection.dataset.carouselGenre = 'Recently Added';
+        recentSection.dataset.carouselIndex = '0';
+        const recentTitleElement = recentSection.querySelector('.carousel-title');
+        if (recentTitleElement) recentTitleElement.textContent = 'Recently Added';
+        populateCarouselFromCardData(recentCarousel, getRecent2023CardData(gameData.cards));
+        initializeCarouselScroll(recentCarousel);
 
-        const secondCarousel = secondSection.querySelector('.about-grid');
-        populateCarouselFromCardData(secondCarousel, getLowestCardData(gameData.cards));
-        initializeCarouselScroll(secondCarousel);
-
-        const firstTitleElement = firstSection.querySelector('.carousel-title');
-        if (firstTitleElement) {
-            firstTitleElement.textContent = 'TOP 10 All-Time Games';
+        const comingSoonTitleElement = comingSoonSection.querySelector('.carousel-title');
+        if (comingSoonTitleElement) comingSoonTitleElement.textContent = 'Coming Soon';
+        if (comingSoonCarousel) {
+            comingSoonCarousel.innerHTML = '';
         }
 
-        firstSection.dataset.carouselGenre = 'All-Time Greatest Games';
-        firstSection.dataset.carouselIndex = '0';
-        firstSection.dataset.carouselDefault = 'all-time';
-        secondSection.dataset.carouselGenre = 'All-Time Worst Games';
-        secondSection.dataset.carouselIndex = '1';
-        secondSection.dataset.carouselDefault = 'all-time-worst';
+        const topCarouselCardData = getTopCardData(gameData.cards);
+        populateCarouselFromCardData(topCarousel, topCarouselCardData);
+        initializeCarouselScroll(topCarousel);
+
+        const worstCarouselCardData = getLowestCardData(gameData.cards);
+        populateCarouselFromCardData(worstCarousel, worstCarouselCardData);
+        initializeCarouselScroll(worstCarousel);
+
+        const topTitleElement = topSection.querySelector('.carousel-title');
+        if (topTitleElement) {
+            topTitleElement.textContent = 'TOP 10 All-Time Games';
+        }
+
+        topSection.dataset.carouselGenre = 'All-Time Greatest Games';
+        topSection.dataset.carouselIndex = '0';
+        topSection.dataset.carouselDefault = 'all-time';
+
+        worstSection.dataset.carouselGenre = 'All-Time Worst Games';
+        worstSection.dataset.carouselIndex = '1';
+        worstSection.dataset.carouselDefault = 'all-time-worst';
+    } else {
+        const firstCarouselCardData = getTopCardData(gameData.cards);
+        populateCarouselFromCardData(topCarousel, firstCarouselCardData);
+        initializeCarouselScroll(topCarousel);
+
+        populateCarouselFromCardData(worstCarousel, getLowestCardData(gameData.cards));
+        initializeCarouselScroll(worstCarousel);
+
+        const topTitleElement = topSection.querySelector('.carousel-title');
+        if (topTitleElement) {
+            topTitleElement.textContent = 'TOP 10 All-Time Games';
+        }
+
+        topSection.dataset.carouselGenre = 'All-Time Greatest Games';
+        topSection.dataset.carouselIndex = '0';
+        topSection.dataset.carouselDefault = 'all-time';
+        worstSection.dataset.carouselGenre = 'All-Time Worst Games';
+        worstSection.dataset.carouselIndex = '1';
+        worstSection.dataset.carouselDefault = 'all-time-worst';
     }
 
     /* Initialize card expand/collapse behavior only when available. */
